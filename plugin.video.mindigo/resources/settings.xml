@@ -3,6 +3,10 @@
     <category label="Általános">
         <setting label="Felhasználónév" default="" id="username" type="text"/>
         <setting label="Jelszó" default="" id="password" type="text" option="hidden"/>
+        <setting type="sep"/>
+        <setting label="Más lejátszási mód" type="bool" id="resolve" default="false"/>
+        <setting label="Ha a lejátszás 400-as hibát dobna, érdemes aktiválni." enable="false"/>
+        <!-- Hidden data -->
         <setting id="is_firstrun" type="bool" visible="false" default="true"/>
     </category>
     <category label="Haladó">
