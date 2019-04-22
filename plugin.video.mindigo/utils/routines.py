@@ -49,8 +49,8 @@ def request_page(url, **kwargs):
 
     try:
         response = urllib2.urlopen(req)
-    # except (urllib2.HTTPError, urllib2.URLError) as e:
-    #    return e.code, None
+    except (urllib2.HTTPError, urllib2.URLError) as e:
+        return e.code, None
     except Exception as e:
         raise Error(e)
         exit(1)

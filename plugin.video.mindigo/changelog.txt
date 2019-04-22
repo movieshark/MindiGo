@@ -1,3 +1,6 @@
+[B]1.0.2[/B]
+ - quick bugfix
+
 [B]1.0.1[/B]
  - Optional support for internal Kodi URL resolving
  - Now the current programs will be in gray * fancy *
