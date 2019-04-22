@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mindigo" name="MindigoTV" version="1.0.2" provider-name='Mr Dini'>
+<addon id="plugin.video.mindigo" name="MindigoTV" version="1.0.3" provider-name='Mr Dini'>
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
   </requires>
@@ -18,7 +18,7 @@
     <license>GNU AFFERO GENERAL PUBLIC LICENSE. Version 3, 19 November 2007</license>
     <website>mvshrk.xyz</website>
     <source>https://github.com/movieshark/MindiGo</source>
-    <news>1.0.2[CR]- részletek a changelogban</news>
+    <news>1.0.3[CR]- részletek a changelogban</news>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.png</fanart>
