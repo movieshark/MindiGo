@@ -16,6 +16,7 @@
     You should have received a copy of the GNU Affero General Public License
     along with this program. If not, see <http://www.gnu.org/licenses/>
 """
+import sys
 from traceback import format_exc
 from base64 import b64decode
 from random import choice
@@ -36,6 +37,7 @@ def request_page(url, **kwargs):
     headers = kwargs.get("headers", [])
     post_data = kwargs.get("data")
 
+    sys.stderr.write(url)
     if not post_data:
         req = urllib2.Request(url)
     else:
@@ -47,8 +49,8 @@ def request_page(url, **kwargs):
 
     try:
         response = urllib2.urlopen(req)
-    except (urllib2.HTTPError, urllib2.URLError) as e:
-        return e.code, None
+    # except (urllib2.HTTPError, urllib2.URLError) as e:
+    #    return e.code, None
     except Exception as e:
         raise Error(e)
         exit(1)
@@ -98,11 +100,14 @@ def add_item(plugin_prefix, handle, name, action, is_directory, **kwargs):
         url += "&id=%s" % (kwargs["id"])
     if kwargs.get("extra"):
         url += "&extra=%s" % (kwargs["extra"])
+    if kwargs.get("is_playable"):
+        item.setProperty("IsPlayable", "true")
+    else:
+        item.setProperty("IsPlayable", "false")
     item.setArt(arts)
     item.setInfo(type="Video", infoLabels=info_labels)
     try:
         item.setContentLookup(False)
-        item.setProperty("IsPlayable", "false")
     except:
         pass  # if it's a local dir, no need for it
     if kwargs.get("refresh"):
@@ -110,13 +115,17 @@ def add_item(plugin_prefix, handle, name, action, is_directory, **kwargs):
     xbmcplugin.addDirectoryItem(int(handle), url, item, is_directory)
 
 
-def play(url, type, **kwargs):
+def play(handle, url, _type, **kwargs):
+    sys.stderr.write(url)
     name = kwargs.get("name")
     icon = kwargs.get("icon")
     description = kwargs.get("description")
-    item = xbmcgui.ListItem(label=name, thumbnailImage=icon)
-    item.setInfo(type=type, infoLabels={"Title": name, "Plot": description})
-    xbmc.Player().play(url, item)
+    item = xbmcgui.ListItem(label=name, thumbnailImage=icon, path=url)
+    item.setInfo(type=_type, infoLabels={"Title": name, "Plot": description})
+    if not kwargs.get("resolve"):
+        xbmc.Player().play(url, item)
+    else:
+        xbmcplugin.setResolvedUrl(handle, True, listitem=item)
 
 
 class Error(Exception):

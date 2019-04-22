@@ -176,7 +176,7 @@ def live_window():
     )
     for channel in load(data)["data"]["available"]:
         if channel.get("epg") and channel["epg"].get("title"):
-            name = "%s[CR]%s" % (
+            name = "%s[CR][COLOR gray]%s[/COLOR]" % (
                 channel.get("name").encode("utf-8"),
                 channel["epg"]["title"].encode("utf-8"),
             )
@@ -191,7 +191,9 @@ def live_window():
             extra=channel.get("slug"),
             fanart=utils.fanart,
             type="video",
-            is_directory=False
+            refresh=True,
+            is_directory=False,
+            is_playable=utils.get_setting("resolve") == "true"
         )
     setContent(int(sys.argv[1]), "tvshows")
 
@@ -227,10 +229,12 @@ def translate_link(id, slug, name, icon):
         utils.create_notification("DRM védett tartalom.")
 
     routines.play(
+        int(sys.argv[1]),
         "%s|User-Agent=%s" % (data["data"]["url"], utils.get_setting("user_agent")),
         "video",
         name=name,
         icon=icon,
+        resolve=utils.get_setting("resolve") == "true",
     )
 
 
@@ -241,13 +245,14 @@ if __name__ == "__main__":
         if utils.get_setting("is_firstrun") == "true":
             utils.set_setting("is_firstrun", "false")
             from utils.informations import text
-
             utils.create_textbox(text % (utils.addon_name, utils.version))
             utils.create_ok_dialog("Kérlek jelentkezz be az addon használatához!")
             utils.open_settings()
         main_window()
+        endOfDirectory(int(sys.argv[1]))
     if action == "channels":
         live_window()
+        endOfDirectory(int(sys.argv[1]))
     if action == "clear_login":
         utils.set_setting("refresh_token", "")
         utils.set_setting("token_updated_at", "0")
@@ -256,7 +261,6 @@ if __name__ == "__main__":
         utils.open_settings()
     if action == "about":
         from utils.informations import text
-
         utils.create_textbox(text % (utils.addon_name, utils.version))
     if action == "translate_link":
         translate_link(
@@ -265,5 +269,3 @@ if __name__ == "__main__":
             params.get("name"),
             params.get("icon"),
         )
-
-    endOfDirectory(int(sys.argv[1]))

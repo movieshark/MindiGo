@@ -1,2 +1,7 @@
+[B]1.0.1[/B]
+ - Optional support for internal Kodi URL resolving
+ - Now the current programs will be in gray * fancy *
+ - Channel list items now have an update list context menu element (press 'C' on any channel from the listing)
+
 [B]1.0.0[/B]
  - initial, beta release
