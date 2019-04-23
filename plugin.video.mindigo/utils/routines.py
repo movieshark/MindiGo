@@ -114,7 +114,6 @@ def add_item(plugin_prefix, handle, name, action, is_directory, **kwargs):
 
 
 def play(handle, url, _type, **kwargs):
-    sys.stderr.write(url)
     name = kwargs.get("name")
     icon = kwargs.get("icon")
     description = kwargs.get("description")
