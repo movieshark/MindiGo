@@ -1,4 +1,7 @@
-[B]1.0.2[/B]
+[B]1.0.4[/B]
+ - updated login logic
+
+[B]1.0.2-3[/B]
  - quick bugfix
 
 [B]1.0.1[/B]

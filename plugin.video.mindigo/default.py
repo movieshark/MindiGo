@@ -61,6 +61,10 @@ def get_token():
 
 
 def login():
+    if not all([utils.get_setting("username"), utils.get_setting("password")]):
+        utils.create_notification("Kérlek add meg email címed és jelszavad!")
+        utils.open_settings()
+        exit(0)
     code, data = routines.request_page(
         "%sv2/user/login" % (routines.decrypt_string(API_BASE)),
         user_agent=utils.get_setting("user_agent"),
@@ -73,7 +77,7 @@ def login():
             "app_version": VERSION,
         },
     )
-    if code == 404:
+    if code == 404 or code == 400:
         utils.create_ok_dialog(
             "Bejelentkezésed sikertelen volt. Biztosan jól adtad meg az email címed és jelszavad?"
         )
@@ -94,6 +98,7 @@ def login():
     utils.set_setting("refresh_token", data["refreshToken"].encode("utf-8"))
     utils.set_setting("token", data["token"].encode("utf-8"))
     utils.create_notification("Sikeres bejelentkezés")
+    utils.set_setting("token_updated_at", str(int(time())))
     return data["token"].encode("utf-8")
 
 

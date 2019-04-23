@@ -16,7 +16,6 @@
     You should have received a copy of the GNU Affero General Public License
     along with this program. If not, see <http://www.gnu.org/licenses/>
 """
-import sys
 from traceback import format_exc
 from base64 import b64decode
 from random import choice
@@ -37,7 +36,6 @@ def request_page(url, **kwargs):
     headers = kwargs.get("headers", [])
     post_data = kwargs.get("data")
 
-    sys.stderr.write(url)
     if not post_data:
         req = urllib2.Request(url)
     else:
@@ -49,7 +47,7 @@ def request_page(url, **kwargs):
 
     try:
         response = urllib2.urlopen(req)
-    except (urllib2.HTTPError, urllib2.URLError) as e:
+    except urllib2.HTTPError as e:
         return e.code, None
     except Exception as e:
         raise Error(e)
