@@ -1,3 +1,6 @@
+[B]1.0.7[/B]
+ - playback fix
+
 [B]1.0.6[/B]
  - Common routines have been moved to a separate module (can be used in other plugins too)
  - Migrate from urllib2 to requests module for all our HTTP requests

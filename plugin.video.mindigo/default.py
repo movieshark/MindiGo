@@ -197,8 +197,7 @@ def live_window():
             type="video",
             refresh=True,
             is_directory=False,
-            is_livestream=True,
-            is_playable=True
+            is_livestream=True
         )
     setContent(int(sys.argv[1]), "tvshows")
 
