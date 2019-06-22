@@ -17,13 +17,11 @@
     along with this program. If not, see <http://www.gnu.org/licenses/>
 """
 import sys
-from json import load
 from time import time
 from urlparse import parse_qsl
+from mrdini.routines import routines
 import xbmcaddon
 from xbmcplugin import endOfDirectory, setContent
-
-from utils import routines
 
 utils = routines.Utils(xbmcaddon.Addon())
 
@@ -32,16 +30,16 @@ MAIN_URI = "470098bXNyZXBvIGh0dHBzOi8vdHYubWluZGlnby5odS8="
 APP_ID = "470098bXNyZXBvIGVubjlpbW1kbTF2eXU3eXVwZG5raWVkY2g1d21naTRj"
 VERSION = "1.0.22"
 
-HEADERS = [
-    ("x-application-id", routines.decrypt_string(APP_ID)),
-    ("x-app-version", VERSION),
-    ("x-platform", "web"),
-    ("x-os-name", "Windows"),
-    ("x-os-version", "10"),
-    ("x-browser-name", "undefined"),
-    ("x-browser-version", "undefined"),
-    ("Origin", routines.decrypt_string(MAIN_URI)),
-]
+HEADERS = {
+    "x-application-id": routines.decrypt_string(APP_ID),
+    "x-app-version": VERSION,
+    "x-platform": "web",
+    "x-os-name": "Windows",
+    "x-os-version": "10",
+    "x-browser-name": "undefined",
+    "x-browser-version": "undefined",
+    "Origin": routines.decrypt_string(MAIN_URI),
+}
 
 
 def get_token():
@@ -65,11 +63,13 @@ def login():
         utils.create_notification("Kérlek add meg email címed és jelszavad!")
         utils.open_settings()
         exit(0)
-    code, data = routines.request_page(
+    response = routines.request_page(
         "%sv2/user/login" % (routines.decrypt_string(API_BASE)),
         user_agent=utils.get_setting("user_agent"),
-        headers=HEADERS
-        + [("Referer", "%s?popup=bejelentkezes" % (routines.decrypt_string(MAIN_URI)))],
+        headers=HEADERS,
+        additional_headers={
+            "Referer": "%s?popup=bejelentkezes" % (routines.decrypt_string(MAIN_URI))
+        },
         data={
             "email": utils.get_setting("username"),
             "password": utils.get_setting("password"),
@@ -77,24 +77,23 @@ def login():
             "app_version": VERSION,
         },
     )
-    if code == 404 or code == 400:
+    if response.status_code in [400, 404]:
         utils.create_ok_dialog(
             "Bejelentkezésed sikertelen volt. Biztosan jól adtad meg az email címed és jelszavad?"
         )
         utils.open_settings()
         exit(1)
-    if code != 200:
+    elif response.status_code != 200:
         utils.create_ok_dialog(
             "Ennek a hibának nem kellett volna előfordulnia. Kérlek jelezd a fejlesztőnek"
             ", hogy az addon hibára futott bejelentkezésnél. A szerver válasza: %i\nEsetleg próbáld újra kásőbb, lehet, hogy a szerver túlterhelt."
-            % (code)
+            % (response.status_code)
         )
         exit(1)
     try:
-        data = load(data)
+        data = response.json()
     except Exception as e:
         raise routines.Error(e)
-        exit(1)
     utils.set_setting("refresh_token", data["refreshToken"].encode("utf-8"))
     utils.set_setting("token", data["token"].encode("utf-8"))
     utils.create_notification("Sikeres bejelentkezés")
@@ -103,27 +102,27 @@ def login():
 
 
 def extend_token():
-    code, data = routines.request_page(
+    response = routines.request_page(
         "%sv1/user/session/extend" % (routines.decrypt_string(API_BASE)),
         user_agent=utils.get_setting("user_agent"),
-        headers=HEADERS + [("Referer", routines.decrypt_string(MAIN_URI))],
+        headers=HEADERS,
+        additional_headers={"Referer": routines.decrypt_string(MAIN_URI)},
         data={
             "refreshToken": utils.get_setting("refresh_token"),
             "platform": "web",
             "app_version": VERSION,
         },
     )
-    if code != 200:
+    if response.status_code != 200:
         utils.create_ok_dialog(
             "Sikertelen a token frissítése. Próbálkozzon jelszót változtatni!\n"
             "Amennyiben a probléma továbbra is fennállna, jelezze a fejlesztőnek."
         )
         exit(1)
     try:
-        data = load(data)
+        data = response.json()
     except Exception as e:
         raise routines.Error(e)
-        exit(1)
     utils.set_setting("refresh_token", data["refreshToken"].encode("utf-8"))
     utils.set_setting("token", data["token"].encode("utf-8"))
     utils.create_notification("Sikeres token frissítés")
@@ -170,16 +169,16 @@ def main_window():
 
 
 def live_window():
-    code, data = routines.request_page(
+    response = routines.request_page(
         "%sv2/channels/live" % (routines.decrypt_string(API_BASE)),
         user_agent=utils.get_setting("user_agent"),
-        headers=[
-            ("Referer", "%scsatornak" % (routines.decrypt_string(MAIN_URI))),
-            ("x-application-id", routines.decrypt_string(APP_ID)),
-            ("x-access-token", get_token()),
-        ],
+        headers={
+            "Referer": "%scsatornak" % (routines.decrypt_string(MAIN_URI)),
+            "x-application-id": routines.decrypt_string(APP_ID),
+            "x-access-token": get_token(),
+        },
     )
-    for channel in load(data)["data"]["available"]:
+    for channel in response.json()["data"]["available"]:
         if channel.get("epg") and channel["epg"].get("title"):
             name = "%s[CR][COLOR gray]%s[/COLOR]" % (
                 channel.get("name").encode("utf-8"),
@@ -198,48 +197,53 @@ def live_window():
             type="video",
             refresh=True,
             is_directory=False,
-            is_playable=utils.get_setting("resolve") == "true"
+            is_livestream=True,
+            is_playable=True
         )
     setContent(int(sys.argv[1]), "tvshows")
 
 
 def translate_link(id, slug, name, icon):
-    code, data = routines.request_page(
+    response = routines.request_page(
         "%sv2/streams/live?content_id=%s&language=hu&type=hls"
         % (routines.decrypt_string(API_BASE), id),
         user_agent=utils.get_setting("user_agent"),
-        headers=[
-            ("Referer", "%scsatornak/%s" % (routines.decrypt_string(MAIN_URI), slug)),
-            ("x-application-id", routines.decrypt_string(APP_ID)),
-            ("x-access-token", get_token()),
-        ],
+        headers={
+            "Referer": "%scsatornak/%s" % (routines.decrypt_string(MAIN_URI), slug),
+            "x-application-id": routines.decrypt_string(APP_ID),
+            "x-access-token": get_token(),
+        },
     )
-    if code != 200:
+    if response.status_code != 200:
         utils.create_ok_dialog(
-            "Lejátszás sikertelen... Külföldi IP?\nA szerver válasza: %i" % (code)
+            "Lejátszás sikertelen... Külföldi IP?\nA szerver válasza: %i"
+            % (response.status_code)
         )
         exit(1)
 
     try:
-        data = load(data)
+        data = response.json()
     except Exception as e:
         raise routines.Error(e)
-        exit(1)
 
     if not data.get("data", {}).get("url"):
         utils.create_ok_dialog("Ehhez a médiához nem tartozik lejátszási link.")
         exit()
 
     if data["data"].get("drmkey"):
-        utils.create_notification("DRM védett tartalom.")
+        utils.create_notification(
+            "DRM védett tartalom. Az addon ezek lejátszására nem képes."
+        )
+        exit()
 
     routines.play(
         int(sys.argv[1]),
-        "%s|User-Agent=%s" % (data["data"]["url"], utils.get_setting("user_agent")),
+        data["data"]["url"],
         "video",
+        user_agent=utils.get_setting("user_agent"),
         name=name,
         icon=icon,
-        resolve=utils.get_setting("resolve") == "true",
+        legacy_play_mode=utils.get_setting("resolve") == "true",
     )
 
 
@@ -250,6 +254,7 @@ if __name__ == "__main__":
         if utils.get_setting("is_firstrun") == "true":
             utils.set_setting("is_firstrun", "false")
             from utils.informations import text
+
             utils.create_textbox(text % (utils.addon_name, utils.version))
             utils.create_ok_dialog("Kérlek jelentkezz be az addon használatához!")
             utils.open_settings()
@@ -266,6 +271,7 @@ if __name__ == "__main__":
         utils.open_settings()
     if action == "about":
         from utils.informations import text
+
         utils.create_textbox(text % (utils.addon_name, utils.version))
     if action == "translate_link":
         translate_link(
