@@ -213,10 +213,18 @@ def translate_link(id, slug, name, icon):
             "x-access-token": get_token(),
         },
     )
-    if response.status_code != 200:
+    if response.status_code == 400:
+        message = ["A szerver nem tudott mit kezdeni a kéréssel."]
+        if response.json().get("errorCode") == 10930:
+            message.append("Túl gyorsan váltogatsz a csatornák közt, várj 5 mp-et!")
+        if response.json().get("errorMessage"):
+            message.append("Hibaüzenet: [COLOR darkred]%s[/COLOR]" % (response.json()["errorMessage"].encode("utf-8")))
+        utils.create_ok_dialog("[CR]".join(message))
+        exit()
+    elif response.status_code != 200:
         utils.create_ok_dialog(
-            "Lejátszás sikertelen... Külföldi IP?\nA szerver válasza: %i"
-            % (response.status_code)
+            "Lejátszás sikertelen ismeretlen okból.\nA szerver válasza: (%i) %s"
+            % (response.status_code, response.content.encode("utf-8"))
         )
         exit(1)
 
@@ -242,7 +250,6 @@ def translate_link(id, slug, name, icon):
         user_agent=utils.get_setting("user_agent"),
         name=name,
         icon=icon,
-        legacy_play_mode=utils.get_setting("resolve") == "true",
     )
 
 

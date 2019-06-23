@@ -1,3 +1,7 @@
+[B]1.0.8[/B]
+ - revert new playback method
+ - thanks to requests now we can do more advanced error logging 🎉
+
 [B]1.0.7[/B]
  - playback fix
 
