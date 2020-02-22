@@ -3,6 +3,8 @@
     <category label="Általános">
         <setting label="Felhasználónév" default="" id="username" type="text"/>
         <setting label="Jelszó" default="" id="password" type="text" option="hidden"/>
+        <setting type="sep"/>
+        <setting label="Aktuálisan futó műsor megjelenítése" type="enum" id="display_epg" values="Mindig|Csak csatornaválasztóban|Soha"/>
         <!-- Hidden data -->
         <setting id="is_firstrun" type="bool" visible="false" default="true"/>
     </category>

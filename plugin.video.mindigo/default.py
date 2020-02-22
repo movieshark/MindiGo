@@ -28,7 +28,7 @@ utils = routines.Utils(xbmcaddon.Addon())
 API_BASE = "470098bXNyZXBvIGh0dHBzOi8vYXBpLm1pbmRpZ28uaHUvYXBpLw=="
 MAIN_URI = "470098bXNyZXBvIGh0dHBzOi8vdHYubWluZGlnby5odS8="
 APP_ID = "470098bXNyZXBvIGVubjlpbW1kbTF2eXU3eXVwZG5raWVkY2g1d21naTRj"
-VERSION = "1.0.22"
+VERSION = "1.0.34"
 
 HEADERS = {
     "x-application-id": routines.decrypt_string(APP_ID),
@@ -86,7 +86,7 @@ def login():
     elif response.status_code != 200:
         utils.create_ok_dialog(
             "Ennek a hibának nem kellett volna előfordulnia. Kérlek jelezd a fejlesztőnek"
-            ", hogy az addon hibára futott bejelentkezésnél. A szerver válasza: %i\nEsetleg próbáld újra kásőbb, lehet, hogy a szerver túlterhelt."
+            ", hogy az addon hibára futott bejelentkezésnél. A szerver válasza: %i\nEsetleg próbáld újra később, lehet, hogy a szerver túlterhelt."
             % (response.status_code)
         )
         exit(1)
@@ -179,7 +179,11 @@ def live_window():
         },
     )
     for channel in response.json()["data"]["available"]:
-        if channel.get("epg") and channel["epg"].get("title"):
+        if (
+            utils.get_setting("display_epg") != "2"
+            and channel.get("epg")
+            and channel["epg"].get("title")
+        ):
             name = "%s[CR][COLOR gray]%s[/COLOR]" % (
                 channel.get("name").encode("utf-8"),
                 channel["epg"]["title"].encode("utf-8"),
@@ -218,7 +222,10 @@ def translate_link(id, slug, name, icon):
         if response.json().get("errorCode") == 10930:
             message.append("Túl gyorsan váltogatsz a csatornák közt, várj 5 mp-et!")
         if response.json().get("errorMessage"):
-            message.append("Hibaüzenet: [COLOR darkred]%s[/COLOR]" % (response.json()["errorMessage"].encode("utf-8")))
+            message.append(
+                "Hibaüzenet: [COLOR darkred]%s[/COLOR]"
+                % (response.json()["errorMessage"].encode("utf-8"))
+            )
         utils.create_ok_dialog("[CR]".join(message))
         exit()
     elif response.status_code != 200:
@@ -242,6 +249,9 @@ def translate_link(id, slug, name, icon):
             "DRM védett tartalom. Az addon ezek lejátszására nem képes."
         )
         exit()
+
+    if utils.get_setting("display_epg") == "1":
+        name = name.split("[CR]", 1)[0]
 
     routines.play(
         int(sys.argv[1]),
