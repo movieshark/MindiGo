@@ -1,3 +1,6 @@
+[B]2.0.0[/B]
+ - new api based on tv.mindigo.hu
+
 [B]1.0.9[/B]
  - Customize whether to show the current show only in menu, also while playing or not at all
  - app version dump

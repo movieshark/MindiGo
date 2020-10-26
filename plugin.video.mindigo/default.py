@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
     MindiGO Kodi addon
-    Copyright (C) 2019 Mr Dini
+    Copyright (C) 2019 Mr Dini, ratcashdev
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published by
@@ -18,115 +18,71 @@
 """
 import sys
 from time import time
+from mindigo_client import MindigoClient
 from urlparse import parse_qsl
 from mrdini.routines import routines
 import xbmcaddon
 from xbmcplugin import endOfDirectory, setContent
+import xbmcgui
 
 utils = routines.Utils(xbmcaddon.Addon())
+client = MindigoClient()
 
-API_BASE = "470098bXNyZXBvIGh0dHBzOi8vYXBpLm1pbmRpZ28uaHUvYXBpLw=="
-MAIN_URI = "470098bXNyZXBvIGh0dHBzOi8vdHYubWluZGlnby5odS8="
-APP_ID = "470098bXNyZXBvIGVubjlpbW1kbTF2eXU3eXVwZG5raWVkY2g1d21naTRj"
-VERSION = "1.0.34"
+# TODO move to routines (?)
+def play_dash(handle, url, _type, **kwargs):
+    name = kwargs.get("name")
+    icon = kwargs.get("icon")
+    description = kwargs.get("description")
+    user_agent = kwargs.get("user_agent", routines.random_uagent())
 
-HEADERS = {
-    "x-application-id": routines.decrypt_string(APP_ID),
-    "x-app-version": VERSION,
-    "x-platform": "web",
-    "x-os-name": "Windows",
-    "x-os-version": "10",
-    "x-browser-name": "undefined",
-    "x-browser-version": "undefined",
-    "Origin": routines.decrypt_string(MAIN_URI),
-}
+    listitem = xbmcgui.ListItem(label=name, thumbnailImage=icon)
+    listitem.setProperty('inputstreamaddon', 'inputstream.adaptive')
+    listitem.setProperty('inputstream.adaptive.manifest_type', 'mpd')
+    listitem.setMimeType('application/dash+xml')
+    listitem.setProperty('inputstream.adaptive.stream_headers', "User-Agent=%s" % user_agent)
+    listitem.setContentLookup(False)
+    listitem.setInfo(type=_type, infoLabels={"Title": name, "Plot": description})
+    xbmc.Player().play(url, listitem)
 
-
-def get_token():
-    if int(time()) - int(utils.get_setting("token_updated_at")) < int(
-        utils.get_setting("token_lifetime") or 86400
+def setupSession():
+    if (
+        client.session is None
+        and utils.get_setting("session") != None
+        and int(time()) - int(utils.get_setting("last_ts") or 0) < int(1200)
     ):
-        return utils.get_setting("token")
-    if not utils.get_setting("refresh_token"):
-        # should be first start or reset
-        if not utils.get_setting("user_agent"):
-            # if not already set, we set one and keep it forever
-            utils.set_setting("user_agent", routines.random_uagent())
-        return login()
-    token = extend_token()
-    utils.set_setting("token_updated_at", str(int(time())))
-    return token
+        client.session = utils.get_setting("session")
+        utils.set_setting("last_ts", str(int(time())))
+        return
 
+    utils.set_setting("session", login())
+    utils.set_setting("last_ts", str(int(time())))
 
 def login():
     if not all([utils.get_setting("username"), utils.get_setting("password")]):
         utils.create_notification("Kérlek add meg email címed és jelszavad!")
         utils.open_settings()
         exit(0)
-    response = routines.request_page(
-        "%sv2/user/login" % (routines.decrypt_string(API_BASE)),
-        user_agent=utils.get_setting("user_agent"),
-        headers=HEADERS,
-        additional_headers={
-            "Referer": "%s?popup=bejelentkezes" % (routines.decrypt_string(MAIN_URI))
-        },
-        data={
-            "email": utils.get_setting("username"),
-            "password": utils.get_setting("password"),
-            "platform": "web",
-            "app_version": VERSION,
-        },
-    )
-    if response.status_code in [400, 404]:
-        utils.create_ok_dialog(
-            "Bejelentkezésed sikertelen volt. Biztosan jól adtad meg az email címed és jelszavad?"
-        )
-        utils.open_settings()
-        exit(1)
-    elif response.status_code != 200:
-        utils.create_ok_dialog(
-            "Ennek a hibának nem kellett volna előfordulnia. Kérlek jelezd a fejlesztőnek"
-            ", hogy az addon hibára futott bejelentkezésnél. A szerver válasza: %i\nEsetleg próbáld újra később, lehet, hogy a szerver túlterhelt."
-            % (response.status_code)
-        )
-        exit(1)
+
     try:
-        data = response.json()
-    except Exception as e:
+        response = client.login(utils.get_setting("username"), utils.get_setting("password"))
+        if response.status_code in [400, 404]:
+            utils.create_ok_dialog(
+                "Bejelentkezésed sikertelen volt. Biztosan jól adtad meg az email címed és jelszavad?"
+            )
+            utils.open_settings()
+            exit(1)
+        elif response.status_code != 200:
+            utils.create_ok_dialog(
+                "Ennek a hibának nem kellett volna előfordulnia. Kérlek jelezd a fejlesztőnek"
+                ", hogy az addon hibára futott bejelentkezésnél. A szerver válasza: %i\nEsetleg próbáld újra később, lehet, hogy a szerver túlterhelt."
+                % (response.status_code)
+            )
+            exit(1)
+    except RuntimeError as e:
         raise routines.Error(e)
-    utils.set_setting("refresh_token", data["refreshToken"].encode("utf-8"))
-    utils.set_setting("token", data["token"].encode("utf-8"))
+    utils.set_setting("session", client.session)
     utils.create_notification("Sikeres bejelentkezés")
-    utils.set_setting("token_updated_at", str(int(time())))
-    return data["token"].encode("utf-8")
-
-
-def extend_token():
-    response = routines.request_page(
-        "%sv1/user/session/extend" % (routines.decrypt_string(API_BASE)),
-        user_agent=utils.get_setting("user_agent"),
-        headers=HEADERS,
-        additional_headers={"Referer": routines.decrypt_string(MAIN_URI)},
-        data={
-            "refreshToken": utils.get_setting("refresh_token"),
-            "platform": "web",
-            "app_version": VERSION,
-        },
-    )
-    if response.status_code != 200:
-        utils.create_ok_dialog(
-            "Sikertelen a token frissítése. Próbálkozzon jelszót változtatni!\n"
-            "Amennyiben a probléma továbbra is fennállna, jelezze a fejlesztőnek."
-        )
-        exit(1)
-    try:
-        data = response.json()
-    except Exception as e:
-        raise routines.Error(e)
-    utils.set_setting("refresh_token", data["refreshToken"].encode("utf-8"))
-    utils.set_setting("token", data["token"].encode("utf-8"))
-    utils.create_notification("Sikeres token frissítés")
-    return data["token"].encode("utf-8")
+    return client.session
 
 
 def main_window():
@@ -169,35 +125,34 @@ def main_window():
 
 
 def live_window():
-    response = routines.request_page(
-        "%sv2/channels/live" % (routines.decrypt_string(API_BASE)),
-        user_agent=utils.get_setting("user_agent"),
-        headers={
-            "Referer": "%scsatornak" % (routines.decrypt_string(MAIN_URI)),
-            "x-application-id": routines.decrypt_string(APP_ID),
-            "x-access-token": get_token(),
-        },
-    )
-    for channel in response.json()["data"]["available"]:
+    allChannels = client.get_visible_channels()
+    channelsList = ",".join([str(k) for k,v in allChannels])
+    epg = client.get_live_epg(channelsList)
+    for program in epg:
         if (
             utils.get_setting("display_epg") != "2"
-            and channel.get("epg")
-            and channel["epg"].get("title")
         ):
             name = "%s[CR][COLOR gray]%s[/COLOR]" % (
-                channel.get("name").encode("utf-8"),
-                channel["epg"]["title"].encode("utf-8"),
+                allChannels[program["channelId"]]["displayName"].encode("utf-8"),
+                program["title"].encode("utf-8"),
             )
         else:
-            name = channel.get("name").encode("utf-8")
+            name = program["title"].encode("utf-8")
+
+        if program.get("imageUrl"):
+            fanArt = "%s%s" % (client.web_url, program.get("imageUrl").encode("utf-8"))
+        else:
+            fanArt=utils.fanart
+
         routines.add_item(
             *sys.argv[:2],
             name=name,
+            description=(program.get("description") or "").encode("utf-8"),
             action="translate_link",
-            icon=channel.get("logoLink"),
-            id=channel.get("id"),
-            extra=channel.get("slug"),
-            fanart=utils.fanart,
+            icon="%s%s" % (client.base_url, program["imageUrls"]["channel_logo"]),
+            id=program["id"],
+            extra=program["vodAssetId"],
+            fanart=fanArt,
             type="video",
             refresh=True,
             is_directory=False,
@@ -206,66 +161,40 @@ def live_window():
     setContent(int(sys.argv[1]), "tvshows")
 
 
-def translate_link(id, slug, name, icon):
-    response = routines.request_page(
-        "%sv2/streams/live?content_id=%s&language=hu&type=hls"
-        % (routines.decrypt_string(API_BASE), id),
-        user_agent=utils.get_setting("user_agent"),
-        headers={
-            "Referer": "%scsatornak/%s" % (routines.decrypt_string(MAIN_URI), slug),
-            "x-application-id": routines.decrypt_string(APP_ID),
-            "x-access-token": get_token(),
-        },
-    )
-    if response.status_code == 400:
+def translate_link(id, slug, name, icon, desc):
+    url = client.get_video_content_url(slug)
+
+    if url == None:
         message = ["A szerver nem tudott mit kezdeni a kéréssel."]
-        if response.json().get("errorCode") == 10930:
-            message.append("Túl gyorsan váltogatsz a csatornák közt, várj 5 mp-et!")
-        if response.json().get("errorMessage"):
-            message.append(
-                "Hibaüzenet: [COLOR darkred]%s[/COLOR]"
-                % (response.json()["errorMessage"].encode("utf-8"))
-            )
         utils.create_ok_dialog("[CR]".join(message))
         exit()
-    elif response.status_code != 200:
-        utils.create_ok_dialog(
-            "Lejátszás sikertelen ismeretlen okból.\nA szerver válasza: (%i) %s"
-            % (response.status_code, response.content.encode("utf-8"))
-        )
-        exit(1)
 
-    try:
-        data = response.json()
-    except Exception as e:
-        raise routines.Error(e)
+    
+    # if data["data"].get("drmkey"):
+    #     utils.create_notification(
+    #         "DRM védett tartalom. Az addon ezek lejátszására nem képes."
+    #     )
+    #     exit()
 
-    if not data.get("data", {}).get("url"):
-        utils.create_ok_dialog("Ehhez a médiához nem tartozik lejátszási link.")
-        exit()
+    # if utils.get_setting("display_epg") == "1":
+    #     name = name.split("[CR]", 1)[0]
 
-    if data["data"].get("drmkey"):
-        utils.create_notification(
-            "DRM védett tartalom. Az addon ezek lejátszására nem képes."
-        )
-        exit()
-
-    if utils.get_setting("display_epg") == "1":
-        name = name.split("[CR]", 1)[0]
-
-    routines.play(
+    play_dash(
         int(sys.argv[1]),
-        data["data"]["url"],
+        url,
         "video",
         user_agent=utils.get_setting("user_agent"),
         name=name,
         icon=icon,
+        description=desc
     )
 
 
 if __name__ == "__main__":
     params = dict(parse_qsl(sys.argv[2].replace("?", "")))
     action = params.get("action")
+    setupSession()
+
     if action is None:
         if utils.get_setting("is_firstrun") == "true":
             utils.set_setting("is_firstrun", "false")
@@ -295,4 +224,5 @@ if __name__ == "__main__":
             params.get("extra"),
             params.get("name"),
             params.get("icon"),
+            params.get("descr"),
         )
