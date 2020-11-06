@@ -123,10 +123,10 @@ def main_window():
         icon="https://i.imgur.com/bKJK0nc.png"
     )
 
-
 def live_window():
     allChannels = client.get_visible_channels()
-    channelsList = ",".join([str(k) for k,v in allChannels])
+    channelIds = [str(k) for k,v in allChannels.items()]
+    channelsList = ",".join(channelIds)
     epg = client.get_live_epg(channelsList)
     for program in epg:
         if (
@@ -147,9 +147,9 @@ def live_window():
         routines.add_item(
             *sys.argv[:2],
             name=name,
-            description=(program.get("description") or "").encode("utf-8"),
+	    description=(program.get("description") or "").encode("utf-8"),
             action="translate_link",
-            icon="%s%s" % (client.base_url, program["imageUrls"]["channel_logo"]),
+            icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
             id=program["id"],
             extra=program["vodAssetId"],
             fanart=fanArt,

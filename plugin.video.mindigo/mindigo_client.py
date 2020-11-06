@@ -118,7 +118,7 @@ class MindigoClient:
 		return response
 
 	"""
-		visibilityRights either 'PREVIEW' or 'PLAY'
+	   visibilityRights either 'PLAY' or 'PREVIEW'
 	"""
 	def get_channels(self, visibilityRights='PREVIEW'):
 		url = "%schannel/all?vf=dash&visibilityRights=%s" % (self.api_url, visibilityRights)
@@ -133,9 +133,8 @@ class MindigoClient:
 		return {e["id"] : e for e in response.json()}
 
 	def get_visible_channels(self):
-		#return {k :v for k,v in self.get_channels('PREVIEW').items() if v.get("visibilityDetails") == 'OK'}
 		return self.get_channels('PLAY')
-		
+
 
 	def get_epg(self, channels, start = datetime.now() - timedelta(hours=1), end = datetime.now() + timedelta(hours=1)):
 		url = "%sepg/channels?startTime=%sZ&endTime=%sZ&channelIds=%s&vf=dash&visibilityRights=PLAY" % (self.api_url, start.isoformat(), end.isoformat(), channels)
