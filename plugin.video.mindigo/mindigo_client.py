@@ -76,7 +76,7 @@ def request_page(url, **kwargs):
 """
 class MindigoClient:
 
-	API_BASE = "470098bXNyZXBvIGh0dHBzOi8vdHYubWluZGlnby5odS9zYi8="
+	API_BASE = "470098bXNyZXBvIGh0dHBzOi8vbWluZGlndHZnby5odS9zYi8="
 	MAIN_URI = "470098bXNyZXBvIGh0dHBzOi8vdHYubWluZGlnby5odS8="
 	APP_ID = "470098bXNyZXBvIGVubjlpbW1kbTF2eXU3eXVwZG5raWVkY2g1d21naTRj"
 
