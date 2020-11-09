@@ -118,10 +118,10 @@ class MindigoClient:
 		return response
 
 	"""
-	   visibilityRights either 'PLAY' or 'PREVIEW'
+	   visibility_rights either 'PLAY' or 'PREVIEW'
 	"""
-	def get_channels(self, visibilityRights='PREVIEW'):
-		url = "%schannel/all?vf=dash&visibilityRights=%s" % (self.api_url, visibilityRights)
+	def get_channels(self, visibility_rights='PREVIEW'):
+		url = "%schannel/all?vf=dash&visibilityRights=%s" % (self.api_url, visibility_rights)
 		response = request_page(
 		    url,
 		    headers=self.HEADERS,
@@ -150,10 +150,10 @@ class MindigoClient:
 
 	def get_live_epg(self, channels = "8,25,66,41,42,10,39,15,16,49"):
 		# consider only LIVE elements
-		return [e for e in self.get_epg(channels) if e.get("state")=='LIVE']
+		return [e for e in self.get_epg(channels) if e.get("state") == 'LIVE']
 
-	def get_video_details(self, vodAssetId):
-		url = "%sasset/%s?vf=dash&&deviceType=WEB" % (self.api_url, vodAssetId)
+	def get_video_details(self, vod_asset_id):
+		url = "%sasset/%s?vf=dash&&deviceType=WEB" % (self.api_url, vod_asset_id)
 		print(url)
 		response = request_page(
 		    url,
@@ -165,5 +165,5 @@ class MindigoClient:
 		)
 		return response.json()
 
-	def get_video_content_url(self, vodAssetId):
-		return self.get_video_details(vodAssetId).get("epgEvent").get("channel").get("contentUrl")
+	def get_video_content_url(self, vod_asset_id):
+		return self.get_video_details(vod_asset_id).get("epgEvent").get("channel").get("contentUrl")

@@ -124,25 +124,25 @@ def main_window():
     )
 
 def live_window():
-    allChannels = client.get_visible_channels()
-    channelIds = [str(k) for k,v in allChannels.items()]
-    channelsList = ",".join(channelIds)
-    epg = client.get_live_epg(channelsList)
+    all_channels = client.get_visible_channels()
+    channel_ids = [str(k) for k,v in all_channels.items()]
+    channel_list = ",".join(channel_ids)
+    epg = client.get_live_epg(channel_list)
     for program in epg:
         if (
             utils.get_setting("display_epg") != "2"
         ):
             name = "%s[CR][COLOR gray]%s[/COLOR]" % (
-                allChannels[program["channelId"]]["displayName"].encode("utf-8"),
+                all_channels[program["channelId"]]["displayName"].encode("utf-8"),
                 program["title"].encode("utf-8"),
             )
         else:
             name = program["title"].encode("utf-8")
 
-        if program.get("imageUrl"):
-            fanArt = "%s%s" % (client.web_url, program.get("imageUrl").encode("utf-8"))
+	if program.get("imageUrl"):
+            fan_art = "%s%s" % (client.web_url, program.get("imageUrl").encode("utf-8"))
         else:
-            fanArt=utils.fanart
+            fan_art=utils.fanart
 
         routines.add_item(
             *sys.argv[:2],
@@ -152,7 +152,7 @@ def live_window():
             icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
             id=program["id"],
             extra=program["vodAssetId"],
-            fanart=fanArt,
+            fanart=fan_art,
             type="video",
             refresh=True,
             is_directory=False,
