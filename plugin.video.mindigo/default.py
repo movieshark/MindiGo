@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
     MindiGO Kodi addon
-    Copyright (C) 2019 Mr Dini, ratcashdev
+    Copyright (C) 2019-2021 Mr Dini
+    Copyright (C) 2020 ratcashdev
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published by
@@ -18,36 +19,27 @@
 """
 import sys
 from time import time
-from mindigo_client import MindigoClient
-from urlparse import parse_qsl
-from mrdini.routines import routines
+
 import xbmcaddon
-from xbmcplugin import endOfDirectory, setContent
 import xbmcgui
+from mindigo_client import MindigoClient
+from mrdini.routines import routines
+from xbmcplugin import endOfDirectory, setContent
+
+if sys.version_info[0] == 3:
+    from urllib.parse import parse_qsl
+else:
+    # python2 compatibility
+    from urlparse import parse_qsl
 
 utils = routines.Utils(xbmcaddon.Addon())
 client = MindigoClient()
 
-# TODO move to routines (?)
-def play_dash(handle, url, _type, **kwargs):
-    name = kwargs.get("name")
-    icon = kwargs.get("icon")
-    description = kwargs.get("description")
-    user_agent = kwargs.get("user_agent", routines.random_uagent())
-
-    listitem = xbmcgui.ListItem(label=name, thumbnailImage=icon)
-    listitem.setProperty('inputstreamaddon', 'inputstream.adaptive')
-    listitem.setProperty('inputstream.adaptive.manifest_type', 'mpd')
-    listitem.setMimeType('application/dash+xml')
-    listitem.setProperty('inputstream.adaptive.stream_headers', "User-Agent=%s" % user_agent)
-    listitem.setContentLookup(False)
-    listitem.setInfo(type=_type, infoLabels={"Title": name, "Plot": description})
-    xbmc.Player().play(url, listitem)
 
 def setupSession():
     if (
         client.session is None
-        and utils.get_setting("session") != None
+        and utils.get_setting("session") is not None
         and int(time()) - int(utils.get_setting("last_ts") or 0) < int(1200)
     ):
         client.session = utils.get_setting("session")
@@ -57,6 +49,7 @@ def setupSession():
     utils.set_setting("session", login())
     utils.set_setting("last_ts", str(int(time())))
 
+
 def login():
     if not all([utils.get_setting("username"), utils.get_setting("password")]):
         utils.create_notification("Kérlek add meg email címed és jelszavad!")
@@ -64,7 +57,9 @@ def login():
         exit(0)
 
     try:
-        response = client.login(utils.get_setting("username"), utils.get_setting("password"))
+        response = client.login(
+            utils.get_setting("username"), utils.get_setting("password")
+        )
         if response.status_code in [400, 404]:
             utils.create_ok_dialog(
                 "Bejelentkezésed sikertelen volt. Biztosan jól adtad meg az email címed és jelszavad?"
@@ -123,70 +118,61 @@ def main_window():
         icon="https://i.imgur.com/bKJK0nc.png"
     )
 
+
 def live_window():
     all_channels = client.get_visible_channels()
-    channel_ids = [str(k) for k,v in all_channels.items()]
+    channel_ids = [str(k) for k, v in all_channels.items()]
     channel_list = ",".join(channel_ids)
     epg = client.get_live_epg(channel_list)
     for program in epg:
-        if (
-            utils.get_setting("display_epg") != "2"
-        ):
+        if utils.get_setting("display_epg") != "2":
             name = "%s[CR][COLOR gray]%s[/COLOR]" % (
-                all_channels[program["channelId"]]["displayName"].encode("utf-8"),
-                program["title"].encode("utf-8"),
+                routines.py2_encode(all_channels[program["channelId"]]["displayName"]),
+                routines.py2_encode(program["title"]),
             )
         else:
-            name = program["title"].encode("utf-8")
+            name = routines.py2_encode(program["title"])
 
-	if program.get("imageUrl"):
-            fan_art = "%s%s" % (client.web_url, program.get("imageUrl").encode("utf-8"))
-        else:
-            fan_art=utils.fanart
-
-        routines.add_item(
-            *sys.argv[:2],
-            name=name,
-	    description=(program.get("description") or "").encode("utf-8"),
-            action="translate_link",
-            icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
-            id=program["id"],
-            extra=program["vodAssetId"],
-            fanart=fan_art,
-            type="video",
-            refresh=True,
-            is_directory=False,
-            is_livestream=True
+    if program.get("imageUrl"):
+        fan_art = "%s%s" % (
+            client.web_url,
+            routines.py2_encode(program.get("imageUrl")),
         )
+    else:
+        fan_art = utils.fanart
+
+    routines.add_item(
+        *sys.argv[:2],
+        name=name,
+        description=(routines.py2_encode(program.get("description") or "")),
+        action="translate_link",
+        icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
+        id=program["id"],
+        extra=program["vodAssetId"],
+        fanart=fan_art,
+        type="video",
+        refresh=True,
+        is_directory=False,
+        is_livestream=True
+    )
     setContent(int(sys.argv[1]), "tvshows")
 
 
 def translate_link(id, slug, name, icon, desc):
     url = client.get_video_content_url(slug)
 
-    if url == None:
-        message = ["A szerver nem tudott mit kezdeni a kéréssel."]
-        utils.create_ok_dialog("[CR]".join(message))
+    if not url:
+        utils.create_ok_dialog("A szerver nem tudott mit kezdeni a kéréssel.")
         exit()
 
-    
-    # if data["data"].get("drmkey"):
-    #     utils.create_notification(
-    #         "DRM védett tartalom. Az addon ezek lejátszására nem képes."
-    #     )
-    #     exit()
-
-    # if utils.get_setting("display_epg") == "1":
-    #     name = name.split("[CR]", 1)[0]
-
-    play_dash(
+    routines.play(
         int(sys.argv[1]),
         url,
         "video",
         user_agent=utils.get_setting("user_agent"),
         name=name,
         icon=icon,
-        description=desc
+        description=desc,
     )
 
 
