@@ -20,7 +20,7 @@
 
 import sys
 from base64 import b64decode
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from random import choice
 
 import requests
@@ -151,8 +151,8 @@ class MindigoClient:
     def get_epg(
         self,
         channels,
-        start=datetime.now() - timedelta(hours=1),
-        end=datetime.now() + timedelta(hours=1),
+        start=(datetime.now(timezone.utc) - timedelta(hours=4)).replace(tzinfo=None),
+        end=(datetime.now(timezone.utc) + timedelta(hours=4)).replace(tzinfo=None),
     ):
         url = (
             "%sepg/channels?startTime=%sZ&endTime=%sZ&channelIds=%s&vf=dash&visibilityRights=PLAY"
