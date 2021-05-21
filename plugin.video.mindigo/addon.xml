@@ -3,6 +3,8 @@
   <requires>
     <!-- <import addon="xbmc.python" version="2.24.0"/> -->
     <import addon="script.module.mrdini.routines"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="inputstream.rtmp"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
