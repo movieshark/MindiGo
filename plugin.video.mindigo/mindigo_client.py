@@ -179,12 +179,17 @@ class MindigoClient:
             cookies=dict(JSESSIONID=self.session),
             additional_headers={"Referer": "%s/epg/channels" % self.web_url},
         )
-        return response.json()
+        return (response.headers['drmToken'], response.json())
 
-    def get_video_content_url(self, vod_asset_id):
-        return (
-            self.get_video_details(vod_asset_id)
+    def get_video_play_data(self, vod_asset_id):
+        (drmToken, body) = self.get_video_details(vod_asset_id)
+        return MindigoVideo(body
             .get("epgEvent")
             .get("channel")
-            .get("contentUrl")
-        )
+            .get("contentUrl"), drmToken)
+
+
+class MindigoVideo:
+    def __init__(self,url,drmToken):
+        self.url = url
+        self.drmToken = drmToken

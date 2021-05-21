@@ -31,6 +31,7 @@ if sys.version_info[0] == 3:
 else:
     # python2 compatibility
     from urlparse import parse_qsl
+import urllib.parse
 
 utils = routines.Utils(xbmcaddon.Addon())
 client = MindigoClient()
@@ -133,41 +134,60 @@ def live_window():
         else:
             name = routines.py2_encode(program["title"])
 
-    if program.get("imageUrl"):
-        fan_art = "%s%s" % (
-            client.web_url,
-            routines.py2_encode(program.get("imageUrl")),
-        )
-    else:
-        fan_art = utils.fanart
+        if program.get("imageUrl"):
+            fan_art = "%s%s" % (
+                client.web_url,
+                routines.py2_encode(program.get("imageUrl")),
+            )
+        else:
+            fan_art = utils.fanart
 
-    routines.add_item(
-        *sys.argv[:2],
-        name=name,
-        description=(routines.py2_encode(program.get("description") or "")),
-        action="translate_link",
-        icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
-        id=program["id"],
-        extra=program["vodAssetId"],
-        fanart=fan_art,
-        type="video",
-        refresh=True,
-        is_directory=False,
-        is_livestream=True
-    )
+        routines.add_item(
+            *sys.argv[:2],
+            name=name,
+            description=(routines.py2_encode(program.get("description") or "")),
+            action="translate_link",
+            icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
+            id=program["id"],
+            extra=program["vodAssetId"],
+            fanart=fan_art,
+            type="video",
+            refresh=True,
+            is_directory=False,
+            is_livestream=True
+        )
     setContent(int(sys.argv[1]), "tvshows")
 
+def play_protected_dash(handle, video, _type, **kwargs):
+    name = kwargs.get("name")
+    icon = kwargs.get("icon")
+    description = kwargs.get("description")
+    user_agent = kwargs.get("user_agent", routines.random_uagent())
+
+    listitem = xbmcgui.ListItem(label=name)
+    listitem.setProperty('inputstream', 'inputstream.adaptive')
+    listitem.setProperty('inputstream.adaptive.manifest_type', 'mpd')
+    listitem.setMimeType('application/dash+xml')
+    listitem.setProperty('inputstream.adaptive.stream_headers', "User-Agent=%s" % user_agent)
+   
+    license_url = 'https://drm-prod.mindigo.hu/widevine/license?drmToken=%s' % urllib.parse.quote(video.drmToken) 
+    listitem.setProperty('inputstream.adaptive.license_type','com.widevine.alpha')
+    listitem.setProperty('inputstream.adaptive.license_key', license_url + '|Content-Type=application/octet-stream|R{SSM}|')
+    
+    listitem.setContentLookup(False)
+    listitem.setInfo(type=_type, infoLabels={"Title": name, "Plot": description})
+    xbmc.Player().play(video.url, listitem)
 
 def translate_link(id, slug, name, icon, desc):
-    url = client.get_video_content_url(slug)
+    video = client.get_video_play_data(slug)
 
-    if not url:
+    if not video.url:
         utils.create_ok_dialog("A szerver nem tudott mit kezdeni a kéréssel.")
         exit()
 
-    routines.play(
+    play_protected_dash(
         int(sys.argv[1]),
-        url,
+        video,
         "video",
         user_agent=utils.get_setting("user_agent"),
         name=name,
