@@ -170,7 +170,7 @@ def play_protected_dash(handle, video, _type, **kwargs):
     listitem.setMimeType('application/dash+xml')
     listitem.setProperty('inputstream.adaptive.stream_headers', "User-Agent=%s" % user_agent)
    
-    license_url = 'https://drm-prod.mindigo.hu/widevine/license?drmToken=%s' % urllib.parse.quote(video.drmToken) 
+    license_url = 'https://drm-prod.mindigo.hu/widevine/license?drmToken=%s' % urllib.parse.quote(video.drm_token) 
     listitem.setProperty('inputstream.adaptive.license_type','com.widevine.alpha')
     listitem.setProperty('inputstream.adaptive.license_key', license_url + '|Content-Type=application/octet-stream|R{SSM}|')
     
@@ -182,8 +182,10 @@ def translate_link(id, slug, name, icon, desc):
     video = client.get_video_play_data(slug)
 
     if not video.url:
-        utils.create_ok_dialog("A szerver nem tudott mit kezdeni a kéréssel.")
-        exit()
+        video = client.get_live_video_play_data(video.channel_id)
+        if not video.url:
+            utils.create_ok_dialog("A szerver nem tudott mit kezdeni a kéréssel.")
+            exit()
 
     play_protected_dash(
         int(sys.argv[1]),
