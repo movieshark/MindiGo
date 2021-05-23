@@ -77,7 +77,6 @@ def login():
     except RuntimeError as e:
         raise routines.Error(e)
     utils.set_setting("session", client.session)
-    utils.create_notification("Sikeres bejelentkezés")
     return client.session
 
 
