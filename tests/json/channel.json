@@ -1,0 +1,46 @@
+{
+  "id" : 8,
+  "number" : 501,
+  "displayName" : "M1 HD",
+  "title" : "M1 HD",
+  "titles" : {
+    "EN" : "M1 HD"
+  },
+  "logoUrl" : "/sb/image/5128",
+  "epgUrl" : "/sb/epg/channel/8",
+  "hlsUrl" : null,
+  "contentUrl" : "https://c402-node61-cdn.connectmedia.hu/64101/a5cd836af219759d59e3d8b7de19ec88/60a8d8ab/manifest.mpd?v=5sip:185.29.156.34",
+  "dvbUrl" : "tuner://dvbt/8903/1/100",
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : true,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 172800,
+    "restartTv" : true,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099622"
+  },
+  "imageUrl" : "/sb/image/5128",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099622"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PLAY",
+  "visibilityDetails" : "OK",
+  "playStatus" : "OK",
+  "favoriteChannelLists" : [ {
+    "id" : 14798,
+    "name" : "DEFAULT",
+    "included" : false
+  } ],
+  "detailsUrl" : "/sb/channel/8"
+}

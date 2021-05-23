@@ -1,0 +1,972 @@
+[ {
+  "id" : 1444987,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T04:00:00Z",
+  "endTime" : "2021-05-22T04:30:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977113",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977114"
+  },
+  "vodAssetId" : 11453220,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444988,
+  "title" : "Nemzeti Sporthíradó",
+  "startTime" : "2021-05-22T04:30:00Z",
+  "endTime" : "2021-05-22T04:35:00Z",
+  "description" : "A Nemzeti Sporthíradó minden nap háromszor jelentkezik a magyarországi és a határon túli magyar sporthírekkel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977119",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977120"
+  },
+  "vodAssetId" : 11453221,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444991,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T04:35:00Z",
+  "endTime" : "2021-05-22T04:40:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977123",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977124"
+  },
+  "vodAssetId" : 11453224,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444993,
+  "title" : "Ma reggel",
+  "startTime" : "2021-05-22T04:40:00Z",
+  "endTime" : "2021-05-22T05:00:00Z",
+  "description" : "A Ma reggel az MTVA saját gyártású, minden hétköznap jelentkező reggeli politikai és közéleti témákkal foglalkozó műsora.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977132",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977134"
+  },
+  "vodAssetId" : 11453226,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444998,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T05:00:00Z",
+  "endTime" : "2021-05-22T05:15:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977135",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977136"
+  },
+  "vodAssetId" : 11453231,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444999,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T05:15:00Z",
+  "endTime" : "2021-05-22T05:20:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977141",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977142"
+  },
+  "vodAssetId" : 11453232,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445002,
+  "title" : "Ma reggel",
+  "startTime" : "2021-05-22T05:20:00Z",
+  "endTime" : "2021-05-22T05:40:00Z",
+  "description" : "A Ma reggel az MTVA saját gyártású, minden hétköznap jelentkező reggeli politikai és közéleti témákkal foglalkozó műsora.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977149",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977150"
+  },
+  "vodAssetId" : 11453235,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445006,
+  "title" : "Ma reggel",
+  "startTime" : "2021-05-22T05:40:00Z",
+  "endTime" : "2021-05-22T06:00:00Z",
+  "description" : "A Ma reggel az MTVA saját gyártású, minden hétköznap jelentkező reggeli politikai és közéleti témákkal foglalkozó műsora.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977151",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977152"
+  },
+  "vodAssetId" : 11453239,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445007,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T06:00:00Z",
+  "endTime" : "2021-05-22T06:15:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977155",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977156"
+  },
+  "vodAssetId" : 11453240,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445009,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T06:15:00Z",
+  "endTime" : "2021-05-22T06:20:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977157",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977158"
+  },
+  "vodAssetId" : 11453242,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445010,
+  "title" : "Ma reggel",
+  "startTime" : "2021-05-22T06:20:00Z",
+  "endTime" : "2021-05-22T06:35:00Z",
+  "description" : "A Ma reggel az MTVA saját gyártású, minden hétköznap jelentkező reggeli politikai és közéleti témákkal foglalkozó műsora.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977159",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977160"
+  },
+  "vodAssetId" : 11453243,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445013,
+  "title" : "Világ",
+  "startTime" : "2021-05-22T06:35:00Z",
+  "endTime" : "2021-05-22T07:00:00Z",
+  "description" : "Heti külpolitikai magazin",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977169",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977170"
+  },
+  "vodAssetId" : 11453246,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445016,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T07:00:00Z",
+  "endTime" : "2021-05-22T07:10:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977171",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977172"
+  },
+  "vodAssetId" : 11453249,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445017,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T07:10:00Z",
+  "endTime" : "2021-05-22T07:15:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977173",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977174"
+  },
+  "vodAssetId" : 11453250,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445018,
+  "title" : "Most történik",
+  "startTime" : "2021-05-22T07:15:00Z",
+  "endTime" : "2021-05-22T07:30:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977177",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977178"
+  },
+  "vodAssetId" : 11453251,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445020,
+  "title" : "Hírek",
+  "startTime" : "2021-05-22T07:30:00Z",
+  "endTime" : "2021-05-22T07:31:00Z",
+  "description" : "A Híradó első kézből tájékoztatja a nézőket a fontos hírekről. Objektív, hiteles, szakszerű.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977181",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977182"
+  },
+  "vodAssetId" : 11453253,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445022,
+  "title" : "Magyar gazda",
+  "startTime" : "2021-05-22T07:31:00Z",
+  "endTime" : "2021-05-22T07:33:00Z",
+  "description" : "A Magyar gazda közérthetően számol be a hazai mezőgazdaság időszerű vagy éppen érdekes eseményeiről. Bemutatja a vidéki élet, a gazdálkodás mindennapjait, de nem megy el a szakpolitika döntései, vagy a gazdasági hírek mellett sem. A mezőgazdasági-, élelmiszergazdasági- és vidékmagazin olyan témákat dolgoz fel, amelyekkel a gazdálkodás és a vidéki élet részleteit igyekszik közel vinni azokhoz is, akiknek nincs közvetlen kötődése ezekhez a területekhez.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977185",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977186"
+  },
+  "vodAssetId" : 11453255,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445025,
+  "title" : "Ma délelőtt",
+  "startTime" : "2021-05-22T07:33:00Z",
+  "endTime" : "2021-05-22T08:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977189",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977190"
+  },
+  "vodAssetId" : 11453258,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445027,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T08:00:00Z",
+  "endTime" : "2021-05-22T08:10:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977193",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977196"
+  },
+  "vodAssetId" : 11453260,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445030,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T08:10:00Z",
+  "endTime" : "2021-05-22T08:15:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977201",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977202"
+  },
+  "vodAssetId" : 11453263,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445033,
+  "title" : "Most történik",
+  "startTime" : "2021-05-22T08:15:00Z",
+  "endTime" : "2021-05-22T08:30:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977203",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977204"
+  },
+  "vodAssetId" : 11453266,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445034,
+  "title" : "Hírek",
+  "startTime" : "2021-05-22T08:30:00Z",
+  "endTime" : "2021-05-22T08:31:00Z",
+  "description" : "A Híradó első kézből tájékoztatja a nézőket a fontos hírekről. Objektív, hiteles, szakszerű.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977205",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977206"
+  },
+  "vodAssetId" : 11453267,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445035,
+  "title" : "Esély",
+  "startTime" : "2021-05-22T08:31:00Z",
+  "endTime" : "2021-05-22T08:33:00Z",
+  "description" : "Ma Magyarországon legalább hatszázezer embernek tartósan együtt kell élnie fogyatékosságával. Az Esély azonban nemcsak hozzájuk szól, hanem mindazokhoz, akiket érdekel, hogyan lehet sérültként is teljes életet élni.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977207",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977210"
+  },
+  "vodAssetId" : 11453268,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445037,
+  "title" : "Ma délelőtt",
+  "startTime" : "2021-05-22T08:33:00Z",
+  "endTime" : "2021-05-22T09:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977213",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977214"
+  },
+  "vodAssetId" : 11453270,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445039,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T09:00:00Z",
+  "endTime" : "2021-05-22T09:10:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977217",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977218"
+  },
+  "vodAssetId" : 11453272,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445042,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T09:10:00Z",
+  "endTime" : "2021-05-22T09:15:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977233",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977234"
+  },
+  "vodAssetId" : 11453275,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445050,
+  "title" : "Most történik",
+  "startTime" : "2021-05-22T09:15:00Z",
+  "endTime" : "2021-05-22T09:30:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977239",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977240"
+  },
+  "vodAssetId" : 11453283,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445053,
+  "title" : "Hírek",
+  "startTime" : "2021-05-22T09:30:00Z",
+  "endTime" : "2021-05-22T09:33:00Z",
+  "description" : "A Híradó első kézből tájékoztatja a nézőket a fontos hírekről. Objektív, hiteles, szakszerű.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977243",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977244"
+  },
+  "vodAssetId" : 11453286,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445054,
+  "title" : "Ma délelőtt",
+  "startTime" : "2021-05-22T09:33:00Z",
+  "endTime" : "2021-05-22T10:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977247",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977248"
+  },
+  "vodAssetId" : 11453287,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445056,
+  "title" : "Déli harangszó",
+  "startTime" : "2021-05-22T10:00:00Z",
+  "endTime" : "2021-05-22T10:01:00Z",
+  "description" : "",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977253",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977254"
+  },
+  "vodAssetId" : 11453289,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445059,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T10:01:00Z",
+  "endTime" : "2021-05-22T10:35:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977261",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977262"
+  },
+  "vodAssetId" : 11453292,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1445063,
+  "title" : "Nemzeti Sporthíradó",
+  "startTime" : "2021-05-22T10:35:00Z",
+  "endTime" : "2021-05-22T10:45:00Z",
+  "description" : "A Nemzeti Sporthíradó minden nap háromszor jelentkezik a magyarországi és a határon túli magyar sporthírekkel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977265",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977268"
+  },
+  "vodAssetId" : 11453296,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445066,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T10:45:00Z",
+  "endTime" : "2021-05-22T10:50:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977271",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977272"
+  },
+  "vodAssetId" : 11453299,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445068,
+  "title" : "V4 Híradó",
+  "startTime" : "2021-05-22T10:50:00Z",
+  "endTime" : "2021-05-22T10:55:00Z",
+  "description" : "A V4 országok politikai, gazdasági, kulturális kapcsolódásai az elmúlt években jelentősen fölerősödtek, az országok együttműködése azt bizonyítja, együtt meghatározó szerepük van Európában. A napi V4 híradóban bemutatják azokat az álláspontokat, reakciókat, megközelítéseket és válaszokat, amelyeket a V4 társulás tagjai (Magyarország, Szlovákia, Csehország és Lengyelország) adnak a nemzetállamokat, Európát és a világpolitikát érintő kérdésekre. A V4 híradó forrásai a lengyel, cseh, szlovák lapok, hírügynökségek, televíziók illetve a European Broadcast Union nyersanyagai.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977279",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977280"
+  },
+  "vodAssetId" : 11453301,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445072,
+  "title" : "Ma délután",
+  "startTime" : "2021-05-22T10:55:00Z",
+  "endTime" : "2021-05-22T11:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977285",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977286"
+  },
+  "vodAssetId" : 11453305,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445075,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T11:00:00Z",
+  "endTime" : "2021-05-22T11:25:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977288",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977290"
+  },
+  "vodAssetId" : 11453308,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445085,
+  "title" : "Ma délután",
+  "startTime" : "2021-05-22T11:25:00Z",
+  "endTime" : "2021-05-22T11:30:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977307",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977308"
+  },
+  "vodAssetId" : 11453318,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445086,
+  "title" : "Hírek",
+  "startTime" : "2021-05-22T11:30:00Z",
+  "endTime" : "2021-05-22T11:33:00Z",
+  "description" : "A Híradó első kézből tájékoztatja a nézőket a fontos hírekről. Objektív, hiteles, szakszerű.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977313",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977314"
+  },
+  "vodAssetId" : 11453319,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445089,
+  "title" : "Ma délután",
+  "startTime" : "2021-05-22T11:33:00Z",
+  "endTime" : "2021-05-22T12:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977315",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977316"
+  },
+  "vodAssetId" : 11453322,
+  "hasNotification" : false,
+  "hasNpvr" : false,
+  "favorite" : false,
+  "state" : "FUTURE"
+} ]

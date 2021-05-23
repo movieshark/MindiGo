@@ -25,6 +25,8 @@ import xbmcgui
 from mindigo_client import MindigoClient
 from mrdini.routines import routines
 from xbmcplugin import endOfDirectory, setContent
+import xbmcvfs
+import epg_transform
 
 if sys.version_info[0] == 3:
     from urllib.parse import parse_qsl, quote
@@ -34,6 +36,8 @@ else:
 
 utils = routines.Utils(xbmcaddon.Addon())
 client = MindigoClient()
+__addon__ = xbmcaddon.Addon(id='plugin.video.mindigo')
+__addondir__ = xbmcvfs.translatePath(__addon__.getAddonInfo('profile'))
 
 
 def setupSession():
@@ -117,13 +121,24 @@ def main_window():
         icon="https://i.imgur.com/bKJK0nc.png"
     )
 
+def create_epg_guide(channels, epg):
+    epg_transform.write_str(__addondir__, 'mindigo_xmltv.xml', epg_transform.make_xml_guide(channels, epg))
+
+def create_channel_list(channels):
+    epg_transform.write_str(__addondir__, 'channels.m3u8', epg_transform.make_m3u(channels))    
+
 
 def live_window():
     all_channels = client.get_visible_channels()
     channel_ids = [str(k) for k, v in all_channels.items()]
     channel_list = ",".join(channel_ids)
-    epg = client.get_live_epg(channel_list)
+    epg = client.get_epg(channel_list)
+    create_epg_guide(all_channels, epg)
+    create_channel_list(all_channels)
+
     for program in epg:
+        if program.get("state") != "LIVE":
+            continue
         if utils.get_setting("display_epg") != "2":
             name = "%s[CR][COLOR gray]%s[/COLOR]" % (
                 routines.py2_encode(all_channels[program["channelId"]]["displayName"]),

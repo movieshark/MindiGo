@@ -152,7 +152,7 @@ class MindigoClient:
         self,
         channels,
         start=(datetime.now(timezone.utc) - timedelta(hours=4)).replace(tzinfo=None),
-        end=(datetime.now(timezone.utc) + timedelta(hours=4)).replace(tzinfo=None),
+        end=(datetime.now(timezone.utc) + timedelta(hours=72)).replace(tzinfo=None),
     ):
         url = (
             "%sepg/channels?startTime=%sZ&endTime=%sZ&channelIds=%s&vf=dash&visibilityRights=PLAY"
