@@ -27,11 +27,10 @@ from mrdini.routines import routines
 from xbmcplugin import endOfDirectory, setContent
 
 if sys.version_info[0] == 3:
-    from urllib.parse import parse_qsl
+    from urllib.parse import parse_qsl, quote
 else:
     # python2 compatibility
     from urlparse import parse_qsl
-import urllib.parse
 
 utils = routines.Utils(xbmcaddon.Addon())
 client = MindigoClient()
@@ -169,7 +168,7 @@ def play_protected_dash(handle, video, _type, **kwargs):
     listitem.setMimeType('application/dash+xml')
     listitem.setProperty('inputstream.adaptive.stream_headers', "User-Agent=%s" % user_agent)
    
-    license_url = 'https://drm-prod.mindigo.hu/widevine/license?drmToken=%s' % urllib.parse.quote(video.drm_token) 
+    license_url = 'https://drm-prod.mindigo.hu/widevine/license?drmToken=%s' % quote(video.drm_token) 
     listitem.setProperty('inputstream.adaptive.license_type','com.widevine.alpha')
     listitem.setProperty('inputstream.adaptive.license_key', license_url + '|Content-Type=application/octet-stream|R{SSM}|')
     
