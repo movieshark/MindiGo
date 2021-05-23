@@ -167,12 +167,23 @@ class MindigoClient:
         return response.json()
 
     def get_live_epg(self, channels="8,25,66,41,42,10,39,15,16,49"):
-        # consider only LIVE elements
-        return [e for e in self.get_epg(channels) if e.get("state") == "LIVE"]
+        # consider only LIVE elements (or include also "FUTURE")
+        return [e for e in self.get_epg(channels) if e.get("state") == "LIVE" ]
 
     def get_video_details(self, vod_asset_id):
         url = "%sasset/%s?vf=dash&&deviceType=WEB" % (self.api_url, vod_asset_id)
-        print(url)
+        response = request_page(
+            url,
+            headers=self.HEADERS,
+            cookies=dict(JSESSIONID=self.session),
+            additional_headers={"Referer": "%s/epg/channels" % self.web_url},
+        )
+        if (response.headers.get("drmToken")):
+            return (response.headers['drmToken'], response.json())
+        return ('', response.json())
+
+    def get_channel_details(self, channel_id):
+        url = "%schannel/%s?vf=dash&visibilityRights=PLAY" % (self.api_url, channel_id)
         response = request_page(
             url,
             headers=self.HEADERS,
@@ -185,16 +196,13 @@ class MindigoClient:
 
     def get_video_play_data(self, vod_asset_id):
         (drm_token, body) = self.get_video_details(vod_asset_id)
-        return self.mapToMindigoVideo(drm_token, body)
+        return self.mapAssetToMindigoVideo(drm_token, body)
 
-    def get_live_video_play_data(self, channel_id):
-        # refresh EPG for that channel
-        curr_epg = self.get_live_epg(channel_id)
-        program = curr_epg[0]
-        (drm_token, body) = self.get_video_details(program["vodAssetId"])
-        return self.mapToMindigoVideo(drm_token, body)
+    def get_channel_play_data(self, channel_id):
+        (drm_token, body) = self.get_channel_details(channel_id)
+        return self.mapChannelToMindigoVideo(drm_token, body)
 
-    def mapToMindigoVideo(self, drm_token, resp_body):
+    def mapAssetToMindigoVideo(self, drm_token, resp_body):
         return MindigoVideo(
             resp_body.get("epgEvent").get("channel").get("id"),
             resp_body.get("epgEvent").get("channel").get("contentUrl"),
@@ -204,6 +212,16 @@ class MindigoClient:
             resp_body.get("title").get("summaryShort")
             )
 
+    def mapChannelToMindigoVideo(self, drm_token, resp_body):
+        return MindigoVideo(
+            resp_body.get("id"),
+            resp_body.get("contentUrl"),
+            drm_token, 
+            resp_body.get("title"),
+            "%s%s" % (self.web_url, resp_body.get("imageUrl")),
+            resp_body.get("displayName")
+            )
+ 
 class MindigoVideo:
     def __init__(self, channel_id, url, drm_token, name, icon, desc):
         self.channel_id = channel_id

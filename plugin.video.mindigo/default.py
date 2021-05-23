@@ -146,8 +146,7 @@ def live_window():
             description=(routines.py2_encode(program.get("description") or "")),
             action="translate_link",
             icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
-            id=program["id"],
-            extra=program["vodAssetId"],
+            id=program["channelId"],
             fanart=fan_art,
             type="video",
             refresh=True,
@@ -157,12 +156,10 @@ def live_window():
     setContent(int(sys.argv[1]), "tvshows")
 
 def play_protected_dash(handle, video, _type, **kwargs):
-    name = kwargs.get("name")
     icon = kwargs.get("icon")
-    description = kwargs.get("description")
     user_agent = kwargs.get("user_agent", routines.random_uagent())
 
-    listitem = xbmcgui.ListItem(label=name)
+    listitem = xbmcgui.ListItem(label=video.name)
     listitem.setProperty('inputstream', 'inputstream.adaptive')
     listitem.setProperty('inputstream.adaptive.manifest_type', 'mpd')
     listitem.setMimeType('application/dash+xml')
@@ -173,26 +170,25 @@ def play_protected_dash(handle, video, _type, **kwargs):
     listitem.setProperty('inputstream.adaptive.license_key', license_url + '|Content-Type=application/octet-stream|R{SSM}|')
     
     listitem.setContentLookup(False)
-    listitem.setInfo(type=_type, infoLabels={"Title": name, "Plot": description})
+    listitem.setInfo(type=_type, infoLabels={"Title": video.name, "Plot": video.desc})
     xbmc.Player().play(video.url, listitem)
 
-def translate_link(id, slug, name, icon, desc):
-    video = client.get_video_play_data(slug)
+def translate_link(channel_id, vod_asset_id):
+    video = {}
+    if vod_asset_id:
+        video = client.get_video_play_data(vod_asset_id)
+    else:
+        video = client.get_channel_play_data(channel_id)
 
     if not video.url:
-        video = client.get_live_video_play_data(video.channel_id)
-        if not video.url:
-            utils.create_ok_dialog("A szerver nem tudott mit kezdeni a kéréssel.")
-            exit()
+        utils.create_ok_dialog("A kívánt tartalom nem sugározható.")
+        exit()
 
     play_protected_dash(
         int(sys.argv[1]),
         video,
         "video",
-        user_agent=utils.get_setting("user_agent"),
-        name=name,
-        icon=icon,
-        description=desc,
+        user_agent=utils.get_setting("user_agent")
     )
 
 
@@ -227,8 +223,5 @@ if __name__ == "__main__":
     if action == "translate_link":
         translate_link(
             params.get("id"),
-            params.get("extra"),
-            params.get("name"),
-            params.get("icon"),
-            params.get("descr"),
+            params.get("extra")
         )
