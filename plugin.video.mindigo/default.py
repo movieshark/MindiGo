@@ -22,7 +22,7 @@ from time import time
 
 import xbmcaddon
 import xbmcgui
-from mindigo_client import MindigoClient
+from mindigo_client import MindigoClient,ContentVisibilityError
 from mrdini.routines import routines
 from xbmcplugin import endOfDirectory, setContent
 import xbmcvfs
@@ -190,10 +190,14 @@ def play_protected_dash(handle, video, _type, **kwargs):
 
 def translate_link(channel_id, vod_asset_id):
     video = {}
-    if vod_asset_id:
-        video = client.get_video_play_data(vod_asset_id)
-    else:
-        video = client.get_channel_play_data(channel_id)
+    try:
+        if vod_asset_id:
+            video = client.get_video_play_data(vod_asset_id)
+        else:
+            video = client.get_channel_play_data(channel_id)
+    except ContentVisibilityError as err:
+        utils.create_ok_dialog("A kívánt tartalom nem sugározható: %s" % err.message)
+        return
 
     if not video.url:
         utils.create_ok_dialog("A kívánt tartalom nem sugározható.")

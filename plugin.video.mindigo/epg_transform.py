@@ -32,9 +32,9 @@ def make_xml_guide(channels : dict, mindigo_epg : list, base_url = "https://mind
         desc = escape(program["description"])
         if (desc == ''):
             desc = title
-        #catchup_id = escape('plugin://plugin.video.mindigo/?action=translate_link&id=%s&extra=%s' % (program["channelId"], program["vodAssetId"]))
-        catchup_id = program["vodAssetId"]
-        prg_line = '<programme start="%s" channel="%s@mindigo" catchup-id="%s" stop="%s"><title>%s</title><desc>%s</desc><icon src="%s%s"/></programme>\n' % (start, program["channelId"], catchup_id, end, title, desc, base_url, program.get("imageUrl"))
+        # or "state" : "CATCHUP"
+        catchup_info = 'catchup-id="%s"' % program["vodAssetId"] if program["catchup"] else ''
+        prg_line = '<programme start="%s" channel="%s@mindigo" %s stop="%s"><title>%s</title><desc>%s</desc><icon src="%s%s"/></programme>\n' % (start, program["channelId"], catchup_info, end, title, desc, base_url, program.get("imageUrl"))
         xmltv += prg_line
 
     xmltv += '</tv>'
@@ -50,7 +50,8 @@ def make_xml_guide(channels : dict, mindigo_epg : list, base_url = "https://mind
 def make_m3u(channels:dict, base_url = "https://mindigtvgo.hu"):
     m3u = '#EXTM3U\n'
     for ch_id, ch in channels.items():
-        channel_data = '#EXTINF:-1 catchup="append" catchup-source="&extra={catchup-id}" tvg-id="%s@mindigo" tvg-name="%s" tvg-logo="%s%s" radio="false",%s\nplugin://plugin.video.mindigo/?action=translate_link&id=%s\n\n' % (ch["id"], ch["displayName"], base_url, ch["logoUrl"], ch["displayName"], ch["id"])
+        catchup_info = 'catchup="append" catchup-source="&extra={catchup-id}"' if ch["tvServices"]["catchupTv"] else ''
+        channel_data = '#EXTINF:-1 %s tvg-id="%s@mindigo" tvg-name="%s" tvg-logo="%s%s" radio="false",%s\nplugin://plugin.video.mindigo/?action=translate_link&id=%s\n\n' % (catchup_info, ch["id"], ch["displayName"], base_url, ch["logoUrl"], ch["displayName"], ch["id"])
         m3u += channel_data
     return m3u
 

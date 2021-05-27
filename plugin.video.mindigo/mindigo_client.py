@@ -203,14 +203,29 @@ class MindigoClient:
         return self.mapChannelToMindigoVideo(drm_token, body)
 
     def mapAssetToMindigoVideo(self, drm_token, resp_body):
+        if resp_body.get("visibilityRights") != "PLAY":
+            raise ContentVisibilityError(resp_body.get("visibilityDetails"))
+
+        epg_event = resp_body.get("epgEvent")
+        if epg_event.get("state") == "CATCHUP":
+            return MindigoVideo(
+                epg_event.get("channel").get("id"),
+                resp_body.get("movie").get("contentUrl"),
+                drm_token, 
+                resp_body.get("title").get("title"),
+                "%s%s" % (self.web_url, resp_body.get("imageUrl")),
+                resp_body.get("title").get("summaryShort")
+                )
+        # for epg_event["state"] == "LIVE" and the rest
         return MindigoVideo(
-            resp_body.get("epgEvent").get("channel").get("id"),
-            resp_body.get("epgEvent").get("channel").get("contentUrl"),
-            drm_token, 
-            resp_body.get("title").get("title"),
-            "%s%s" % (self.web_url, resp_body.get("imageUrl")),
-            resp_body.get("title").get("summaryShort")
-            )
+                epg_event.get("channel").get("id"),
+                epg_event.get("channel").get("contentUrl"),
+                drm_token, 
+                resp_body.get("title").get("title"),
+                "%s%s" % (self.web_url, resp_body.get("imageUrl")),
+                resp_body.get("title").get("summaryShort")
+                )
+
 
     def mapChannelToMindigoVideo(self, drm_token, resp_body):
         return MindigoVideo(
@@ -230,3 +245,7 @@ class MindigoVideo:
         self.name = name
         self.icon = icon
         self.desc = desc
+
+class ContentVisibilityError(Exception):
+    def __init__(self, message):
+        self.message = message
