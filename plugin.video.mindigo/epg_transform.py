@@ -33,7 +33,7 @@ def make_xml_guide(channels : dict, mindigo_epg : list, base_url = "https://mind
         if (desc == ''):
             desc = title
         # or "state" : "CATCHUP"
-        catchup_info = 'catchup-id="%s"' % program["vodAssetId"] if program["catchup"] else ''
+        catchup_info = 'catchup-id="%s"' % program["vodAssetId"] if channels[program["channelId"]]["tvServices"]["catchupTv"] else ''
         prg_line = '<programme start="%s" channel="%s@mindigo" %s stop="%s"><title>%s</title><desc>%s</desc><icon src="%s%s"/></programme>\n' % (start, program["channelId"], catchup_info, end, title, desc, base_url, program.get("imageUrl"))
         xmltv += prg_line
 
