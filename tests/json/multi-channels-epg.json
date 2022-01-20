@@ -1,0 +1,3886 @@
+[ {
+  "id" : 1444987,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T04:00:00Z",
+  "endTime" : "2021-05-22T04:30:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977113",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977114"
+  },
+  "vodAssetId" : 11453220,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444988,
+  "title" : "Nemzeti Sporthíradó",
+  "startTime" : "2021-05-22T04:30:00Z",
+  "endTime" : "2021-05-22T04:35:00Z",
+  "description" : "A Nemzeti Sporthíradó minden nap háromszor jelentkezik a magyarországi és a határon túli magyar sporthírekkel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977119",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977120"
+  },
+  "vodAssetId" : 11453221,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444991,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T04:35:00Z",
+  "endTime" : "2021-05-22T04:40:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977123",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977124"
+  },
+  "vodAssetId" : 11453224,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444993,
+  "title" : "Ma reggel",
+  "startTime" : "2021-05-22T04:40:00Z",
+  "endTime" : "2021-05-22T05:00:00Z",
+  "description" : "A Ma reggel az MTVA saját gyártású, minden hétköznap jelentkező reggeli politikai és közéleti témákkal foglalkozó műsora.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977132",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977134"
+  },
+  "vodAssetId" : 11453226,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444998,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T05:00:00Z",
+  "endTime" : "2021-05-22T05:15:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977135",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977136"
+  },
+  "vodAssetId" : 11453231,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444999,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T05:15:00Z",
+  "endTime" : "2021-05-22T05:20:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977141",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977142"
+  },
+  "vodAssetId" : 11453232,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445002,
+  "title" : "Ma reggel",
+  "startTime" : "2021-05-22T05:20:00Z",
+  "endTime" : "2021-05-22T05:40:00Z",
+  "description" : "A Ma reggel az MTVA saját gyártású, minden hétköznap jelentkező reggeli politikai és közéleti témákkal foglalkozó műsora.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977149",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977150"
+  },
+  "vodAssetId" : 11453235,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445006,
+  "title" : "Ma reggel",
+  "startTime" : "2021-05-22T05:40:00Z",
+  "endTime" : "2021-05-22T06:00:00Z",
+  "description" : "A Ma reggel az MTVA saját gyártású, minden hétköznap jelentkező reggeli politikai és közéleti témákkal foglalkozó műsora.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977151",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977152"
+  },
+  "vodAssetId" : 11453239,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445007,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T06:00:00Z",
+  "endTime" : "2021-05-22T06:15:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977155",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977156"
+  },
+  "vodAssetId" : 11453240,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445009,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T06:15:00Z",
+  "endTime" : "2021-05-22T06:20:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977157",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977158"
+  },
+  "vodAssetId" : 11453242,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445010,
+  "title" : "Ma reggel",
+  "startTime" : "2021-05-22T06:20:00Z",
+  "endTime" : "2021-05-22T06:35:00Z",
+  "description" : "A Ma reggel az MTVA saját gyártású, minden hétköznap jelentkező reggeli politikai és közéleti témákkal foglalkozó műsora.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977159",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977160"
+  },
+  "vodAssetId" : 11453243,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445013,
+  "title" : "Világ",
+  "startTime" : "2021-05-22T06:35:00Z",
+  "endTime" : "2021-05-22T07:00:00Z",
+  "description" : "Heti külpolitikai magazin",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977169",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977170"
+  },
+  "vodAssetId" : 11453246,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445016,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T07:00:00Z",
+  "endTime" : "2021-05-22T07:10:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977171",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977172"
+  },
+  "vodAssetId" : 11453249,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445017,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T07:10:00Z",
+  "endTime" : "2021-05-22T07:15:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977173",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977174"
+  },
+  "vodAssetId" : 11453250,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445018,
+  "title" : "Most történik",
+  "startTime" : "2021-05-22T07:15:00Z",
+  "endTime" : "2021-05-22T07:30:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977177",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977178"
+  },
+  "vodAssetId" : 11453251,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445020,
+  "title" : "Hírek",
+  "startTime" : "2021-05-22T07:30:00Z",
+  "endTime" : "2021-05-22T07:31:00Z",
+  "description" : "A Híradó első kézből tájékoztatja a nézőket a fontos hírekről. Objektív, hiteles, szakszerű.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977181",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977182"
+  },
+  "vodAssetId" : 11453253,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445022,
+  "title" : "Magyar gazda",
+  "startTime" : "2021-05-22T07:31:00Z",
+  "endTime" : "2021-05-22T07:33:00Z",
+  "description" : "A Magyar gazda közérthetően számol be a hazai mezőgazdaság időszerű vagy éppen érdekes eseményeiről. Bemutatja a vidéki élet, a gazdálkodás mindennapjait, de nem megy el a szakpolitika döntései, vagy a gazdasági hírek mellett sem. A mezőgazdasági-, élelmiszergazdasági- és vidékmagazin olyan témákat dolgoz fel, amelyekkel a gazdálkodás és a vidéki élet részleteit igyekszik közel vinni azokhoz is, akiknek nincs közvetlen kötődése ezekhez a területekhez.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977185",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977186"
+  },
+  "vodAssetId" : 11453255,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445025,
+  "title" : "Ma délelőtt",
+  "startTime" : "2021-05-22T07:33:00Z",
+  "endTime" : "2021-05-22T08:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977189",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977190"
+  },
+  "vodAssetId" : 11453258,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445027,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T08:00:00Z",
+  "endTime" : "2021-05-22T08:10:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977193",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977196"
+  },
+  "vodAssetId" : 11453260,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445030,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T08:10:00Z",
+  "endTime" : "2021-05-22T08:15:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977201",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977202"
+  },
+  "vodAssetId" : 11453263,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445033,
+  "title" : "Most történik",
+  "startTime" : "2021-05-22T08:15:00Z",
+  "endTime" : "2021-05-22T08:30:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977203",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977204"
+  },
+  "vodAssetId" : 11453266,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445034,
+  "title" : "Hírek",
+  "startTime" : "2021-05-22T08:30:00Z",
+  "endTime" : "2021-05-22T08:31:00Z",
+  "description" : "A Híradó első kézből tájékoztatja a nézőket a fontos hírekről. Objektív, hiteles, szakszerű.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977205",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977206"
+  },
+  "vodAssetId" : 11453267,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445035,
+  "title" : "Esély",
+  "startTime" : "2021-05-22T08:31:00Z",
+  "endTime" : "2021-05-22T08:33:00Z",
+  "description" : "Ma Magyarországon legalább hatszázezer embernek tartósan együtt kell élnie fogyatékosságával. Az Esély azonban nemcsak hozzájuk szól, hanem mindazokhoz, akiket érdekel, hogyan lehet sérültként is teljes életet élni.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977207",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977210"
+  },
+  "vodAssetId" : 11453268,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445037,
+  "title" : "Ma délelőtt",
+  "startTime" : "2021-05-22T08:33:00Z",
+  "endTime" : "2021-05-22T09:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977213",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977214"
+  },
+  "vodAssetId" : 11453270,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445039,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T09:00:00Z",
+  "endTime" : "2021-05-22T09:10:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977217",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977218"
+  },
+  "vodAssetId" : 11453272,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445042,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T09:10:00Z",
+  "endTime" : "2021-05-22T09:15:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977233",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977234"
+  },
+  "vodAssetId" : 11453275,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445050,
+  "title" : "Most történik",
+  "startTime" : "2021-05-22T09:15:00Z",
+  "endTime" : "2021-05-22T09:30:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977239",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977240"
+  },
+  "vodAssetId" : 11453283,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445053,
+  "title" : "Hírek",
+  "startTime" : "2021-05-22T09:30:00Z",
+  "endTime" : "2021-05-22T09:33:00Z",
+  "description" : "A Híradó első kézből tájékoztatja a nézőket a fontos hírekről. Objektív, hiteles, szakszerű.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977243",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977244"
+  },
+  "vodAssetId" : 11453286,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445054,
+  "title" : "Ma délelőtt",
+  "startTime" : "2021-05-22T09:33:00Z",
+  "endTime" : "2021-05-22T10:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977247",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977248"
+  },
+  "vodAssetId" : 11453287,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1445056,
+  "title" : "Déli harangszó",
+  "startTime" : "2021-05-22T10:00:00Z",
+  "endTime" : "2021-05-22T10:01:00Z",
+  "description" : "",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977253",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977254"
+  },
+  "vodAssetId" : 11453289,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445059,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T10:01:00Z",
+  "endTime" : "2021-05-22T10:35:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977261",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977262"
+  },
+  "vodAssetId" : 11453292,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445063,
+  "title" : "Nemzeti Sporthíradó",
+  "startTime" : "2021-05-22T10:35:00Z",
+  "endTime" : "2021-05-22T10:45:00Z",
+  "description" : "A Nemzeti Sporthíradó minden nap háromszor jelentkezik a magyarországi és a határon túli magyar sporthírekkel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977265",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977268"
+  },
+  "vodAssetId" : 11453296,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445066,
+  "title" : "Időjárás-jelentés",
+  "startTime" : "2021-05-22T10:45:00Z",
+  "endTime" : "2021-05-22T10:50:00Z",
+  "description" : "Részletes jelentés a következő napok várható időjárásáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977271",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977272"
+  },
+  "vodAssetId" : 11453299,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445068,
+  "title" : "V4 Híradó",
+  "startTime" : "2021-05-22T10:50:00Z",
+  "endTime" : "2021-05-22T10:55:00Z",
+  "description" : "A V4 országok politikai, gazdasági, kulturális kapcsolódásai az elmúlt években jelentősen fölerősödtek, az országok együttműködése azt bizonyítja, együtt meghatározó szerepük van Európában. A napi V4 híradóban bemutatják azokat az álláspontokat, reakciókat, megközelítéseket és válaszokat, amelyeket a V4 társulás tagjai (Magyarország, Szlovákia, Csehország és Lengyelország) adnak a nemzetállamokat, Európát és a világpolitikát érintő kérdésekre. A V4 híradó forrásai a lengyel, cseh, szlovák lapok, hírügynökségek, televíziók illetve a European Broadcast Union nyersanyagai.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977279",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977280"
+  },
+  "vodAssetId" : 11453301,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445072,
+  "title" : "Ma délután",
+  "startTime" : "2021-05-22T10:55:00Z",
+  "endTime" : "2021-05-22T11:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977285",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977286"
+  },
+  "vodAssetId" : 11453305,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445075,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T11:00:00Z",
+  "endTime" : "2021-05-22T11:25:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977288",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977290"
+  },
+  "vodAssetId" : 11453308,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445085,
+  "title" : "Ma délután",
+  "startTime" : "2021-05-22T11:25:00Z",
+  "endTime" : "2021-05-22T11:30:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977307",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977308"
+  },
+  "vodAssetId" : 11453318,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445086,
+  "title" : "Hírek",
+  "startTime" : "2021-05-22T11:30:00Z",
+  "endTime" : "2021-05-22T11:33:00Z",
+  "description" : "A Híradó első kézből tájékoztatja a nézőket a fontos hírekről. Objektív, hiteles, szakszerű.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977313",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977314"
+  },
+  "vodAssetId" : 11453319,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445089,
+  "title" : "Ma délután",
+  "startTime" : "2021-05-22T11:33:00Z",
+  "endTime" : "2021-05-22T12:00:00Z",
+  "description" : "Élő műsorblokk, amelyet a stúdióból vagy más helyszínről politikai, gazdasági, kulturális szakmai beszélgetések mellett híradók, magazinok és egyéb élő kapcsolások egészítenek ki.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 8,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977315",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977316"
+  },
+  "vodAssetId" : 11453322,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445457,
+  "title" : "Magyar gazda",
+  "startTime" : "2021-05-22T03:55:00Z",
+  "endTime" : "2021-05-22T04:15:00Z",
+  "description" : "A Magyar gazda közérthetően számol be a hazai mezőgazdaság időszerű vagy éppen érdekes eseményeiről. Bemutatja a vidéki élet, a gazdálkodás mindennapjait, de nem megy el a szakpolitika döntései, vagy a gazdasági hírek mellett sem. A mezőgazdasági-, élelmiszergazdasági- és vidékmagazin olyan témákat dolgoz fel, amelyekkel a gazdálkodás és a vidéki élet részleteit igyekszik közel vinni azokhoz is, akiknek nincs közvetlen kötődése ezekhez a területekhez.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978053",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978054"
+  },
+  "vodAssetId" : 11453690,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445462,
+  "title" : "Unió27",
+  "startTime" : "2021-05-22T04:15:00Z",
+  "endTime" : "2021-05-22T04:40:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978057",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978058"
+  },
+  "vodAssetId" : 11453695,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445464,
+  "title" : "Itthon vagy!",
+  "startTime" : "2021-05-22T04:40:00Z",
+  "endTime" : "2021-05-22T05:00:00Z",
+  "description" : "Magyarországról határon innen és túl. Sok olyan helyszínnel, ami az útikönyvekből sem marad ki, de számos olyan információval, ami lehet, hogy igen. Mesélő városok, mesélő képek, helyenként onnan, ahol csak a madár jár. A sorozat szerkezete, tematikája mint egy modern, informatív útikalauzé. Infógrafikák közbeiktatásával úgy mutatunk be helyeket, programokat, szabadidős aktivitásokat, hogy mindenki megtalálhassa a neki legmegfelelőbbet.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978067",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978068"
+  },
+  "vodAssetId" : 11453697,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445469,
+  "title" : "Hajnali gondolatok",
+  "startTime" : "2021-05-22T05:00:00Z",
+  "endTime" : "2021-05-22T05:10:00Z",
+  "description" : "A Biblia üzenetét hallhatják a nézők napi útravalóul a történelmi egyházak képviselői, laikusok illetve hívő közszereplők tolmácsolásában.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978073",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978074"
+  },
+  "vodAssetId" : 11453702,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445472,
+  "title" : "Opera Cafe",
+  "startTime" : "2021-05-22T05:10:00Z",
+  "endTime" : "2021-05-22T05:40:00Z",
+  "description" : "Az Opera játszóhelyeiről jelentkezik hétvégenként kulturális magazinműsorunk. A Magyar Állami Operaház televíziós magazinja az adott hét színpadi előadásait, a készülő produkciók próbafolyamatait szemlézi. A fiatalos, pörgős adások és a benne szereplő miniportrék a jelen legfontosabb magyar művészeit mutatják be, ezen felül pedig egy-egy konkrét mű cselekményét, jellegzetességeit és kulisszatitkait is ismertetik.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978086",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978087"
+  },
+  "vodAssetId" : 11453705,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445478,
+  "title" : "Kincskereső",
+  "startTime" : "2021-05-22T05:40:00Z",
+  "endTime" : "2021-05-22T06:05:00Z",
+  "description" : "Válogatott interjúk a művészet és kultúra érdekes témáiból.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978095",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978097"
+  },
+  "vodAssetId" : 11453711,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445483,
+  "title" : "Evangélium",
+  "startTime" : "2021-05-22T06:05:00Z",
+  "endTime" : "2021-05-22T06:35:00Z",
+  "description" : "Nyolc boldogság folytatása. Az apostolok feladata. Az ószövetségi törvény tökéletesítése. A harag.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978105",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978106"
+  },
+  "vodAssetId" : 11453716,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445488,
+  "title" : "Hogy volt!?",
+  "startTime" : "2021-05-22T06:35:00Z",
+  "endTime" : "2021-05-22T07:30:00Z",
+  "description" : "A Hogy volt!? retróműsor az MTV archívumára épül, de nem kívánságműsor, hiszen rövid részletek helyett hosszabb blokkokat idézve, sőt időnkét teljes egészében, a főcímtől a stáblistáig vetíti le a kiválasztott műsorokat a televízió, alkalmanként 4-5 produkciót. Az archívum rejtett kincseit nem csak eredeti formájukban idézi meg a sorozat, a műsorvezetők a Hogy volt!? stúdiójában mindenkit vendégül látnak az egykori alkotók közül, aki még mesélhet a hazai televíziózás első fél évszázadáról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978123",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978124"
+  },
+  "vodAssetId" : 11453721,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445496,
+  "title" : "Életművész",
+  "startTime" : "2021-05-22T07:30:00Z",
+  "endTime" : "2021-05-22T08:20:00Z",
+  "description" : "Életművész felforgatja maga körül a világot - a világ pedig az Életművész életét. Mert bármi is várjon rá kalandjai során, az Életművész semmire sem mondhat nemet, közben pedig rengeteget tudhatunk meg közös kincseinkről, kultúránkról - egymásról. Milyen egy rocksztár élete? Folyamatos száguldás, vagy belefér esetleg a horgászat és a kertészkedés is? Ebben a részben ez is kiderül, Eszter pedig a saját bőrén tapasztalja meg a valódi rock'n roll életérzést. Az Életművész: Lovasi András.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978133",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978134"
+  },
+  "vodAssetId" : 11453729,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445500,
+  "title" : "Rejtélyes XX. század - Kun Miklós műsora",
+  "startTime" : "2021-05-22T08:20:00Z",
+  "endTime" : "2021-05-22T08:50:00Z",
+  "description" : "Kun Miklós gazdagon illusztrált dokumentumfilm sorozata igyekszik megfejteni az elmúlt évszázad titkait. A helyszín New York és Moszkva, Berlin és Párizs. És persze mindenekelőtt Budapest. Neves politikusok, másként gondolkodók, hírszerzők szólalnak meg a kamera előtt, háborúkról, reform kísérletekről és határok megállapításáról esik szó. Kun Miklós, a Széchenyi díjas történész sok éve dolgozik a dokumentumfilm műfajában, filmjeit külföldön is vetítették.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978141",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978142"
+  },
+  "vodAssetId" : 11453733,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445505,
+  "title" : "Öt kontinens",
+  "startTime" : "2021-05-22T08:50:00Z",
+  "endTime" : "2021-05-22T09:20:00Z",
+  "description" : "Az Öt kontinens - egy nemzet, a világ magyarságát összefogó műsor.A világmagazin a híd és a közvetlen kapocs szerepét kívánja betölteni Magyarország és a világ különböző részein élő magyarság tagjai között. Arra keres választ, miként lehet távoli országokban megőrizni a magyar identitást, és hogyan lehet népszerűsíteni a magyar kultúrát.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978145",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978146"
+  },
+  "vodAssetId" : 11453738,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445507,
+  "title" : "Édes mostoha",
+  "startTime" : "2021-05-22T09:20:00Z",
+  "endTime" : "2021-05-22T10:50:00Z",
+  "description" : "A gyermeknek anya kell! - így szól az orvos utasítása, s a fiatalon megözvegyült Hargittay András mindenre hajlandó azért, hogy kislánya kedélyállapota megváltozzon. Hamarosan asszonyt hoz a házhoz, de Erzsike, akit már nevelőnője felvilágosított a gonosz mostohák természetéről, félelemmel és ellenszenvvel várja mostoháját és inkább megszökik. Mária az új asszony, aki nemcsak jó feleség de jó anya is szeretne lenni, harcba száll Erzsike bizalmáért és szeretetéért...",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978156",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978158"
+  },
+  "vodAssetId" : 11453740,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1445512,
+  "title" : "V4 Híradó",
+  "startTime" : "2021-05-22T10:50:00Z",
+  "endTime" : "2021-05-22T11:00:00Z",
+  "description" : "A V4 országok politikai, gazdasági, kulturális kapcsolódásai az elmúlt években jelentősen fölerősödtek, az országok együttműködése azt bizonyítja, együtt meghatározó szerepük van Európában. A napi V4 híradóban bemutatják azokat az álláspontokat, reakciókat, megközelítéseket és válaszokat, amelyeket a V4 társulás tagjai (Magyarország, Szlovákia, Csehország és Lengyelország) adnak a nemzetállamokat, Európát és a világpolitikát érintő kérdésekre. A V4 híradó forrásai a lengyel, cseh, szlovák lapok, hírügynökségek, televíziók illetve a European Broadcast Union nyersanyagai.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978163",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978164"
+  },
+  "vodAssetId" : 11453745,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445516,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T11:00:00Z",
+  "endTime" : "2021-05-22T11:25:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978165",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978166"
+  },
+  "vodAssetId" : 11453749,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445517,
+  "title" : "Múlt és Jelen",
+  "startTime" : "2021-05-22T11:25:00Z",
+  "endTime" : "2021-05-22T12:00:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 10,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2978173",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2978174"
+  },
+  "vodAssetId" : 11453750,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1438835,
+  "title" : "Műsorszünet",
+  "startTime" : "2021-05-21T23:00:00Z",
+  "endTime" : "2021-05-22T07:00:00Z",
+  "description" : "",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2964339",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2964340"
+  },
+  "vodAssetId" : 11447068,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443365,
+  "title" : "Csendes percek",
+  "startTime" : "2021-05-22T07:00:00Z",
+  "endTime" : "2021-05-22T07:05:00Z",
+  "description" : "",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973871",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973872"
+  },
+  "vodAssetId" : 11451598,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443366,
+  "title" : "Joyce Meyer tanítása: Örömteli hétköznapok",
+  "startTime" : "2021-05-22T07:05:00Z",
+  "endTime" : "2021-05-22T07:30:00Z",
+  "description" : "Joyce Meyer napjaink legismertebb női igehirdetője az egész világon. Tanításai a bibliai igazságok gyakorlati alkalmazásáról szólnak. Könyvei sorra válnak bestsellerekké, ő maga pedig a világ egyik legismertebb bibliaoktatója, aki elődásaival millióknak nyújt szellemi táplálékot.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973875",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973876"
+  },
+  "vodAssetId" : 11451599,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443368,
+  "title" : "Kegyelem: Az Evangélium Ereje - Andrew Wommack tanítása",
+  "startTime" : "2021-05-22T07:30:00Z",
+  "endTime" : "2021-05-22T08:00:00Z",
+  "description" : "",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973877",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973878"
+  },
+  "vodAssetId" : 11451601,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443369,
+  "title" : "Az ígéret: Isten örök szövetsége",
+  "startTime" : "2021-05-22T08:00:00Z",
+  "endTime" : "2021-05-22T09:00:00Z",
+  "description" : "Krisztus által újjászületünk, és ezzel a tapasztalattal Isten a szívünk hústábláira írja szent törvényét. Így a gyilkosok, házasságtörők, vakbuzgók, hazugok, tolvajok és a vérfertőzők többé már nem teszik azt, amit azelőtt. A bensőnkben lévő törvény szerint és által a hívő egész élete átalakul. Az újjászületett ember igyekszik azt megvalósítani, amit Isten helyez belé, és ehhez a vágyhoz Isten erejének ígérete társul. Ez a lényege annak, hogy mit jelent szövetséges kapcsolatban élni Istennel. ",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973880",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973881"
+  },
+  "vodAssetId" : 11451602,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443370,
+  "title" : "Szabadegyetem",
+  "startTime" : "2021-05-22T09:00:00Z",
+  "endTime" : "2021-05-22T10:00:00Z",
+  "description" : "A Biblia az európai kultúrában! A Bibliai Szabadegyetem végig tanítja a Biblia történelmi, kulturális és vallási jelentőségét olyan emberek számára, akik egyrészt általános műveltségüket szeretnék bővíteni a Biblia megismerésével, másrészt pedig segítséget szeretnének kapni a Biblia hitbeli értelmezésének tisztaságához. A tanítást olyan emberektől kapjuk, akik éveket fordítottak a Biblia egyes könyveinek megismerésére. A Forrás Média Stúdió műsora.",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973889",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973890"
+  },
+  "vodAssetId" : 11451603,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1443376,
+  "title" : "Szabadkeresztény Igehirdetés",
+  "startTime" : "2021-05-22T10:00:00Z",
+  "endTime" : "2021-05-22T11:00:00Z",
+  "description" : "",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973891",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973892"
+  },
+  "vodAssetId" : 11451609,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443377,
+  "title" : "A XXI. századi ember Istenképe",
+  "startTime" : "2021-05-22T11:00:00Z",
+  "endTime" : "2021-05-22T11:25:00Z",
+  "description" : "A XXI. századi ember Istenképe Beszélgetéssorozat Előadó: Kormos ErikMűsorvezető: Czinkota András",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973893",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973894"
+  },
+  "vodAssetId" : 11451610,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443378,
+  "title" : "Kőbe zárt idő",
+  "startTime" : "2021-05-22T11:25:00Z",
+  "endTime" : "2021-05-22T12:00:00Z",
+  "description" : "Kőbe zárt idő Történelmi Sorozat Ha a kövek mesélni tudnának... Mesélnek is, csak érteni kell az idő nyelvén. Akár pompázatos épségben, akár romokban maradtak ránk, a magyarországi várak és kastélyok viharos fordulatokról, hősökről és árulókról, gyarapodó és vesztükbe rohanó családokról - a történelem kegyetlenül nyers és őszinte mesevilágáról vallanak. Balassák, Rákóczik, és Nádasdyak: királyok, fejedelmek, tájak és emberek merülnek fel a történelem ködéből. Siklós, Szigetvár, Pécsvárad, a Dél-dunántúli várakra és erődített templomokra hatalmas felelősség hárult a török támadások idején. Mint a nyugati, keresztény világ védelmezői vonultak be ezek a várak a történelembe, a magyar végvárak és végvári vitézek azóta is ismertek bátorságukról és kitartásukról. A legismertebb közülük, Szigetvár, végül elesett, de majd egy évtizedig tartotta vissza a török seregeket, megpecsételve ezzel a hadjárat sorsát. De mi történt ezekben a várakban a török előtt és után?",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 15,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973895",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973896"
+  },
+  "vodAssetId" : 11451611,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1438875,
+  "title" : "Tudásteszt",
+  "startTime" : "2021-05-21T22:40:00Z",
+  "endTime" : "2021-05-22T05:00:00Z",
+  "description" : "Magyar nyelv és irodalom, angol nyelv, magyar történelem témakörökből összeállított kérdésekben lemérheti, hogy mennyire figyelte az Iskolatévé adásait.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2964417",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2964418"
+  },
+  "vodAssetId" : 11447108,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443400,
+  "title" : "Mindennapi művészet",
+  "startTime" : "2021-05-22T05:00:00Z",
+  "endTime" : "2021-05-22T05:20:00Z",
+  "description" : "művészeti magazin",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973937",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973938"
+  },
+  "vodAssetId" : 11451633,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443401,
+  "title" : "Koncertmontázs",
+  "startTime" : "2021-05-22T05:20:00Z",
+  "endTime" : "2021-05-22T06:00:00Z",
+  "description" : "A műsor nem kevesebbre vállalkozik, mint hogy a lehető legteljesebb képet nyújtsa a nézőknek a hazai kortárs könnyűzenéről, a hangsúlyt elsősorban az aktív zenekarokra és előadókra fektetve. Műsorunkban bemutatjuk a magyar zenészek, zenei műfajok és stílusok sokszínűségét és gazdagságát.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973939",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973940"
+  },
+  "vodAssetId" : 11451634,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443402,
+  "title" : "Cinematographers",
+  "startTime" : "2021-05-22T06:00:00Z",
+  "endTime" : "2021-05-22T06:30:00Z",
+  "description" : "(magyar) kisfilm-összeállítás",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973941",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973942"
+  },
+  "vodAssetId" : 11451635,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443403,
+  "title" : "Cinematographers",
+  "startTime" : "2021-05-22T06:30:00Z",
+  "endTime" : "2021-05-22T07:00:00Z",
+  "description" : "(magyar) kisfilm-összeállítás",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973944",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973945"
+  },
+  "vodAssetId" : 11451636,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443404,
+  "title" : "Zsinórpadlás",
+  "startTime" : "2021-05-22T07:00:00Z",
+  "endTime" : "2021-05-22T07:30:00Z",
+  "description" : "Színházi werkműsor-Werkfilm típusú összefoglalás, mely körbejárja a színházi művek elkészültét, a színpadra állítás körülményeit, és szakmai titkokat tár fel a néző előtt.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973947",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973948"
+  },
+  "vodAssetId" : 11451637,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443406,
+  "title" : "Ki-beszélt Művészet",
+  "startTime" : "2021-05-22T07:30:00Z",
+  "endTime" : "2021-05-22T08:00:00Z",
+  "description" : "művészeti magazin",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973949",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973950"
+  },
+  "vodAssetId" : 11451639,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443407,
+  "title" : "Cirkusz Tv",
+  "startTime" : "2021-05-22T08:00:00Z",
+  "endTime" : "2021-05-22T08:25:00Z",
+  "description" : "cirkuszművészeti műsor",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973951",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973952"
+  },
+  "vodAssetId" : 11451640,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443408,
+  "title" : "Utifilmek a nagyvilágból",
+  "startTime" : "2021-05-22T08:25:00Z",
+  "endTime" : "2021-05-22T09:15:00Z",
+  "description" : "Utifilm sorozat",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973981",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973982"
+  },
+  "vodAssetId" : 11451641,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443422,
+  "title" : "Műábránd: téblábolás a művészetek között",
+  "startTime" : "2021-05-22T09:15:00Z",
+  "endTime" : "2021-05-22T09:35:00Z",
+  "description" : "Pálvölgyi Géza - zongoraművész",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973983",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973984"
+  },
+  "vodAssetId" : 11451655,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443423,
+  "title" : "Ne Legyen Áldozat!",
+  "startTime" : "2021-05-22T09:35:00Z",
+  "endTime" : "2021-05-22T10:00:00Z",
+  "description" : "Az emberi élet telis tele van kihívásokkal, általunk ismeretlen dolgokkal, jelenségekkel, ami folyamatos figyelmet és többé, kevésbé folyamatos tanulást is megkövetel tőlünk. A legnagyobb veszélyt talán az emberi tudatlanság okozza, ezáltal megteremtve olyan helyzeteket, amely helyzetekben sajnos mások meggondolatlan tetteinek áldozataivá válhatunk, amire nap, mint nap ad példát az élet. A tudás, a dolgok ismerete egy olyan biztos pont lehet az életünkben, amelynek birtokában elérhetővé válhat, hogy e farkas törvény uralta, többnyire erőszakos világunkban ember társaink akár tudatos, rossz szándékú, akár nem tudatos, de figyelmetlen, meggondolatlan tettei következményeinek az áldozataivá váljunk. Vigyázzunk egymásra és saját magunkra is, hogy ne legyen áldozat",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973985",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973986"
+  },
+  "vodAssetId" : 11451656,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1443424,
+  "title" : "Klubkoncertek",
+  "startTime" : "2021-05-22T10:00:00Z",
+  "endTime" : "2021-05-22T11:00:00Z",
+  "description" : "Stúdió 11- feat- Billy Cobham és Tony Lakatos",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973987",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973988"
+  },
+  "vodAssetId" : 11451657,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443425,
+  "title" : "Vitalitás",
+  "startTime" : "2021-05-22T11:00:00Z",
+  "endTime" : "2021-05-22T12:00:00Z",
+  "description" : "Egészségügyi magazin",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 16,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973990",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973991"
+  },
+  "vodAssetId" : 11451658,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443821,
+  "title" : "Luna Petunia",
+  "startTime" : "2021-05-22T04:00:00Z",
+  "endTime" : "2021-05-22T04:10:00Z",
+  "description" : "Luna Petunia egy kislány, aki egy nap új barátokat kap a születésnapjára. Karoo, Bibi és Sammy első pillantásra egyszerű játékoknak tűnnek. Ám valójában ennél sokkal több van bennük. Segítségükkel Luna eljuthat Csodaországba, ahol megismerkedik a legkülönlegesebb, kedves és csodálatos élőlényekkel. Megtanítja, hogyan lehet a lehetetlent valóra váltani, hinni magunkban és meglátni a csodát minden dologban. Csupa-csupa szépség, bűbáj, nevetés kíséri a kislány útját, akinek kalandjai, történetei vidám perceket okoznak az óvodáskorú gyermekek számára.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974783",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974784"
+  },
+  "vodAssetId" : 11452054,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443823,
+  "title" : "Traktor Tom",
+  "startTime" : "2021-05-22T04:10:00Z",
+  "endTime" : "2021-05-22T04:25:00Z",
+  "description" : "Tom, az életvidám, piros színű traktor mindig ott terem, ha a barátai bajba kerülnek és segítségre van szükségük. Nem véletlen, hogy kis barátai mindig így fogadják őt: \"Tom, mit csinálnánk, ha te nem lennél\"? Állatok, emberek és megannyi közlekedési eszköz összetartó közösségével ismerkedhetsz meg, ha Tommal tartasz, aki garantáltan jó kedvre derít, ha rossz napod van vagy vigaszra van szükséged. Thomas, a gőzmozdony rajongóinak kötelező!",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974793",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974794"
+  },
+  "vodAssetId" : 11452056,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443828,
+  "title" : "Traktor Tom",
+  "startTime" : "2021-05-22T04:25:00Z",
+  "endTime" : "2021-05-22T04:35:00Z",
+  "description" : "Tom, az életvidám, piros színű traktor mindig ott terem, ha a barátai bajba kerülnek és segítségre van szükségük. Nem véletlen, hogy kis barátai mindig így fogadják őt: \"Tom, mit csinálnánk, ha te nem lennél\"? Állatok, emberek és megannyi közlekedési eszköz összetartó közösségével ismerkedhetsz meg, ha Tommal tartasz, aki garantáltan jó kedvre derít, ha rossz napod van vagy vigaszra van szükséged. Thomas, a gőzmozdony rajongóinak kötelező!",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974803",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974804"
+  },
+  "vodAssetId" : 11452061,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443833,
+  "title" : "A mancs őrjárat",
+  "startTime" : "2021-05-22T04:35:00Z",
+  "endTime" : "2021-05-22T05:00:00Z",
+  "description" : "A Mancs Őrjárat egy számítógépes animációs, akció-kaland sorozat a kicsiknek, melynek főszereplői a hat hősies kutyus: Chase, Marshall, Rocky, Zuma, Rubble, és Skye, akiket a technikai zseni 10 éves Ryder vezet. Különleges problémamegoldó képességeikkel, menő járműveikkel és rengeteg aranyos kutyus humorral felvértezve a Mancs Őrjárat azért dolgozik együtt, rendkívüli küldetéseiken, hogy megmentsék az \"Adventure Bay\"-beli közösséget. Kezdve Marshall-al a tűzoltó kutyával, Chasen a rendőrkutyán át Skyeig aki magasan szárnyal saját helikopterén, minden kutyus egyedi személyiséget és képességeket hoz a csoportba, így bizonyítva a csapatmunka és a közösségért való tenni akarás fontosságát. A hátukon speciális \"pup pack\"-el rendelkeznek, mely segítségükre van küldetéseik megoldásában: cicákat menteni a fáról éppúgy, mint a kisiklott vonatot megállítani! Azonban nem számít mekkora a kaland, a mancs őrjáratnak mindig van ideje egy játékra, nevetésre, vagy egy fülvakarásra Rydertől.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974821",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974822"
+  },
+  "vodAssetId" : 11452066,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443843,
+  "title" : "Tündér lilinkók",
+  "startTime" : "2021-05-22T05:00:00Z",
+  "endTime" : "2021-05-22T05:15:00Z",
+  "description" : "Egy mesés kertben különös lények élnek: a lilinkók, ezek a kedves-cserfes, varázserejű virág-tündérek, akik \"munkaidőben\" a kertet szépítik nővénybűbájukkal, ám szabadidejükben hol hátborzongató, hol szívmelengető, hol mókás kalandokat élnek át állatbarátaikkal: Pocival, a nem túl okos, de annál segítőkészebb borzzal és Habzsival, a mindenre elszánt, szűntelen habzsolhatnéktól hajtott, cselszövésre mindig kész mókussal. A művészi igénnyel rajzolt, kedves humorú sorozat a nyolc csetlő-botló növendék-tündér, Bogi, Böki, Liló, Moha, Rézi, Rózi, Sapi és Szirom egy évét kíséri nyomon a csodák kertjében. ",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974873",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974874"
+  },
+  "vodAssetId" : 11452076,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443870,
+  "title" : "Tündér lilinkók",
+  "startTime" : "2021-05-22T05:15:00Z",
+  "endTime" : "2021-05-22T05:25:00Z",
+  "description" : "Egy mesés kertben különös lények élnek: a lilinkók, ezek a kedves-cserfes, varázserejű virág-tündérek, akik \"munkaidőben\" a kertet szépítik nővénybűbájukkal, ám szabadidejükben hol hátborzongató, hol szívmelengető, hol mókás kalandokat élnek át állatbarátaikkal: Pocival, a nem túl okos, de annál segítőkészebb borzzal és Habzsival, a mindenre elszánt, szűntelen habzsolhatnéktól hajtott, cselszövésre mindig kész mókussal. A művészi igénnyel rajzolt, kedves humorú sorozat a nyolc csetlő-botló növendék-tündér, Bogi, Böki, Liló, Moha, Rézi, Rózi, Sapi és Szirom egy évét kíséri nyomon a csodák kertjében. ",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974875",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974876"
+  },
+  "vodAssetId" : 11452103,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443871,
+  "title" : "Franklin és barátai",
+  "startTime" : "2021-05-22T05:25:00Z",
+  "endTime" : "2021-05-22T05:50:00Z",
+  "description" : "Franklin kificamította a bokáját, ezért egy hétig sínben kell járnia. A kis teknős nem veszi tudomásul, hogy kímélnie kell a lábát, ezért minden játékkal megpróbálkozik. Így azonban nem javul a lába! Az iskolacsengőnek hiányzik a nyelve, így Bagoly bácsi nem tud csengetni a tanítás kezdetén és a végén. Franklin és barátai nyomozócsapatot alakítanak a rejtély megoldására.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974879",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974881"
+  },
+  "vodAssetId" : 11452104,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443873,
+  "title" : "Apollo és a csodabogarak",
+  "startTime" : "2021-05-22T05:50:00Z",
+  "endTime" : "2021-05-22T06:05:00Z",
+  "description" : "Egy varázslatos kert, teli apró kis bájos, és kevésbé bájos bogarakkal, akiknek mindig van megoldandó problémájuk, csetléseik, botlásaik, akik vidámak, vagy épp szomorúak, mérgesek vagy kedvesek. De egy biztos, szerethetőek. Még azok is, akik nem éppen a szeretetünket akarják. Szerencsére itt él köztük Apolló, a kis tücsök, a méhkirálynő férje, és mindig tudja a kis bogarak szívéhez vezető utat, a gondjaikra a megoldást, a bánatukra a gyógyírt. Wendy, a látszólag gonosz és utálatos darázs, aki nem fogadja el könnyen Apollót, Larry, a kis tetű, aki viszont mindenben segíti, vagy Inkognitó, a kártevő, mind-mind hozzá fordulnak, ha segítség kell. Apolló pedig a maga hatalmas szívével, csavaros eszével, finom modorával és nyugodt hozzáállásával bebizonyítja, hogy helye van a sok-sok kis csodabogár között. A legkisebbeket nemcsak a csodálatos kert és a benne élő bogárkák, hanem a kedves énekek, fülbemászó dallamok is elvarázsolják, és bizony minden történet azt igazolja, hogy a legtöbb dologra van megoldás – csak hozzáállás kérdése.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974889",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974890"
+  },
+  "vodAssetId" : 11452106,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443878,
+  "title" : "Apollo és a csodabogarak",
+  "startTime" : "2021-05-22T06:05:00Z",
+  "endTime" : "2021-05-22T06:20:00Z",
+  "description" : "Egy varázslatos kert, teli apró kis bájos, és kevésbé bájos bogarakkal, akiknek mindig van megoldandó problémájuk, csetléseik, botlásaik, akik vidámak, vagy épp szomorúak, mérgesek vagy kedvesek. De egy biztos, szerethetőek. Még azok is, akik nem éppen a szeretetünket akarják. Szerencsére itt él köztük Apolló, a kis tücsök, a méhkirálynő férje, és mindig tudja a kis bogarak szívéhez vezető utat, a gondjaikra a megoldást, a bánatukra a gyógyírt. Wendy, a látszólag gonosz és utálatos darázs, aki nem fogadja el könnyen Apollót, Larry, a kis tetű, aki viszont mindenben segíti, vagy Inkognitó, a kártevő, mind-mind hozzá fordulnak, ha segítség kell. Apolló pedig a maga hatalmas szívével, csavaros eszével, finom modorával és nyugodt hozzáállásával bebizonyítja, hogy helye van a sok-sok kis csodabogár között. A legkisebbeket nemcsak a csodálatos kert és a benne élő bogárkák, hanem a kedves énekek, fülbemászó dallamok is elvarázsolják, és bizony minden történet azt igazolja, hogy a legtöbb dologra van megoldás – csak hozzáállás kérdése.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974895",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974896"
+  },
+  "vodAssetId" : 11452111,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443881,
+  "title" : "M2 matricák - Baltazár-bazár",
+  "startTime" : "2021-05-22T06:20:00Z",
+  "endTime" : "2021-05-22T06:25:00Z",
+  "description" : "Baltazár megmutatja, milyen élőlények élnek a vizekben és környékükön. Az alábbi állatok szerepelnek: csiga, béka, giliszta, molnárka, vízitök, ászka, szitakötő, keringőbogár.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974907",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974908"
+  },
+  "vodAssetId" : 11452114,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443887,
+  "title" : "Peppa malac",
+  "startTime" : "2021-05-22T06:25:00Z",
+  "endTime" : "2021-05-22T06:30:00Z",
+  "description" : "Peppa, a kissé pimasz és parancsolgató kismalac a címszereplője ennek az óvodásoknak szóló sorozatnak. Minden egyes epizód úgy épül fel, hogy témája ismerős legyen a kicsiknek (fürdetés, pocsolyák, hóesés, szülinap, esős idő, öltözködés, játékok, otthoni segítség). A kalandok - ha néha elő is fordulnak könnyek - alapvetően mulatságosak, ráadásul Peppa és öccse, George mindig tanulnak valami újat. A vicces és bájos karakterek vélhetően nem csak a kicsiket, de szüleiket is a képernyő elé ültetik majd.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974911",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974912"
+  },
+  "vodAssetId" : 11452120,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443889,
+  "title" : "Peppa malac",
+  "startTime" : "2021-05-22T06:30:00Z",
+  "endTime" : "2021-05-22T06:35:00Z",
+  "description" : "Peppa, a kissé pimasz és parancsolgató kismalac a címszereplője ennek az óvodásoknak szóló sorozatnak. Minden egyes epizód úgy épül fel, hogy témája ismerős legyen a kicsiknek (fürdetés, pocsolyák, hóesés, szülinap, esős idő, öltözködés, játékok, otthoni segítség). A kalandok - ha néha elő is fordulnak könnyek - alapvetően mulatságosak, ráadásul Peppa és öccse, George mindig tanulnak valami újat. A vicces és bájos karakterek vélhetően nem csak a kicsiket, de szüleiket is a képernyő elé ültetik majd.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974915",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974916"
+  },
+  "vodAssetId" : 11452122,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443891,
+  "title" : "Lilo és Stitch",
+  "startTime" : "2021-05-22T06:35:00Z",
+  "endTime" : "2021-05-22T07:00:00Z",
+  "description" : "Naninak új munkája van és az új főnök meglátogatja, hogy együtt reggelizzenek. Magával hozza a fiát, Keonit is. A házban élő űrlények és a viselkedésük nem könnyítik meg a reggelit.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974939",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974940"
+  },
+  "vodAssetId" : 11452124,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443904,
+  "title" : "Miles a jövőből",
+  "startTime" : "2021-05-22T07:00:00Z",
+  "endTime" : "2021-05-22T07:25:00Z",
+  "description" : "Miles csatlakozik Joe nagybácsihoz a szabadnapján, és egy nem várt küldetésben lesz része. / Megsérül a család űrhajója, így kénytelenek leszállni egy közeli bolygón, hogy megjavítsák. A bolygó egy kis élőlénye azonban a hajóra kerül, és később még gondot fog okozni.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974959",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974960"
+  },
+  "vodAssetId" : 11452137,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443914,
+  "title" : "Dr. Plüssi",
+  "startTime" : "2021-05-22T07:25:00Z",
+  "endTime" : "2021-05-22T07:45:00Z",
+  "description" : "A sorozat a hatéves Doc McStuffins-ról szól, aki kórházat működtet játszóházának játékai részére. A hatéves kislány a kertjükben lévő kis faházában segít az elromlott játékoknak és plüssállatoknak meggyógyulni. Abban a pillanatban, amikor felteszi sztetoszkópját, a játékok megelevenednek, a kis doktor pedig felállítja a diagnózist és ellátja nem csak saját, de barátai és szomszédjai \"beteg\" játékait is.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974979",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974981"
+  },
+  "vodAssetId" : 11452147,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443924,
+  "title" : "Szófia hercegnő",
+  "startTime" : "2021-05-22T07:45:00Z",
+  "endTime" : "2021-05-22T08:10:00Z",
+  "description" : "Hogyan lesz egy átlagos kislányból csodált hercegnő? Milyen értékeket és tudást kell elsajátítania, hogy ne lógjon ki az udvarból, nem is beszélve a királyi etikett labirintusáról? Szófia, a Disney legfiatalabb hercegnője átlagos lányként éli mindennapjait Bűbáj Birodalomban egészen addig, amíg édesanyja férjhez nem megy a királyhoz. A kislány egy csapásra a királyi kastély lenyűgöző, ám sokszor érthetetlen világában találja magát, a mérhetetlen pompa és újdonsült mostoha testvérei, Amber és James társaságában.Szófia hercegnő története azonban akkor kezdődik, amikor elődjei meséje véget ér. Akkor, amikor megszokott életétől elszakadva helyt kell állnia a számára idegen királyi udvarban. Szófia élete egy csapásra megváltozik, amikor édesanyja feleségül megy Bűbáj Birodalom királyához. Az átlagos lány, Szófia egy pillantás alatt egy kastélyban találja magát anyukájával, új mostohaapjával, II. Roland Királlyal és mostohatestvéreivel, Amberrel és Jamesszel, ahol nem csak új családja, de az udvar elvárásainak is meg kell felelnie, mint újdonsült hercegnő.Az átlagos kislánynak meg kell tanulnia hercegnőként viselkedni, ezért hamarosan Flóra, Fauna és Fiona, a Csipkerózsikából ismert jó tündérek iskolájában találja magát, a Királyi Előkészítő Akadémián, ahova a mesevilág többi hercege és hercegkisasszonya is jár, és néhány jól ismert Disney hercegnő is felbukkan, mint például Hamupipőke.A kalandos és megkapó úton az átlagos kislány megtanul a királyi udvarban mozogni és hercegnőként viselkedni, miközben ugyanaz az elbűvölő, őszinte, bátor lány marad, aki mindenkire odafigyel és gondoskodik arról, hogy körülötte mindenki különlegesnek érezze magát.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975025",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975027"
+  },
+  "vodAssetId" : 11452157,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443947,
+  "title" : "Elena - Avalor hercegnője",
+  "startTime" : "2021-05-22T08:10:00Z",
+  "endTime" : "2021-05-22T08:30:00Z",
+  "description" : "Lunát felveszik a jagárok királyi gárdájába. A jagárlány nagy önbizalommal érkezik, és egy tapasztalt tagot osztanak mellé, Tornádot. Luna azonban úgy gondolja, neki nincs mit tanulni, de egy-két hiba után belátja, ő bizony még keveset tud. Tornádó pedig, bár eleinte ódzkodik, végül elfogadja társául Lunát.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975067",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975068"
+  },
+  "vodAssetId" : 11452180,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443966,
+  "title" : "Kacsamesék",
+  "startTime" : "2021-05-22T08:30:00Z",
+  "endTime" : "2021-05-22T08:55:00Z",
+  "description" : "Lunaris tábornok megtámadja a Földet, nagyratörő terveihez pedig sereget toboroz. Dagobert és a többiek felveszik a harcot, csapatukat pedig a bolygó legnagyobb szuperhősei képviselik. Vajon kinek van nagyobb esélye, Lunarisnak, aki hazudik a katonáinak, vagy a bátor Föld lakóknak?",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975071",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975072"
+  },
+  "vodAssetId" : 11452199,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443968,
+  "title" : "Sherlock, a jak",
+  "startTime" : "2021-05-22T08:55:00Z",
+  "endTime" : "2021-05-22T09:10:00Z",
+  "description" : "Sherlock a híres magánynyomozó jak és hűséges társa Hermione különféle bűnügyeket oldanak meg az állatkertben.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975085",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975087"
+  },
+  "vodAssetId" : 11452201,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443975,
+  "title" : "Sherlock, a jak",
+  "startTime" : "2021-05-22T09:10:00Z",
+  "endTime" : "2021-05-22T09:25:00Z",
+  "description" : "Sherlock a híres magánynyomozó jak és hűséges társa Hermione különféle bűnügyeket oldanak meg az állatkertben.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975098",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975100"
+  },
+  "vodAssetId" : 11452208,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443982,
+  "title" : "Az ifjú Robin Hood kalandjai",
+  "startTime" : "2021-05-22T09:25:00Z",
+  "endTime" : "2021-05-22T09:35:00Z",
+  "description" : "Richard király különleges ajándékot kap ajándékba, egy beszélő papagájt. Mivel a madár mindent elismétel, amit csak hall, János herceg és Robinék egymással versengve próbálják megakadályozni, hogy olyasmit kotyogjon ki, amit nem kellene.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975109",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975110"
+  },
+  "vodAssetId" : 11452215,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443987,
+  "title" : "Az ifjú Robin Hood kalandjai",
+  "startTime" : "2021-05-22T09:35:00Z",
+  "endTime" : "2021-05-22T09:50:00Z",
+  "description" : "Az ifjú Robin tele van energiával, bátorsággal és persze humorban sincs hiány. A legendás \"rendcsináló\", Robin és barátai, illetve barátaik, az emberi tulajdonságokkal felruházott állatok élete nem mindig könnyű, de a gonosztevők felett mindig győzedelmeskednek.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975133",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975134"
+  },
+  "vodAssetId" : 11452220,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443999,
+  "title" : "Treflik család",
+  "startTime" : "2021-05-22T09:50:00Z",
+  "endTime" : "2021-05-22T09:55:00Z",
+  "description" : "Tyúk váratlanul bekopogtat a Treflik család ajtaján és elhűlve látja mit is készít apu ebédre.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975138",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975139"
+  },
+  "vodAssetId" : 11452232,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444001,
+  "title" : "Treflik család",
+  "startTime" : "2021-05-22T09:55:00Z",
+  "endTime" : "2021-05-22T10:10:00Z",
+  "description" : "Apu megbetegedett, így mindenki neki akar segíteni, hogy minél gyorsabban meggyógyuljon.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975141",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975142"
+  },
+  "vodAssetId" : 11452234,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1444003,
+  "title" : "Katuri",
+  "startTime" : "2021-05-22T10:10:00Z",
+  "endTime" : "2021-05-22T10:15:00Z",
+  "description" : "Egy leveli béka elkezdi követni a fácánkákat, akik ettől megijednek. Hazarohannak a mamájukhoz, aki kideríti miért viselkedik így a különc levelibéka.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975143",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975144"
+  },
+  "vodAssetId" : 11452236,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444004,
+  "title" : "Katuri",
+  "startTime" : "2021-05-22T10:15:00Z",
+  "endTime" : "2021-05-22T10:25:00Z",
+  "description" : "Kabócák elkezdték az évi zenélésüket, ami a fácánkákat és a mókust nagyon zavarja. Megkérik az erdő legnagyobb muzsikusát a tücsköt, hogy segítsen nekik a kabócák ciripelését zenévé varázsolni.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975159",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975160"
+  },
+  "vodAssetId" : 11452237,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444012,
+  "title" : "M2 matricák - Baltazár-bazár",
+  "startTime" : "2021-05-22T10:25:00Z",
+  "endTime" : "2021-05-22T10:30:00Z",
+  "description" : "Baltazár megmutatja, milyen élőlények élnek a vizekben és környékükön. Az alábbi állatok szerepelnek: csiga, béka, giliszta, molnárka, vízitök, ászka, szitakötő, keringőbogár.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975165",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975167"
+  },
+  "vodAssetId" : 11452245,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444016,
+  "title" : "Gyerekversek",
+  "startTime" : "2021-05-22T10:30:00Z",
+  "endTime" : "2021-05-22T10:33:00Z",
+  "description" : "Petőfi Sándor: Anyám tyúkja című verset Kovács Botond mondja el.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975173",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975174"
+  },
+  "vodAssetId" : 11452249,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444019,
+  "title" : "Pom-Pom meséi",
+  "startTime" : "2021-05-22T10:33:00Z",
+  "endTime" : "2021-05-22T10:40:00Z",
+  "description" : "Hogy kicsoda Pom Pom? Többféle alakban láthatjátok. Lehet paróka, szobafestő pemzli, egyujjas kifordított bundakesztyű, vagy papucs orrán pamutbojt. Csodálatos történeteket mesél nektek és Picurnak Gombóc Arturról, a falánk madárról, és a többi nem kevésbé izgalmas figuráról.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975181",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975182"
+  },
+  "vodAssetId" : 11452252,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444022,
+  "title" : "Hajótöröttek",
+  "startTime" : "2021-05-22T10:40:00Z",
+  "endTime" : "2021-05-22T10:50:00Z",
+  "description" : "Kolos és nagypapája hajótörést szenvednek és egy lakatlan szigetre kerülnek. A szigetet az őserdő uralja, ahol sok érdekes növény és állat van. Szerencsére Nagypapa szerencsére jól ismeri a természetet és a fizikai törvényeket, így azonnal feltalálja magát a veszélyes világban. Vizet szerez Kolosnak, és menedéket talál a vihar elől. Ráadásul még a tűzgyújtásra is megtanítja a kisfiút.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975186",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975188"
+  },
+  "vodAssetId" : 11452255,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444025,
+  "title" : "Hajótöröttek",
+  "startTime" : "2021-05-22T10:50:00Z",
+  "endTime" : "2021-05-22T10:55:00Z",
+  "description" : "Kolos és nagypapája hajótörést szenvednek és egy lakatlan szigetre kerülnek. A szigetet az őserdő uralja, ahol sok érdekes növény és állat van. Szerencsére Nagypapa szerencsére jól ismeri a természetet és a fizikai törvényeket, így azonnal feltalálja magát a veszélyes világban. Vizet szerez Kolosnak, és menedéket talál a vihar elől. Ráadásul még a tűzgyújtásra is megtanítja a kisfiút.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975192",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975193"
+  },
+  "vodAssetId" : 11452258,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444027,
+  "title" : "Babi kávézója",
+  "startTime" : "2021-05-22T10:55:00Z",
+  "endTime" : "2021-05-22T11:20:00Z",
+  "description" : "Babi és a lányok tojásvadászatot rendeznek, a sok tojást pedig a finom húsvéti sütikhez akarják használni. Rebarbarának viszont az a remek ötlete támad, hogy ő is rendez egy tojásvadászatot, akkor lesznek vendégei. Ehhez Babi tojásait akarja használni, de pórul jár. / Barátokra mindenkinek szüksége van, még rebarbarának is. Pedig ő ezen a reggelen nagyon goromba Ripsszel és Ropsszal. A két kis pincér inkább Babi kávézójában tölti a napot, de a tündér nem hagyja, hogy Rebarbara egyedül maradjon. Aki maga is rájön, hogy remek barátai vannak.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975203",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975204"
+  },
+  "vodAssetId" : 11452260,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444033,
+  "title" : "Nicky, Ricky, Dicky és Dawn",
+  "startTime" : "2021-05-22T11:20:00Z",
+  "endTime" : "2021-05-22T11:45:00Z",
+  "description" : "A Nickelodeon 2014-ben indult sorozata, a 10 éves négyesikrekről, Nicky-ről, Ricky-ről, Dicky-ről és Dawn-ról szól. Dawn Harper küzd azzal, hogy mindent meg kell osztania testvéreivel, de kezdi ezt megszokni.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975213",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975214"
+  },
+  "vodAssetId" : 11452266,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444038,
+  "title" : "Én és a robotom",
+  "startTime" : "2021-05-22T11:45:00Z",
+  "endTime" : "2021-05-22T12:00:00Z",
+  "description" : "Julia az osztály legjobb tanulója egyest kapott a dolgozatára, amit nem ért, de Ms Rose szerint a pontozó rendszer nem téved sosem. Barátok el akarják érni, hogy Julia bízzon magába, így Chipből jövendómondót csinálnak.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 25,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2992778",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2992779"
+  },
+  "vodAssetId" : 11452271,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1457575,
+  "title" : "Mother Angelica Live Classics - Angelica anya tanítása",
+  "startTime" : "2021-05-22T04:00:00Z",
+  "endTime" : "2021-05-22T05:00:00Z",
+  "description" : "Angelica anya a világ legnagyobb katolikus médiavállalat, az EWTN alapítója.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003884",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003886"
+  },
+  "vodAssetId" : 11465821,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457576,
+  "title" : "Szentmise",
+  "startTime" : "2021-05-22T05:00:00Z",
+  "endTime" : "2021-05-22T05:30:00Z",
+  "description" : "Liturgikus műsor - Szentmise közvetítés",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003888",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003889"
+  },
+  "vodAssetId" : 11465822,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457578,
+  "title" : "EWTN hírnök",
+  "startTime" : "2021-05-22T05:30:00Z",
+  "endTime" : "2021-05-22T05:55:00Z",
+  "description" : "A világ katolikus szemmel. Az EWTN Hírnök hiteles, aktuális és katolikus.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003890",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003891"
+  },
+  "vodAssetId" : 11465824,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457579,
+  "title" : "Időjárás előrejelzés",
+  "startTime" : "2021-05-22T05:55:00Z",
+  "endTime" : "2021-05-22T06:00:00Z",
+  "description" : "5 napos időjárás előrejelzés.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003894",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003895"
+  },
+  "vodAssetId" : 11465825,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457581,
+  "title" : "Vatikáni Rádió magyar műsora",
+  "startTime" : "2021-05-22T06:00:00Z",
+  "endTime" : "2021-05-22T06:25:00Z",
+  "description" : "A Vatikáni Rádió elsődleges feladata, hogy szabadon, hűen és hatékonyan hirdesse a kereszténység üzenetét, és összekösse a katolicizmus központját a világ különböző országaival, terjesztve a római pápa hangját és tanítását, információt nyújtva a Szentszék tevékenységéről.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003896",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003897"
+  },
+  "vodAssetId" : 11465827,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457582,
+  "title" : "A nap szentje",
+  "startTime" : "2021-05-22T06:25:00Z",
+  "endTime" : "2021-05-22T06:30:00Z",
+  "description" : "A naponta ismétlődő, állandó műsorok egyik legnépszerűbbje a kétezer éves Egyház múltjának kincseiből mutat fel el nem avuló értékeket. Katona István egri püspök, akit tisztelői \"a szentek barátjaként\" tartanak számon, bensőséges hangulatban mutatja be a nap szentjét és ismerteti az egyházi legendárium naphoz kapcsolható különleges eseményeit.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003899",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003901"
+  },
+  "vodAssetId" : 11465828,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457584,
+  "title" : "Szentmise",
+  "startTime" : "2021-05-22T06:30:00Z",
+  "endTime" : "2021-05-22T07:30:00Z",
+  "description" : "Liturgikus műsor - Szentmise közvetítés a Sziklatemplomból",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003902",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003903"
+  },
+  "vodAssetId" : 11465830,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457585,
+  "title" : "Délelőtt",
+  "startTime" : "2021-05-22T07:30:00Z",
+  "endTime" : "2021-05-22T09:30:00Z",
+  "description" : "Élő közösségek élő műsora, minden hétköznap 9 órától 12 óráig. Benne: kulturális, irodalmi, zenei, gasztro- és egészséggel kapcsolatos témák. Minden óra 45-kor hírek és időjárás-jelentés, majd programismertetés.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003904",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003905"
+  },
+  "vodAssetId" : 11465831,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457586,
+  "title" : "EWTN hírnök",
+  "startTime" : "2021-05-22T09:30:00Z",
+  "endTime" : "2021-05-22T09:55:00Z",
+  "description" : "A világ katolikus szemmel. Az EWTN Hírnök hiteles, aktuális és katolikus.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003906",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003907"
+  },
+  "vodAssetId" : 11465832,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1457587,
+  "title" : "Időjárás előrejelzés",
+  "startTime" : "2021-05-22T09:55:00Z",
+  "endTime" : "2021-05-22T10:00:00Z",
+  "description" : "5 napos időjárás előrejelzés.",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003908",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003909"
+  },
+  "vodAssetId" : 11465833,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1457588,
+  "title" : "Úrangyala",
+  "startTime" : "2021-05-22T10:00:00Z",
+  "endTime" : "2021-05-22T10:05:00Z",
+  "description" : "Liturgikus műsor",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003910",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003911"
+  },
+  "vodAssetId" : 11465834,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1457589,
+  "title" : "Szentmise",
+  "startTime" : "2021-05-22T10:05:00Z",
+  "endTime" : "2021-05-22T10:40:00Z",
+  "description" : "Liturgikus műsor",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003912",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003913"
+  },
+  "vodAssetId" : 11465835,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1457590,
+  "title" : "Mother Angelica Live Classics - Angelica anya tanítása",
+  "startTime" : "2021-05-22T10:40:00Z",
+  "endTime" : "2021-05-22T11:40:00Z",
+  "description" : "Angelica anya a világ legnagyobb katolikus médiavállalat, az EWTN alapítója.",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003914",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003915"
+  },
+  "vodAssetId" : 11465836,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1457591,
+  "title" : "Vatikáni Rádió magyar műsora",
+  "startTime" : "2021-05-22T11:40:00Z",
+  "endTime" : "2021-05-22T12:00:00Z",
+  "description" : "A Vatikáni Rádió elsődleges feladata, hogy szabadon, hűen és hatékonyan hirdesse a kereszténység üzenetét, és összekösse a katolicizmus központját a világ különböző országaival, terjesztve a római pápa hangját és tanítását, információt nyújtva a Szentszék tevékenységéről.",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 39,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3003916",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3003917"
+  },
+  "vodAssetId" : 11465837,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445225,
+  "title" : "Formula–2 monacói nagydíj",
+  "startTime" : "2021-05-22T03:20:00Z",
+  "endTime" : "2021-05-22T04:25:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977599",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977600"
+  },
+  "vodAssetId" : 11453458,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445231,
+  "title" : "LEN Vizes Eb - Úszás",
+  "startTime" : "2021-05-22T04:20:00Z",
+  "endTime" : "2021-05-22T04:25:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrls" : { },
+  "vodAssetId" : 11453464,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1477750,
+  "title" : "LEN Vizes Eb - Úszás",
+  "startTime" : "2021-05-22T04:25:00Z",
+  "endTime" : "2021-05-22T05:40:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3046183",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3046184"
+  },
+  "vodAssetId" : 11486001,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445233,
+  "title" : "Szabadidő",
+  "startTime" : "2021-05-22T05:40:00Z",
+  "endTime" : "2021-05-22T06:15:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977605",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977606"
+  },
+  "vodAssetId" : 11453466,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445234,
+  "title" : "Formula–2 monacói nagydíj",
+  "startTime" : "2021-05-22T06:15:00Z",
+  "endTime" : "2021-05-22T07:30:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977613",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977614"
+  },
+  "vodAssetId" : 11453467,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445238,
+  "title" : "Felvezető műsor",
+  "startTime" : "2021-05-22T07:30:00Z",
+  "endTime" : "2021-05-22T08:00:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977615",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977616"
+  },
+  "vodAssetId" : 11453471,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445239,
+  "title" : "LEN Vizes Eb - Úszás",
+  "startTime" : "2021-05-22T08:00:00Z",
+  "endTime" : "2021-05-22T09:15:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2995276",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2995277"
+  },
+  "vodAssetId" : 11453472,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445240,
+  "title" : "Értékelő műsor",
+  "startTime" : "2021-05-22T09:15:00Z",
+  "endTime" : "2021-05-22T09:30:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977623",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977624"
+  },
+  "vodAssetId" : 11453473,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445242,
+  "title" : "Bringasport",
+  "startTime" : "2021-05-22T09:30:00Z",
+  "endTime" : "2021-05-22T09:50:00Z",
+  "description" : "Szombatonként, heti 15 perc bringa az M4 Sport műsorán.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977627",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977628"
+  },
+  "vodAssetId" : 11453475,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1445244,
+  "title" : "Formula–1 monacói nagydíj",
+  "startTime" : "2021-05-22T09:50:00Z",
+  "endTime" : "2021-05-22T11:05:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977643",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977644"
+  },
+  "vodAssetId" : 11453477,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1445254,
+  "title" : "UEFA Euro 2020 Magazin",
+  "startTime" : "2021-05-22T11:05:00Z",
+  "endTime" : "2021-05-22T11:35:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977671",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977672"
+  },
+  "vodAssetId" : 11453487,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1445267,
+  "title" : "Formula–2 monacói nagydíj",
+  "startTime" : "2021-05-22T11:35:00Z",
+  "endTime" : "2021-05-22T12:45:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 41,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2977679",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2977680"
+  },
+  "vodAssetId" : 11453500,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444397,
+  "title" : "Librettó",
+  "startTime" : "2021-05-22T04:00:00Z",
+  "endTime" : "2021-05-22T05:00:00Z",
+  "description" : "Kritika, művészek, kulissza. Minden, ami a kultúrában történik, benne 19.30-kor az M5 Híradóval. A műsort izgalmas kulturális aktivitások bemutatásával kezdjük és a nap legfontosabb kulturális eseményeinek értékelésével zárjuk.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975935",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975936"
+  },
+  "vodAssetId" : 11452630,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444400,
+  "title" : "Ez itt a kérdés...",
+  "startTime" : "2021-05-22T05:00:00Z",
+  "endTime" : "2021-05-22T05:50:00Z",
+  "description" : "Ez itt a kérdés – az M5 kulturális csatorna szellemi háttérműsora. Kérdések és válaszok, viták, vélemények, titkok, leleplezések.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975937",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975938"
+  },
+  "vodAssetId" : 11452633,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444401,
+  "title" : "Vers mindenkinek",
+  "startTime" : "2021-05-22T05:50:00Z",
+  "endTime" : "2021-05-22T05:55:00Z",
+  "description" : "\"Manapság, ha egyáltalán beszélünk, gondolkodunk is költészetről, igen önző módon tesszük. Az én versem, kedvenc versem, mintha rólam írták volna - így sajátítjuk ki a sorokat. Pedig a vers mindenkinek szól. Akár elefántcsonttoronyból, akár a harcmezőkről, akár a szeretett hölgy ablaka alól - a költő már nem magának, a mindenségnek írja tollal, pennával, kattogó írógéppel, ma pedig villódzó monitor előtt a strófákat. Ha eljut hozzánk, bennünk alakul, él tovább. Mindannyiunkban. 15 éven át a Magyar Televízió juttatta el a virágirodalom kiemelkedő verseit a nézőkhöz. Ha esténként megszólalt a hárfa ismerős hangja, mindenki tudta, kicsit megáll az idő. Néhány percre semmit sem kell tennünk, csak hallgatni, befogadni, értelmezni, érezni. 157 szerző 782 alkotása engedte meg mindenkinek, hogy néhány pillanatra csak maga legyen, csak ízlelgesse a szavakat, rímeket, képeket, dallamokat. A vers jószívű. Ránk bízza, mit tegyünk, gondoljunk. Nem akar, nem vár el semmit. Csak szól. Mindenkinek. Válogatásunkban 250 magyar költeményt nyújtjuk át, az ismeretlen kódexmásolóktól a XXl. század alkotóiig. Ez a mi nyelvünk, ezen legkönnyebb értenünk. És ezt a leggyönyörűbb hallgatnunk. Szeressék tehát e sorokat közös titkunkként, nem feledve, a vers mindenkié, de örülve annak, hogy - a vers a miénk.\"",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975943",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975945"
+  },
+  "vodAssetId" : 11452634,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444404,
+  "title" : "Pannon expressz",
+  "startTime" : "2021-05-22T05:55:00Z",
+  "endTime" : "2021-05-22T06:30:00Z",
+  "description" : "A vasút segítségével bebarangoljuk Magyarország és a határon túli területek városait, falvait. A helyiek segítségével a közismert nevezetességeken túl bemutatjuk mindazt, amiért jó ott élni vagy érdemes odautazni. Rejtett titkok, kulturális gyöngyszemek, városi legendák - amik az útikönyvből mind kimaradtak.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975951",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975953"
+  },
+  "vodAssetId" : 11452637,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444408,
+  "title" : "Tengerek világa",
+  "startTime" : "2021-05-22T06:30:00Z",
+  "endTime" : "2021-05-22T07:00:00Z",
+  "description" : "A mai adás főszereplői a cápák, melyek egyes fajai a tenger csúcsragadozói, más képviselői viszont riasztó termetük ellenére csupán szelíd óriások. Megismerkedhetünk még a cápák közeli rokonaival, a vízben szinte repülve úszó rájákkal is.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975955",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975956"
+  },
+  "vodAssetId" : 11452641,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444410,
+  "title" : "Univerzum",
+  "startTime" : "2021-05-22T07:00:00Z",
+  "endTime" : "2021-05-22T07:55:00Z",
+  "description" : "Lélegzetelállító és káprázatos természetfilm a békák világáról. A nagyvilágban, szinte minden nagy nemzetközi természetfilm fesztiválon első díjat nyert ez a csodás, látványos ismeretterjesztő film. Szabad szemmel nem látható makro- és mikro felvételek a békák minden mozdulatáról, rezdüléséről a saját életterükben. A Földet már több millió éve lakják kétéltűek. Egy időben ők uralták az egész bolygót. Még ma is megtalálhatók az egész világon. A trópusi erdőkben és mocsarakban, de a száraz és a jeges vidékeken is. Az evolúció során a legkülönfélébb élőhelyekhez is alkalmazkodtak és elképesztő túlélési stratégiákat fejlesztettek ki. Néhányuk a víz alatt rejtőzködik. Mások az őserdőben vadásznak. Egyesek még a gravitációt is legyőzik. A békák vadászok. Prédáik rovarok és egyéb ízeltlábúak. De nekik is résen kell lenniük a nagyobb ragadozók miatt. A tavirózsákkal teli víz csak a mesében nyújt védelmet a békakirálynak. Megtudhatjuk még a békákról, hogyan alkalmazkodtak az evolúció során a legkülönfélébb élőhelyekhez is. A világ legfurcsább szaporodási módszereit is nyomon követhetjük a film kitér az olyan békákra, amelyek a bőrük alatt hordják kicsinyeiket, amelyek egy fára rakják ikráikat, sőt, olyan hímeket is bemutat, amelyek lenyelik utódaikat, hogy megóvják őket. Megismerhetjük a világ legapróbb békáját, de a kétéltűek óriását is, és szemtanúi lehetünk a legcselesebb vadásztechnikáknak.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976001",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976002"
+  },
+  "vodAssetId" : 11452643,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444432,
+  "title" : "Mesterember",
+  "startTime" : "2021-05-22T07:55:00Z",
+  "endTime" : "2021-05-22T08:25:00Z",
+  "description" : "A Mesterember című műsor nektek, pályaválasztó fiataloknak szól! Ötleteket adunk a hozzátok legközelebb álló szakma kiválasztásához. Hétről hétre jelentkező sorozatunkban a színes, érdekes és divatos mesterségek mellett bemutatjuk a kevésbé felkapott vagy ismert, illetve fizikai munkavégzést igénylő hiányszakmákat is. Ugye velünk tartotok?!",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976003",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976004"
+  },
+  "vodAssetId" : 11452665,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444433,
+  "title" : "Rejtélyes XX. század - Kun Miklós műsora",
+  "startTime" : "2021-05-22T08:25:00Z",
+  "endTime" : "2021-05-22T09:00:00Z",
+  "description" : "Kun Miklós gazdagon illusztrált dokumentumfilm sorozata igyekszik megfejteni az elmúlt évszázad titkait. A helyszín New York és Moszkva, Berlin és Párizs. És persze mindenekelőtt Budapest. Neves politikusok, másként gondolkodók, hírszerzők szólalnak meg a kamera előtt, háborúkról, reform kísérletekről és határok megállapításáról esik szó. Kun Miklós, a Széchenyi díjas történész sok éve dolgozik a dokumentumfilm műfajában, filmjeit külföldön is vetítették.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976007",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976008"
+  },
+  "vodAssetId" : 11452666,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444435,
+  "title" : "Színe-Java",
+  "startTime" : "2021-05-22T09:00:00Z",
+  "endTime" : "2021-05-22T09:30:00Z",
+  "description" : "A hét kulturális érdekességei.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976011",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976012"
+  },
+  "vodAssetId" : 11452668,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1444437,
+  "title" : "Nagy kontinentális vasúti utazások",
+  "startTime" : "2021-05-22T09:30:00Z",
+  "endTime" : "2021-05-22T10:40:00Z",
+  "description" : "Egy Európán keresztül vezető új vasúti kalandba kezd Michael Portillo. Bradshaw 1913-as Kontinentális vasúti útikönyve által vezetve Michael az uralkodók és királyok a pompával és eleganciával nem szűkölködő háború előtti Európáján keresztül tesz utazást. E kora 20. századbeli kézikönyv az Edward-kori turisták egzotikus világát tárta fel: a csillogó kozmopolita városoktól, a drámai hatású alpesi tájaktól a szikrázó tengerekig és festői falvakig. A nyomait követve, a Bradshaw útikönyvben felsorolt városokat és falvakat keresi fel Michael, melyek Franciaországban, Magyarországon, Svájcban, Németországban és több más helyen találhatóak.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976013",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976014"
+  },
+  "vodAssetId" : 11452670,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1444438,
+  "title" : "Erdei utakon - Reviczky Gáborral",
+  "startTime" : "2021-05-22T10:40:00Z",
+  "endTime" : "2021-05-22T11:10:00Z",
+  "description" : "A Kossuth Díjas színművész műsorvezető hétről - hétre megismerteti a nézőket a hazai és külhoni erdőkkel vagy az azok környékén zajló legfontosabb eseményekkel. Közelebb kerülhetünk az erdészek, vadászok, természetvédők életéhez. Bejárhatjuk a legszebb tájakat és megismerhetünk olyan embereket, akiknek élete, munkája szinte egybefonódik a természettel és erdeink életével. Tartsanak velünk és lépjenek ki Reviczky Gáborral a mindennapok mókuskerekéből - vissza a természetbe!",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976015",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976016"
+  },
+  "vodAssetId" : 11452671,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444440,
+  "title" : "Koronás sas",
+  "startTime" : "2021-05-22T11:10:00Z",
+  "endTime" : "2021-05-22T11:35:00Z",
+  "description" : "Kunigunda hercegnő szeretné kideríteni, hogy Lajos miért hagyta magára, kétségbeesetten tudakolózik a kincstárnoknál. A csehek elleni háború jól alakul, azonban a pápa beavatkozik a harcok kimenetelébe. Kázmér bizonyosságot szerez, hogy felesége, Anna megcsalta ezért Idzit kivégezteti. A swidnicai udvarban súlyos titkok készülnek felszínre törni. Nápolyban a fiatal András herceget, Erzsébet és Károly Róbert fiát felesége udvaroncai megölik. Halottak napja van. A keresztény Európában mindenki, még a királyok és a hercegek is elhunyt szeretteikért imádkoznak.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976019",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976021"
+  },
+  "vodAssetId" : 11452673,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444442,
+  "title" : "Vers mindenkinek",
+  "startTime" : "2021-05-22T11:35:00Z",
+  "endTime" : "2021-05-22T11:45:00Z",
+  "description" : "\"Manapság, ha egyáltalán beszélünk, gondolkodunk is költészetről, igen önző módon tesszük. Az én versem, kedvenc versem, mintha rólam írták volna - így sajátítjuk ki a sorokat. Pedig a vers mindenkinek szól. Akár elefántcsonttoronyból, akár a harcmezőkről, akár a szeretett hölgy ablaka alól - a költő már nem magának, a mindenségnek írja tollal, pennával, kattogó írógéppel, ma pedig villódzó monitor előtt a strófákat. Ha eljut hozzánk, bennünk alakul, él tovább. Mindannyiunkban. 15 éven át a Magyar Televízió juttatta el a virágirodalom kiemelkedő verseit a nézőkhöz. Ha esténként megszólalt a hárfa ismerős hangja, mindenki tudta, kicsit megáll az idő. Néhány percre semmit sem kell tennünk, csak hallgatni, befogadni, értelmezni, érezni. 157 szerző 782 alkotása engedte meg mindenkinek, hogy néhány pillanatra csak maga legyen, csak ízlelgesse a szavakat, rímeket, képeket, dallamokat. A vers jószívű. Ránk bízza, mit tegyünk, gondoljunk. Nem akar, nem vár el semmit. Csak szól. Mindenkinek. Válogatásunkban 250 magyar költeményt nyújtjuk át, az ismeretlen kódexmásolóktól a XXl. század alkotóiig. Ez a mi nyelvünk, ezen legkönnyebb értenünk. És ezt a leggyönyörűbb hallgatnunk. Szeressék tehát e sorokat közös titkunkként, nem feledve, a vers mindenkié, de örülve annak, hogy - a vers a miénk.\"",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976023",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976024"
+  },
+  "vodAssetId" : 11452675,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1444445,
+  "title" : "Örökös tagság",
+  "startTime" : "2021-05-22T11:45:00Z",
+  "endTime" : "2021-05-22T12:40:00Z",
+  "description" : "Haumann Péter beszél életéről, pályájáról. Részletet láthatunk nagy szerepeiből, többek között a Holt lelkekből, a Vizkeresztből, a III. Richardból, A fösvényből. Emellett felcsendül a Tanulj meg, fiacskám, komédiázni című dal is, valamint részlet az Oliver musicalből, amit lányával, Hauman Petrával ad elő a művész.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 42,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2976041",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2976042"
+  },
+  "vodAssetId" : 11452678,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443930,
+  "title" : "Pirkadat",
+  "startTime" : "2021-05-22T03:55:00Z",
+  "endTime" : "2021-05-22T05:00:00Z",
+  "description" : "Politikai és kulturális szórakoztató reggeli magazin és hírfolyam.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974995",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974996"
+  },
+  "vodAssetId" : 11452163,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443931,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T05:00:00Z",
+  "endTime" : "2021-05-22T05:15:00Z",
+  "description" : "Híreket összefoglaló műsor.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974997",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2974998"
+  },
+  "vodAssetId" : 11452164,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443932,
+  "title" : "Pirkadat",
+  "startTime" : "2021-05-22T05:15:00Z",
+  "endTime" : "2021-05-22T06:00:00Z",
+  "description" : "Politikai és kulturális szórakoztató reggeli magazin és hírfolyam.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2974999",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975000"
+  },
+  "vodAssetId" : 11452165,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443933,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T06:00:00Z",
+  "endTime" : "2021-05-22T06:15:00Z",
+  "description" : "Híreket összefoglaló műsor.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975001",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975002"
+  },
+  "vodAssetId" : 11452166,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443934,
+  "title" : "Pirkadat",
+  "startTime" : "2021-05-22T06:15:00Z",
+  "endTime" : "2021-05-22T07:00:00Z",
+  "description" : "Politikai és kulturális szórakoztató reggeli magazin és hírfolyam.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975004",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975005"
+  },
+  "vodAssetId" : 11452167,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443935,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T07:00:00Z",
+  "endTime" : "2021-05-22T07:15:00Z",
+  "description" : "Híreket összefoglaló műsor.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975007",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975008"
+  },
+  "vodAssetId" : 11452168,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443937,
+  "title" : "Pirkadat",
+  "startTime" : "2021-05-22T07:15:00Z",
+  "endTime" : "2021-05-22T09:00:00Z",
+  "description" : "Politikai és kulturális szórakoztató reggeli magazin és hírfolyam.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975009",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975010"
+  },
+  "vodAssetId" : 11452170,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443938,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T09:00:00Z",
+  "endTime" : "2021-05-22T09:15:00Z",
+  "description" : "Híreket összefoglaló műsor.",
+  "cuTvUrl" : null,
+  "catchup" : true,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975011",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975012"
+  },
+  "vodAssetId" : 11452171,
+  "hasNotification" : false,
+  "state" : "CATCHUP"
+}, {
+  "id" : 1443939,
+  "title" : "Pirkadat",
+  "startTime" : "2021-05-22T09:15:00Z",
+  "endTime" : "2021-05-22T10:00:00Z",
+  "description" : "Politikai és kulturális szórakoztató reggeli magazin és hírfolyam.",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975013",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975015"
+  },
+  "vodAssetId" : 11452172,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1443940,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T10:00:00Z",
+  "endTime" : "2021-05-22T10:15:00Z",
+  "description" : "Híreket összefoglaló műsor.",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975017",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975018"
+  },
+  "vodAssetId" : 11452173,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443942,
+  "title" : "Kínai dokumentumfilm sorozat",
+  "startTime" : "2021-05-22T10:15:00Z",
+  "endTime" : "2021-05-22T11:00:00Z",
+  "description" : "",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975019",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975020"
+  },
+  "vodAssetId" : 11452175,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443943,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T11:00:00Z",
+  "endTime" : "2021-05-22T11:15:00Z",
+  "description" : "Híreket összefoglaló műsor.",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975021",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975022"
+  },
+  "vodAssetId" : 11452176,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443944,
+  "title" : "KIPA",
+  "startTime" : "2021-05-22T11:15:00Z",
+  "endTime" : "2021-05-22T12:00:00Z",
+  "description" : "KIPA - Kultúra, Izrael, Politika, Aktualitás. Magazin a hazai zsidóság és Izrael életéről. A kultúra, a vallás, a politika hírei. Érdekes arcok. Kérdések és zsidó válaszok.",
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 49,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2975023",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2975024"
+  },
+  "vodAssetId" : 11452177,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+}, {
+  "id" : 1443086,
+  "title" : "Híradó",
+  "startTime" : "2021-05-22T04:00:00Z",
+  "endTime" : "2021-05-22T04:30:00Z",
+  "description" : "A műsor naponta többször jelentkezik a Kárpát-medence és a nagyvilág legfrissebb híreivel.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973315",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973316"
+  },
+  "vodAssetId" : 11451319,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443087,
+  "title" : "Nemzeti Sporthíradó",
+  "startTime" : "2021-05-22T04:30:00Z",
+  "endTime" : "2021-05-22T04:45:00Z",
+  "description" : "",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973323",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973324"
+  },
+  "vodAssetId" : 11451320,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443092,
+  "title" : "Kenó",
+  "startTime" : "2021-05-22T04:45:00Z",
+  "endTime" : "2021-05-22T04:50:00Z",
+  "description" : "A Kenó játékban 80 számból legalább 1, legfeljebb 10 számot kell megjelölni. A sorsoláson 80 számból 20-at sorsolnak. A játékos akkor nyer, ha a kisorsolt 20 nyerőszámból a szelvényen is megtalálható \"Nyerőtábla\" szerinti találatot ér el.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973333",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973337"
+  },
+  "vodAssetId" : 11451325,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443097,
+  "title" : "Magyar Krónika",
+  "startTime" : "2021-05-22T04:50:00Z",
+  "endTime" : "2021-05-22T05:25:00Z",
+  "description" : "Sok találmány fűződik a magyarok nevéhez, ám azt már talán kevesebben tudják, hogy a sportok terén is büszkélkedhetünk magyar sikerekkel és itt kivételesen nem a kimagasló sporteredményeinkre gondolunk. Léteznek ugyanis olyan sportágak, melyeket a magyarok adtak a világnak. Ezeket mutatjuk most be adásunkban és kitérünk arra is, hogyan születtek meg az első sportágak, s mikor jelent meg a tömegsport.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973340",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973343"
+  },
+  "vodAssetId" : 11451330,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443101,
+  "title" : "Hazajáró",
+  "startTime" : "2021-05-22T05:25:00Z",
+  "endTime" : "2021-05-22T05:55:00Z",
+  "description" : "Messzi földtörténeti múltba vész már, amikor a feltöltődő Pannon-tenger elbocsátotta magától az Ős-Dunát, aki szomorúan fogta vándorbotját, búcsút intett a Kárpát-medencének és keletnek indult új tengert keresni magának. Ennek a kárpát-medencei búcsúnak áll varázslatos díszsorfalat a két oldalán az Aldunai-hegyvidék és a Szerb-érchegység. Magyar oldalon a Lokva az első búcsúzó, aki látta a rómaiakat, a dákokat, a hunokat, Zsigmond király magyar vitézeit, az oszmán hódítókat és a labanc bürokratákat is, akik a török után bányászokkal, új telepesekkel szórták tele a bánsági hegyvidéket. Így vált a Lokva a népek kohójává, amelyben a szerbek, csehek és oltyán bufánok még jelen vannak, de a németek és a magyarok már csak emlékeikben élnek. Ezeket az emlékeket is felidézzük, miközben felfedezzük a Lokva varázslatos karsztjelenségeit, szurdokvölgyeit, barlangjait és vízeséseit.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973345",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973346"
+  },
+  "vodAssetId" : 11451334,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443103,
+  "title" : "Térkép",
+  "startTime" : "2021-05-22T05:55:00Z",
+  "endTime" : "2021-05-22T06:25:00Z",
+  "description" : "Négy égtáj, egy térkép… mi pedig rajta vagyunk. Izgalmas, külhoni történetekkel, magyar közösségekkel, formabontó kezdeményezésekkel várjuk Önöket minden szombaton a Duna TV-n. Térkép – rajta vagyunk… négy égtáj történetei egy műsorban.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973349",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973350"
+  },
+  "vodAssetId" : 11451336,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443105,
+  "title" : "Noé barátai",
+  "startTime" : "2021-05-22T06:25:00Z",
+  "endTime" : "2021-05-22T07:00:00Z",
+  "description" : "Egy műsor már meglévő és leendő állatbarátoknak! Hétről-hétre bemutatunk ismert embereket kedvenceikkel és olyan sportokat, amelyekben állatok is részt vesznek. Ellátogatunk állatkertekbe és praktikus állatorvosi tanácsokat is adunk. Külön rovatunkban pedig segítünk, hogy a kis kedvencek gazdákra találjanak. A műsorban valóban minden lesz, mint Noé bárkáján! Ha Önt érdeklik az állatok, ha szereti őket, ha esetleg már van is otthon vagy csak szeretné, ha lenne, akkor ez az Ön műsora!",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973359",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973360"
+  },
+  "vodAssetId" : 11451338,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443110,
+  "title" : "Divat és dizájn",
+  "startTime" : "2021-05-22T07:00:00Z",
+  "endTime" : "2021-05-22T07:30:00Z",
+  "description" : "Új műsorunk, a Divat és dizájn a hazai öltözék és formatervezőket mutatja be. Tudósítunk bemutatókról, részt veszünk divateseményeken, bepillantunk egy-egy olyan műhelybe, ahol ruhák, ékszerek, bútorok, lámpák, dísztárgyak, vagy éppen szemüvegkeretek készülnek. Divat és dizájn, szombat délelőttönként, a Duna Televízióban.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973365",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973366"
+  },
+  "vodAssetId" : 11451343,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443113,
+  "title" : "A világ madártávlatból",
+  "startTime" : "2021-05-22T07:30:00Z",
+  "endTime" : "2021-05-22T08:00:00Z",
+  "description" : "Utazásunk a glücksburgi kastélynál kezdődik, amely egykor a dán királyságban állt, ma pedig Németországban. Innen 100 kilométerre délre épült a Kiel-csatorna, amely összeköti egymással a Balti- és az Északi-tengert. Az ország nyugati partjainál találhatók a Fríz-szigetek, amelyeket homokpadok és mocsarak választanak el a szárazföldtől és amelyek gyönyörű strandjaikról híresek. Utunk következő állomása Hamburg, Németország második legnagyobb városa és Európa egyik legnagyobb kikötője. A második világháború alatt az egész régiót elpusztították a szövetségesek bombázásai, majd az azt követő megszállás. A Bergen-Belsen-i koncentrációs tábor drámai mementóként emlékeztet a náci Németország borzalmaira. Túránk utolsó állomása Herrenhausen Hannover külvárosában, az egyik legpompásabb barokk kert Európában.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973373",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973374"
+  },
+  "vodAssetId" : 11451346,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443120,
+  "title" : "Téli virágzás",
+  "startTime" : "2021-05-22T08:00:00Z",
+  "endTime" : "2021-05-22T08:25:00Z",
+  "description" : "A szegénységről, a családi összetartozásról és a hitről szóló történet egy kis székely faluban és a közeli erdőben játszódik. A Sánta Ferenc keserédes novellája alapján készült film a hétköznapok hőseiről mesél, akik igyekeznek méltósággal viselni a szegénység és a mindennapok megpróbáltatásait, sőt néha képesek humorral átvészelni a nehézségeket.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973381",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973382"
+  },
+  "vodAssetId" : 11451353,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443124,
+  "title" : "Erdélyi történetek",
+  "startTime" : "2021-05-22T08:25:00Z",
+  "endTime" : "2021-05-22T09:00:00Z",
+  "description" : "Csíksomlyót a magyarság legkeletibb és egyben a legnagyobb búcsújáró helyeként tartják számon. A pünkösdi búcsúk zarándokok százezreit vonzzák a világ minden részéről. A ferences kegyhely, a Székelyföld szimbólumává váló kéttornyú templom legféltettebb, legszebb és legértékesebb kincse a központi oltár Mária-szobra, melyhez számos hiedelem, legenda is fűződik. A Csodatevő Madonna világhírű kegyszobra 2015-ben volt 500 éves.",
+  "pgRating" : {
+    "name" : "12",
+    "minRecomendedAge" : 12
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973391",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973392"
+  },
+  "vodAssetId" : 11451357,
+  "hasNotification" : false,
+  "state" : "PAST"
+}, {
+  "id" : 1443129,
+  "title" : "Csíksomlyói pünkösdi búcsú közvetítése",
+  "startTime" : "2021-05-22T09:00:00Z",
+  "endTime" : "2021-05-22T11:40:00Z",
+  "description" : "Csíksomlyói pünkösdi búcsút közvetítünk a csíksomlyói Hármashalom-oltártól. Az idei ünnepi szentmise főcelebránsa Marian Adam Waligóra pálos szerzetes, a czestochowai Jasna Góra-i pálos kolostor házfőnöke lesz.",
+  "pgRating" : {
+    "name" : "0",
+    "minRecomendedAge" : 0
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/3058991",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/3058992"
+  },
+  "vodAssetId" : 11451362,
+  "hasNotification" : false,
+  "state" : "LIVE"
+}, {
+  "id" : 1443130,
+  "title" : "Erdély - Ég és föld között",
+  "startTime" : "2021-05-22T11:40:00Z",
+  "endTime" : "2021-05-22T12:30:00Z",
+  "description" : "Legendák sorát ismerjük meg az erdélyiek lelkiségéről, legyen az ortodox, evangélikus, református, zsidó, unitárius, görög - vagy római katolikus. S megértjük miért is keresi a vallásban a megpróbáltatásokkal szemben annyira az itt élő ember az erkölcsi biztonságot. Olyan kultikus szakrális helyszínekre - így Csíksomlyóra - kalauzoljuk a nézőt, ahol mi magunk is elemi erővel töltődünk fel.",
+  "pgRating" : {
+    "name" : "6",
+    "minRecomendedAge" : 6
+  },
+  "cuTvUrl" : null,
+  "catchup" : false,
+  "channelId" : 66,
+  "titles" : { },
+  "descriptions" : { },
+  "encrypted" : false,
+  "imageUrl" : "/sb/image/2973413",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/2973415"
+  },
+  "vodAssetId" : 11451363,
+  "hasNotification" : false,
+  "state" : "FUTURE"
+} ]

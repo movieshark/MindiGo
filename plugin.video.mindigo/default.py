@@ -22,18 +22,22 @@ from time import time
 
 import xbmcaddon
 import xbmcgui
-from mindigo_client import MindigoClient
+from mindigo_client import MindigoClient,ContentVisibilityError
 from mrdini.routines import routines
 from xbmcplugin import endOfDirectory, setContent
+import xbmcvfs
+import epg_transform
 
 if sys.version_info[0] == 3:
-    from urllib.parse import parse_qsl
+    from urllib.parse import parse_qsl, quote
 else:
     # python2 compatibility
     from urlparse import parse_qsl
 
 utils = routines.Utils(xbmcaddon.Addon())
 client = MindigoClient()
+__addon__ = xbmcaddon.Addon(id='plugin.video.mindigo')
+__addondir__ = xbmcvfs.translatePath(__addon__.getAddonInfo('profile'))
 
 
 def setupSession():
@@ -76,7 +80,6 @@ def login():
     except RuntimeError as e:
         raise routines.Error(e)
     utils.set_setting("session", client.session)
-    utils.create_notification("Sikeres bejelentkezés")
     return client.session
 
 
@@ -118,13 +121,24 @@ def main_window():
         icon="https://i.imgur.com/bKJK0nc.png"
     )
 
+def create_epg_guide(channels, epg):
+    epg_transform.write_str(__addondir__, 'mindigo_xmltv.xml', epg_transform.make_xml_guide(channels, epg))
+
+def create_channel_list(channels):
+    epg_transform.write_str(__addondir__, 'channels.m3u8', epg_transform.make_m3u(channels))    
+
 
 def live_window():
     all_channels = client.get_visible_channels()
     channel_ids = [str(k) for k, v in all_channels.items()]
     channel_list = ",".join(channel_ids)
-    epg = client.get_live_epg(channel_list)
+    epg = client.get_epg(channel_list)
+    create_epg_guide(all_channels, epg)
+    create_channel_list(all_channels)
+
     for program in epg:
+        if program.get("state") != "LIVE":
+            continue
         if utils.get_setting("display_epg") != "2":
             name = "%s[CR][COLOR gray]%s[/COLOR]" % (
                 routines.py2_encode(all_channels[program["channelId"]]["displayName"]),
@@ -133,46 +147,67 @@ def live_window():
         else:
             name = routines.py2_encode(program["title"])
 
-    if program.get("imageUrl"):
-        fan_art = "%s%s" % (
-            client.web_url,
-            routines.py2_encode(program.get("imageUrl")),
-        )
-    else:
-        fan_art = utils.fanart
+        if program.get("imageUrl"):
+            fan_art = "%s%s" % (
+                client.web_url,
+                routines.py2_encode(program.get("imageUrl")),
+            )
+        else:
+            fan_art = utils.fanart
 
-    routines.add_item(
-        *sys.argv[:2],
-        name=name,
-        description=(routines.py2_encode(program.get("description") or "")),
-        action="translate_link",
-        icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
-        id=program["id"],
-        extra=program["vodAssetId"],
-        fanart=fan_art,
-        type="video",
-        refresh=True,
-        is_directory=False,
-        is_livestream=True
-    )
+        routines.add_item(
+            *sys.argv[:2],
+            name=name,
+            description=(routines.py2_encode(program.get("description") or "")),
+            action="translate_link",
+            icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
+            id=program["channelId"],
+            fanart=fan_art,
+            type="video",
+            refresh=True,
+            is_directory=False,
+            is_livestream=True
+        )
     setContent(int(sys.argv[1]), "tvshows")
 
+def play_protected_dash(handle, video, _type, **kwargs):
+    icon = kwargs.get("icon")
+    user_agent = kwargs.get("user_agent", routines.random_uagent())
 
-def translate_link(id, slug, name, icon, desc):
-    url = client.get_video_content_url(slug)
+    listitem = xbmcgui.ListItem(label=video.name)
+    listitem.setProperty('inputstream', 'inputstream.adaptive')
+    listitem.setProperty('inputstream.adaptive.manifest_type', 'mpd')
+    listitem.setMimeType('application/dash+xml')
+    listitem.setProperty('inputstream.adaptive.stream_headers', "User-Agent=%s" % user_agent)
+   
+    license_url = 'https://drm-prod.mindigo.hu/widevine/license?drmToken=%s' % quote(video.drm_token) 
+    listitem.setProperty('inputstream.adaptive.license_type','com.widevine.alpha')
+    listitem.setProperty('inputstream.adaptive.license_key', license_url + '|Content-Type=application/octet-stream|R{SSM}|')
+    
+    listitem.setContentLookup(False)
+    listitem.setInfo(type=_type, infoLabels={"Title": video.name, "Plot": video.desc})
+    xbmc.Player().play(video.url, listitem)
 
-    if not url:
-        utils.create_ok_dialog("A szerver nem tudott mit kezdeni a kéréssel.")
+def translate_link(channel_id, vod_asset_id):
+    video = {}
+    try:
+        if vod_asset_id:
+            video = client.get_video_play_data(vod_asset_id)
+        else:
+            video = client.get_channel_play_data(channel_id)
+    except ContentVisibilityError as err:
+        utils.create_ok_dialog("A kívánt tartalom nem sugározható: %s" % err.message)
+        return
+
+    if not video.url:
+        utils.create_ok_dialog("A kívánt tartalom nem sugározható.")
         exit()
 
-    routines.play(
+    play_protected_dash(
         int(sys.argv[1]),
-        url,
+        video,
         "video",
-        user_agent=utils.get_setting("user_agent"),
-        name=name,
-        icon=icon,
-        description=desc,
+        user_agent=utils.get_setting("user_agent")
     )
 
 
@@ -207,8 +242,5 @@ if __name__ == "__main__":
     if action == "translate_link":
         translate_link(
             params.get("id"),
-            params.get("extra"),
-            params.get("name"),
-            params.get("icon"),
-            params.get("descr"),
+            params.get("extra")
         )

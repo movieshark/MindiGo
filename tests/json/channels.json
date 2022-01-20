@@ -1,0 +1,3225 @@
+[ {
+  "id" : 8,
+  "displayName" : "M1 HD",
+  "title" : "M1 HD",
+  "titles" : {
+    "EN" : "M1 HD"
+  },
+  "logoUrl" : "/sb/image/5128",
+  "epgUrl" : "/sb/public/epg/channel/8",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : true,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 172800,
+    "restartTv" : true,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099622"
+  },
+  "imageUrl" : "/sb/image/5128",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099622"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/8"
+}, {
+  "id" : 25,
+  "displayName" : "M2 HD",
+  "title" : "M2 HD",
+  "titles" : {
+    "EN" : "M2 HD"
+  },
+  "logoUrl" : "/sb/image/5129",
+  "epgUrl" : "/sb/public/epg/channel/25",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 172800,
+    "restartTv" : true,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099623"
+  },
+  "imageUrl" : "/sb/image/5129",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099623"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/25"
+}, {
+  "id" : 66,
+  "displayName" : "DUNA HD",
+  "title" : "DUNA HD",
+  "titles" : {
+    "EN" : "DUNA HD"
+  },
+  "logoUrl" : "/sb/image/5132",
+  "epgUrl" : "/sb/public/epg/channel/66",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 0,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099620"
+  },
+  "imageUrl" : "/sb/image/5132",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099620"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/66"
+}, {
+  "id" : 41,
+  "displayName" : "M4 Sport HD",
+  "title" : "M4 Sport HD",
+  "titles" : {
+    "EN" : "M4 Sport HD"
+  },
+  "logoUrl" : "/sb/image/5148",
+  "epgUrl" : "/sb/public/epg/channel/41",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 86400,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099624"
+  },
+  "imageUrl" : "/sb/image/5148",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099624"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/41"
+}, {
+  "id" : 42,
+  "displayName" : "M5",
+  "title" : "M5",
+  "titles" : {
+    "EN" : "M5"
+  },
+  "logoUrl" : "/sb/image/5149",
+  "epgUrl" : "/sb/public/epg/channel/42",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 0,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099625"
+  },
+  "imageUrl" : "/sb/image/5149",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099625"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/42"
+}, {
+  "id" : 10,
+  "displayName" : "Duna World HD",
+  "title" : "Duna World HD",
+  "titles" : {
+    "EN" : "Duna World HD"
+  },
+  "logoUrl" : "/sb/image/5108",
+  "epgUrl" : "/sb/public/epg/channel/10",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 172800,
+    "restartTv" : true,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099621"
+  },
+  "imageUrl" : "/sb/image/5108",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099621"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/10"
+}, {
+  "id" : 39,
+  "displayName" : "Bonum TV",
+  "title" : "Bonum TV",
+  "titles" : {
+    "EN" : "Bonum TV"
+  },
+  "logoUrl" : "/sb/image/921159",
+  "epgUrl" : "/sb/public/epg/channel/39",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : true,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/630066"
+  },
+  "imageUrl" : "/sb/image/921159",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/630066"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/39"
+}, {
+  "id" : 15,
+  "displayName" : "PAX TV",
+  "title" : "PAX TV",
+  "titles" : {
+    "EN" : "PAX TV"
+  },
+  "logoUrl" : "/sb/image/921158",
+  "epgUrl" : "/sb/public/epg/channel/15",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632877"
+  },
+  "imageUrl" : "/sb/image/921158",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632877"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/15"
+}, {
+  "id" : 16,
+  "displayName" : "D1 TV",
+  "title" : "D1 TV",
+  "titles" : {
+    "EN" : "D1 TV"
+  },
+  "logoUrl" : "/sb/image/921160",
+  "epgUrl" : "/sb/public/epg/channel/16",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/630074"
+  },
+  "imageUrl" : "/sb/image/921160",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/630074"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/16"
+}, {
+  "id" : 49,
+  "displayName" : "Heti TV",
+  "title" : "Heti TV",
+  "titles" : {
+    "EN" : "Heti TV"
+  },
+  "logoUrl" : "/sb/image/921172",
+  "epgUrl" : "/sb/public/epg/channel/49",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632572"
+  },
+  "imageUrl" : "/sb/image/921172",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632572"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/49"
+}, {
+  "id" : 78,
+  "displayName" : "FIX",
+  "title" : "FIX",
+  "titles" : {
+    "EN" : "FIX"
+  },
+  "logoUrl" : "/sb/image/921173",
+  "epgUrl" : "/sb/public/epg/channel/78",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632351"
+  },
+  "imageUrl" : "/sb/image/921173",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632351"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/78"
+}, {
+  "id" : 40,
+  "displayName" : "Fit HD",
+  "title" : "Fit HD",
+  "titles" : {
+    "EN" : "Fit HD"
+  },
+  "logoUrl" : "/sb/image/2913771",
+  "epgUrl" : "/sb/public/epg/channel/40",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632228"
+  },
+  "imageUrl" : "/sb/image/2913771",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632228"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/40"
+}, {
+  "id" : 85,
+  "displayName" : "Balaton Televízió",
+  "title" : "Balaton Televízió",
+  "titles" : {
+    "EN" : "Balaton Televízió"
+  },
+  "logoUrl" : "/sb/image/921174",
+  "epgUrl" : "/sb/public/epg/channel/85",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/630064"
+  },
+  "imageUrl" : "/sb/image/921174",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/630064"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/85"
+}, {
+  "id" : 90,
+  "displayName" : "EsportGuru",
+  "title" : "EsportGuru",
+  "titles" : {
+    "EN" : "EsportGuru"
+  },
+  "logoUrl" : "/sb/image/921139",
+  "epgUrl" : "/sb/public/epg/channel/90",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : false,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971329",
+    "Horizontal 1" : "/sb/image/1032450"
+  },
+  "imageUrl" : "/sb/image/921139",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971329",
+    "Horizontal 1" : "/sb/image/1032450"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/90"
+}, {
+  "id" : 59,
+  "displayName" : "RTL Klub",
+  "title" : "RTL Klub",
+  "titles" : {
+    "EN" : "RTL Klub"
+  },
+  "logoUrl" : "/sb/image/1321963",
+  "epgUrl" : "/sb/public/epg/channel/59",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1620498"
+  },
+  "imageUrl" : "/sb/image/1321963",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1620498"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/59"
+}, {
+  "id" : 82,
+  "displayName" : "TV2",
+  "title" : "TV2",
+  "titles" : {
+    "HU" : "TV2"
+  },
+  "logoUrl" : "/sb/image/2505114",
+  "epgUrl" : "/sb/public/epg/channel/82",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1077094"
+  },
+  "imageUrl" : "/sb/image/2505114",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1077094"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/82"
+}, {
+  "id" : 583,
+  "displayName" : "PestiTV",
+  "title" : "PestiTV",
+  "titles" : {
+    "HU" : "PestiTV"
+  },
+  "logoUrl" : "/sb/image/1710019",
+  "epgUrl" : "/sb/public/epg/channel/583",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/1710018"
+  },
+  "imageUrl" : "/sb/image/1710019",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/1710018"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/583"
+}, {
+  "id" : 44,
+  "displayName" : "Izaura TV",
+  "title" : "Izaura TV",
+  "titles" : {
+    "EN" : "Izaura TV"
+  },
+  "logoUrl" : "/sb/image/5151",
+  "epgUrl" : "/sb/public/epg/channel/44",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1076496"
+  },
+  "imageUrl" : "/sb/image/5151",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1076496"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/44"
+}, {
+  "id" : 26,
+  "displayName" : "Spektrum Home",
+  "title" : "Spektrum Home",
+  "titles" : {
+    "EN" : "Spektrum Home"
+  },
+  "logoUrl" : "/sb/image/2501746",
+  "epgUrl" : "/sb/public/epg/channel/26",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971349"
+  },
+  "imageUrl" : "/sb/image/2501746",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971349"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/26"
+}, {
+  "id" : 7,
+  "displayName" : "Film+",
+  "title" : "Film+",
+  "titles" : {
+    "EN" : "Film+"
+  },
+  "logoUrl" : "/sb/image/921140",
+  "epgUrl" : "/sb/public/epg/channel/7",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971330",
+    "Horizontal 1" : "/sb/image/1620504"
+  },
+  "imageUrl" : "/sb/image/921140",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971330",
+    "Horizontal 1" : "/sb/image/1620504"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/7"
+}, {
+  "id" : 72,
+  "displayName" : "Cool",
+  "title" : "Cool",
+  "titles" : {
+    "EN" : "Cool"
+  },
+  "logoUrl" : "/sb/image/5096",
+  "epgUrl" : "/sb/public/epg/channel/72",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971331",
+    "Horizontal 1" : "/sb/image/1620505"
+  },
+  "imageUrl" : "/sb/image/5096",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971331",
+    "Horizontal 1" : "/sb/image/1620505"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/72"
+}, {
+  "id" : 33,
+  "displayName" : "Mozi+",
+  "title" : "Mozi+",
+  "titles" : {
+    "EN" : "Mozi+"
+  },
+  "logoUrl" : "/sb/image/921145",
+  "epgUrl" : "/sb/public/epg/channel/33",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971336",
+    "Horizontal 1" : "/sb/image/1077027"
+  },
+  "imageUrl" : "/sb/image/921145",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971336",
+    "Horizontal 1" : "/sb/image/1077027"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/33"
+}, {
+  "id" : 28,
+  "displayName" : "VIASAT3",
+  "title" : "VIASAT3",
+  "titles" : {
+    "EN" : "VIASAT3"
+  },
+  "logoUrl" : "/sb/image/921168",
+  "epgUrl" : "/sb/public/epg/channel/28",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1070552"
+  },
+  "imageUrl" : "/sb/image/921168",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1070552"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/28"
+}, {
+  "id" : 30,
+  "displayName" : "Prime",
+  "title" : "Prime",
+  "titles" : {
+    "EN" : "Prime"
+  },
+  "logoUrl" : "/sb/image/5136",
+  "epgUrl" : "/sb/public/epg/channel/30",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971337",
+    "Horizontal 1" : "/sb/image/1077091"
+  },
+  "imageUrl" : "/sb/image/5136",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971337",
+    "Horizontal 1" : "/sb/image/1077091"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/30"
+}, {
+  "id" : 37,
+  "displayName" : "SuperTV2",
+  "title" : "SuperTV2",
+  "titles" : {
+    "EN" : "SuperTV2"
+  },
+  "logoUrl" : "/sb/image/921144",
+  "epgUrl" : "/sb/public/epg/channel/37",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971328",
+    "Horizontal 1" : "/sb/image/1077095"
+  },
+  "imageUrl" : "/sb/image/921144",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971328",
+    "Horizontal 1" : "/sb/image/1077095"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/37"
+}, {
+  "id" : 36,
+  "displayName" : "RTL II",
+  "title" : "RTL II",
+  "titles" : {
+    "HU" : "RTL II"
+  },
+  "logoUrl" : "/sb/image/921141",
+  "epgUrl" : "/sb/public/epg/channel/36",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971332",
+    "Horizontal 1" : "/sb/image/1620499"
+  },
+  "imageUrl" : "/sb/image/921141",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971332",
+    "Horizontal 1" : "/sb/image/1620499"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/36"
+}, {
+  "id" : 22,
+  "displayName" : "RTL+",
+  "title" : "RTL+",
+  "titles" : {
+    "EN" : "RTL+"
+  },
+  "logoUrl" : "/sb/image/921143",
+  "epgUrl" : "/sb/public/epg/channel/22",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971335",
+    "Horizontal 1" : "/sb/image/1620501"
+  },
+  "imageUrl" : "/sb/image/921143",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971335",
+    "Horizontal 1" : "/sb/image/1620501"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/22"
+}, {
+  "id" : 17,
+  "displayName" : "AMC",
+  "title" : "AMC",
+  "titles" : {
+    "HU" : "AMC"
+  },
+  "logoUrl" : "/sb/image/921180",
+  "epgUrl" : "/sb/public/epg/channel/17",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971345"
+  },
+  "imageUrl" : "/sb/image/921180",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971345"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/17"
+}, {
+  "id" : 38,
+  "displayName" : "Paramount Network",
+  "title" : "Paramount Network",
+  "titles" : {
+    "EN" : "Paramount Network"
+  },
+  "logoUrl" : "/sb/image/1816649",
+  "epgUrl" : "/sb/public/epg/channel/38",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1115052"
+  },
+  "imageUrl" : "/sb/image/1816649",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1115052"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/38"
+}, {
+  "id" : 58,
+  "displayName" : "TV4",
+  "title" : "TV4",
+  "titles" : {
+    "EN" : "TV4"
+  },
+  "logoUrl" : "/sb/image/5090",
+  "epgUrl" : "/sb/public/epg/channel/58",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/633032"
+  },
+  "imageUrl" : "/sb/image/5090",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/633032"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/58"
+}, {
+  "id" : 47,
+  "displayName" : "TV2 Comedy",
+  "title" : "TV2 Comedy",
+  "titles" : {
+    "EN" : "TV2 Comedy"
+  },
+  "logoUrl" : "/sb/image/921148",
+  "epgUrl" : "/sb/public/epg/channel/47",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971340",
+    "Horizontal 1" : "/sb/image/1077096"
+  },
+  "imageUrl" : "/sb/image/921148",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971340",
+    "Horizontal 1" : "/sb/image/1077096"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/47"
+}, {
+  "id" : 18,
+  "displayName" : "National Geographic",
+  "title" : "National Geographic",
+  "titles" : {
+    "EN" : "National Geographic"
+  },
+  "logoUrl" : "/sb/image/5084",
+  "epgUrl" : "/sb/public/epg/channel/18",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099627"
+  },
+  "imageUrl" : "/sb/image/5084",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099627"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/18"
+}, {
+  "id" : 76,
+  "displayName" : "Sport1",
+  "title" : "Sport1",
+  "titles" : {
+    "HU" : "Sport1"
+  },
+  "logoUrl" : "/sb/image/921181",
+  "epgUrl" : "/sb/public/epg/channel/76",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1032444"
+  },
+  "imageUrl" : "/sb/image/921181",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1032444"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/76"
+}, {
+  "id" : 9,
+  "displayName" : "Hír TV",
+  "title" : "Hír TV",
+  "titles" : {
+    "HU" : "Hír TV"
+  },
+  "logoUrl" : "/sb/image/921161",
+  "epgUrl" : "/sb/public/epg/channel/9",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632597"
+  },
+  "imageUrl" : "/sb/image/921161",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632597"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/9"
+}, {
+  "id" : 19,
+  "displayName" : "ATV",
+  "title" : "ATV",
+  "titles" : {
+    "HU" : "ATV"
+  },
+  "logoUrl" : "/sb/image/5134",
+  "epgUrl" : "/sb/public/epg/channel/19",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/630056"
+  },
+  "imageUrl" : "/sb/image/5134",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/630056"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/19"
+}, {
+  "id" : 546,
+  "displayName" : "Life TV",
+  "title" : "Life TV",
+  "titles" : {
+    "EN" : "Life TV"
+  },
+  "logoUrl" : "/sb/image/921167",
+  "epgUrl" : "/sb/public/epg/channel/546",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971342"
+  },
+  "imageUrl" : "/sb/image/921167",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971342"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/546"
+}, {
+  "id" : 31,
+  "displayName" : "Sláger TV",
+  "title" : "Sláger TV",
+  "titles" : {
+    "EN" : "Sláger TV"
+  },
+  "logoUrl" : "/sb/image/921150",
+  "epgUrl" : "/sb/public/epg/channel/31",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632929"
+  },
+  "imageUrl" : "/sb/image/921150",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632929"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/31"
+}, {
+  "id" : 84,
+  "displayName" : "Spektrum",
+  "title" : "Spektrum",
+  "titles" : {
+    "HU" : "Spektrum"
+  },
+  "logoUrl" : "/sb/image/921183",
+  "epgUrl" : "/sb/public/epg/channel/84",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971348"
+  },
+  "imageUrl" : "/sb/image/921183",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971348"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/84"
+}, {
+  "id" : 74,
+  "displayName" : "Discovery Channel",
+  "title" : "Discovery Channel",
+  "titles" : {
+    "EN" : "Discovery Channel"
+  },
+  "logoUrl" : "/sb/image/921177",
+  "epgUrl" : "/sb/public/epg/channel/74",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 172800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1122135"
+  },
+  "imageUrl" : "/sb/image/921177",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1122135"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/74"
+}, {
+  "id" : 35,
+  "displayName" : "TLC",
+  "title" : "TLC",
+  "titles" : {
+    "EN" : "TLC"
+  },
+  "logoUrl" : "/sb/image/921178",
+  "epgUrl" : "/sb/public/epg/channel/35",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1122140"
+  },
+  "imageUrl" : "/sb/image/921178",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1122140"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/35"
+}, {
+  "id" : 24,
+  "displayName" : "Comedy Central",
+  "title" : "Comedy Central",
+  "titles" : {
+    "EN" : "Comedy Central"
+  },
+  "logoUrl" : "/sb/image/921170",
+  "epgUrl" : "/sb/public/epg/channel/24",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1115048"
+  },
+  "imageUrl" : "/sb/image/921170",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1115048"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/24"
+}, {
+  "id" : 57,
+  "displayName" : "AXN",
+  "title" : "AXN",
+  "titles" : {
+    "EN" : "AXN"
+  },
+  "logoUrl" : "/sb/image/921151",
+  "epgUrl" : "/sb/public/epg/channel/57",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1070554"
+  },
+  "imageUrl" : "/sb/image/921151",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1070554"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/57"
+}, {
+  "id" : 12,
+  "displayName" : "RTL Gold",
+  "title" : "RTL Gold",
+  "titles" : {
+    "EN" : "RTL Gold"
+  },
+  "logoUrl" : "/sb/image/921142",
+  "epgUrl" : "/sb/public/epg/channel/12",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971333",
+    "Horizontal 1" : "/sb/image/1620500"
+  },
+  "imageUrl" : "/sb/image/921142",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971333",
+    "Horizontal 1" : "/sb/image/1620500"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/12"
+}, {
+  "id" : 539,
+  "displayName" : "Moziverzum",
+  "title" : "Moziverzum",
+  "titles" : {
+    "EN" : "Moziverzum"
+  },
+  "logoUrl" : "/sb/image/921190",
+  "epgUrl" : "/sb/public/epg/channel/539",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1077068"
+  },
+  "imageUrl" : "/sb/image/921190",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1077068"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/539"
+}, {
+  "id" : 540,
+  "displayName" : "JOCKY TV",
+  "title" : "JOCKY TV",
+  "titles" : {
+    "EN" : "JOCKY TV"
+  },
+  "logoUrl" : "/sb/image/921196",
+  "epgUrl" : "/sb/public/epg/channel/540",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1076781"
+  },
+  "imageUrl" : "/sb/image/921196",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1076781"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/540"
+}, {
+  "id" : 541,
+  "displayName" : "Sorozat+",
+  "title" : "Sorozat+",
+  "titles" : {
+    "EN" : "Sorozat+"
+  },
+  "logoUrl" : "/sb/image/921189",
+  "epgUrl" : "/sb/public/epg/channel/541",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1620503"
+  },
+  "imageUrl" : "/sb/image/921189",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1620503"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/541"
+}, {
+  "id" : 542,
+  "displayName" : "Sport 2",
+  "title" : "Sport 2",
+  "titles" : {
+    "EN" : "Sport 2"
+  },
+  "logoUrl" : "/sb/image/921182",
+  "epgUrl" : "/sb/public/epg/channel/542",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1032443"
+  },
+  "imageUrl" : "/sb/image/921182",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1032443"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/542"
+}, {
+  "id" : 543,
+  "displayName" : "Arena 4",
+  "title" : "Arena 4",
+  "titles" : {
+    "EN" : "Arena 4"
+  },
+  "logoUrl" : "/sb/image/921186",
+  "epgUrl" : "/sb/public/epg/channel/543",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 172800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1032446"
+  },
+  "imageUrl" : "/sb/image/921186",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1032446"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/543"
+}, {
+  "id" : 83,
+  "displayName" : "TV Paprika",
+  "title" : "TV Paprika",
+  "titles" : {
+    "EN" : "TV Paprika"
+  },
+  "logoUrl" : "/sb/image/921184",
+  "epgUrl" : "/sb/public/epg/channel/83",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971350"
+  },
+  "imageUrl" : "/sb/image/921184",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971350"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/83"
+}, {
+  "id" : 2,
+  "displayName" : "TV2 Séf",
+  "title" : "TV2 Séf",
+  "titles" : {
+    "EN" : "TV2 Séf"
+  },
+  "logoUrl" : "/sb/image/1321970",
+  "epgUrl" : "/sb/public/epg/channel/2",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : false,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1076918"
+  },
+  "imageUrl" : "/sb/image/1321970",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1076918"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/2"
+}, {
+  "id" : 29,
+  "displayName" : "OzoneTv",
+  "title" : "OzoneTv",
+  "titles" : {
+    "EN" : "OzoneTv"
+  },
+  "logoUrl" : "/sb/image/1710017",
+  "epgUrl" : "/sb/public/epg/channel/29",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632860"
+  },
+  "imageUrl" : "/sb/image/1710017",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632860"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/29"
+}, {
+  "id" : 547,
+  "displayName" : "Film Cafe",
+  "title" : "Film Cafe",
+  "titles" : {
+    "EN" : "Film Cafe"
+  },
+  "logoUrl" : "/sb/image/921192",
+  "epgUrl" : "/sb/public/epg/channel/547",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971358"
+  },
+  "imageUrl" : "/sb/image/921192",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971358"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/547"
+}, {
+  "id" : 11,
+  "displayName" : "VIASAT6",
+  "title" : "VIASAT6",
+  "titles" : {
+    "EN" : "VIASAT6"
+  },
+  "logoUrl" : "/sb/image/921169",
+  "epgUrl" : "/sb/public/epg/channel/11",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1070553"
+  },
+  "imageUrl" : "/sb/image/921169",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1070553"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/11"
+}, {
+  "id" : 549,
+  "displayName" : "Travel Channel",
+  "title" : "Travel Channel",
+  "titles" : {
+    "EN" : "Travel Channel"
+  },
+  "logoUrl" : "/sb/image/921193",
+  "epgUrl" : "/sb/public/epg/channel/549",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1122139"
+  },
+  "imageUrl" : "/sb/image/921193",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1122139"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/549"
+}, {
+  "id" : 43,
+  "displayName" : "Zenebutik",
+  "title" : "Zenebutik",
+  "titles" : {
+    "EN" : "Zenebutik"
+  },
+  "logoUrl" : "/sb/image/5150",
+  "epgUrl" : "/sb/public/epg/channel/43",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1077098"
+  },
+  "imageUrl" : "/sb/image/5150",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1077098"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/43"
+}, {
+  "id" : 551,
+  "displayName" : "Comedy Central Family",
+  "title" : "Comedy Central Family",
+  "titles" : {
+    "EN" : "Comedy Central Family"
+  },
+  "logoUrl" : "/sb/image/921200",
+  "epgUrl" : "/sb/public/epg/channel/551",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971376"
+  },
+  "imageUrl" : "/sb/image/921200",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971376"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/551"
+}, {
+  "id" : 54,
+  "displayName" : "Epic Drama",
+  "title" : "Epic Drama",
+  "titles" : {
+    "EN" : "Epic Drama"
+  },
+  "logoUrl" : "/sb/image/1758096",
+  "epgUrl" : "/sb/public/epg/channel/54",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : true
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1077099"
+  },
+  "imageUrl" : "/sb/image/1758096",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1077099"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/54"
+}, {
+  "id" : 45,
+  "displayName" : "FEM3",
+  "title" : "FEM3",
+  "titles" : {
+    "EN" : "FEM3"
+  },
+  "logoUrl" : "/sb/image/921171",
+  "epgUrl" : "/sb/public/epg/channel/45",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1076467"
+  },
+  "imageUrl" : "/sb/image/921171",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1076467"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/45"
+}, {
+  "id" : 87,
+  "displayName" : "Sony Movie",
+  "title" : "Sony Movie",
+  "titles" : {
+    "EN" : "Sony Movie"
+  },
+  "logoUrl" : "/sb/image/5126",
+  "epgUrl" : "/sb/public/epg/channel/87",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632981"
+  },
+  "imageUrl" : "/sb/image/5126",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632981"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/87"
+}, {
+  "id" : 86,
+  "displayName" : "Sony Max",
+  "title" : "Sony Max",
+  "titles" : {
+    "EN" : "Sony Max"
+  },
+  "logoUrl" : "/sb/image/5125",
+  "epgUrl" : "/sb/public/epg/channel/86",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/632960"
+  },
+  "imageUrl" : "/sb/image/5125",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/632960"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/86"
+}, {
+  "id" : 556,
+  "displayName" : "CBS Reality",
+  "title" : "CBS Reality",
+  "titles" : {
+    "EN" : "CBS Reality"
+  },
+  "logoUrl" : "/sb/image/921199",
+  "epgUrl" : "/sb/public/epg/channel/556",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971363"
+  },
+  "imageUrl" : "/sb/image/921199",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971363"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/556"
+}, {
+  "id" : 557,
+  "displayName" : "Film Mania",
+  "title" : "Film Mania",
+  "titles" : {
+    "EN" : "Film Mania"
+  },
+  "logoUrl" : "/sb/image/921191",
+  "epgUrl" : "/sb/public/epg/channel/557",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 172800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971357"
+  },
+  "imageUrl" : "/sb/image/921191",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971357"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/557"
+}, {
+  "id" : 14,
+  "displayName" : "Viasat Explore",
+  "title" : "Viasat Explore",
+  "titles" : {
+    "HU" : "Viasat Explore"
+  },
+  "logoUrl" : "/sb/image/1476784",
+  "epgUrl" : "/sb/public/epg/channel/14",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1077103"
+  },
+  "imageUrl" : "/sb/image/1476784",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1077103"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/14"
+}, {
+  "id" : 13,
+  "displayName" : "Viasat Nature",
+  "title" : "Viasat Nature",
+  "titles" : {
+    "HU" : "Viasat Nature"
+  },
+  "logoUrl" : "/sb/image/1476786",
+  "epgUrl" : "/sb/public/epg/channel/13",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1077101"
+  },
+  "imageUrl" : "/sb/image/1476786",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1077101"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/13"
+}, {
+  "id" : 89,
+  "displayName" : "ATV Spirit",
+  "title" : "ATV Spirit",
+  "titles" : {
+    "EN" : "ATV Spirit"
+  },
+  "logoUrl" : "/sb/image/5127",
+  "epgUrl" : "/sb/public/epg/channel/89",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/630059"
+  },
+  "imageUrl" : "/sb/image/5127",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/630059"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/89"
+}, {
+  "id" : 561,
+  "displayName" : "Muzsika",
+  "title" : "Muzsika",
+  "titles" : {
+    "EN" : "Muzsika"
+  },
+  "logoUrl" : "/sb/image/921206",
+  "epgUrl" : "/sb/public/epg/channel/561",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1620502"
+  },
+  "imageUrl" : "/sb/image/921206",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1620502"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/561"
+}, {
+  "id" : 562,
+  "displayName" : "Food network",
+  "title" : "Food network",
+  "titles" : {
+    "EN" : "Food network"
+  },
+  "logoUrl" : "/sb/image/921195",
+  "epgUrl" : "/sb/public/epg/channel/562",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1122138"
+  },
+  "imageUrl" : "/sb/image/921195",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1122138"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/562"
+}, {
+  "id" : 563,
+  "displayName" : "Investigation Discovery",
+  "title" : "Investigation Discovery",
+  "titles" : {
+    "EN" : "Investigation Discovery"
+  },
+  "logoUrl" : "/sb/image/921194",
+  "epgUrl" : "/sb/public/epg/channel/563",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1122137"
+  },
+  "imageUrl" : "/sb/image/921194",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1122137"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/563"
+}, {
+  "id" : 4,
+  "displayName" : "Extreme Sports",
+  "title" : "Extreme Sports",
+  "titles" : {
+    "HU" : "Extreme Sports"
+  },
+  "logoUrl" : "/sb/image/921198",
+  "epgUrl" : "/sb/public/epg/channel/4",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/635606"
+  },
+  "imageUrl" : "/sb/image/921198",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/635606"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/4"
+}, {
+  "id" : 565,
+  "displayName" : "Jim Jam",
+  "title" : "Jim Jam",
+  "titles" : {
+    "EN" : "Jim Jam"
+  },
+  "logoUrl" : "/sb/image/921204",
+  "epgUrl" : "/sb/public/epg/channel/565",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971578"
+  },
+  "imageUrl" : "/sb/image/921204",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971578"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/565"
+}, {
+  "id" : 55,
+  "displayName" : "Disney Channel",
+  "title" : "Disney Channel",
+  "titles" : {
+    "EN" : "Disney Channel"
+  },
+  "logoUrl" : "/sb/image/921176",
+  "epgUrl" : "/sb/public/epg/channel/55",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099626"
+  },
+  "imageUrl" : "/sb/image/921176",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099626"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/55"
+}, {
+  "id" : 567,
+  "displayName" : "Minimax",
+  "title" : "Minimax",
+  "titles" : {
+    "EN" : "Minimax"
+  },
+  "logoUrl" : "/sb/image/921185",
+  "epgUrl" : "/sb/public/epg/channel/567",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971351"
+  },
+  "imageUrl" : "/sb/image/921185",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971351"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/567"
+}, {
+  "id" : 77,
+  "displayName" : "Cartoon Network",
+  "title" : "Cartoon Network",
+  "titles" : {
+    "EN" : "Cartoon Network"
+  },
+  "logoUrl" : "/sb/image/5100",
+  "epgUrl" : "/sb/public/epg/channel/77",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/630068"
+  },
+  "imageUrl" : "/sb/image/5100",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/630068"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/77"
+}, {
+  "id" : 56,
+  "displayName" : "Nickelodeon",
+  "title" : "Nickelodeon",
+  "titles" : {
+    "EN" : "Nickelodeon"
+  },
+  "logoUrl" : "/sb/image/921154",
+  "epgUrl" : "/sb/public/epg/channel/56",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : true,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : true,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1115049"
+  },
+  "imageUrl" : "/sb/image/921154",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1115049"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/56"
+}, {
+  "id" : 570,
+  "displayName" : "Nick Junior",
+  "title" : "Nick Junior",
+  "titles" : {
+    "EN" : "Nick Junior"
+  },
+  "logoUrl" : "/sb/image/921202",
+  "epgUrl" : "/sb/public/epg/channel/570",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1115050"
+  },
+  "imageUrl" : "/sb/image/921202",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1115050"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/570"
+}, {
+  "id" : 571,
+  "displayName" : "TV2 Kids",
+  "title" : "TV2 Kids",
+  "titles" : {
+    "EN" : "TV2 Kids"
+  },
+  "logoUrl" : "/sb/image/921149",
+  "epgUrl" : "/sb/public/epg/channel/571",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 0,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971341",
+    "Horizontal 1" : "/sb/image/1077097"
+  },
+  "imageUrl" : "/sb/image/921149",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971341",
+    "Horizontal 1" : "/sb/image/1077097"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/571"
+}, {
+  "id" : 572,
+  "displayName" : "Baby TV",
+  "title" : "Baby TV",
+  "titles" : {
+    "EN" : "Baby TV"
+  },
+  "logoUrl" : "/sb/image/921205",
+  "epgUrl" : "/sb/public/epg/channel/572",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971581"
+  },
+  "imageUrl" : "/sb/image/921205",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971581"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/572"
+}, {
+  "id" : 573,
+  "displayName" : "Boomerang",
+  "title" : "Boomerang",
+  "titles" : {
+    "EN" : "Boomerang"
+  },
+  "logoUrl" : "/sb/image/921203",
+  "epgUrl" : "/sb/public/epg/channel/573",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/971536"
+  },
+  "imageUrl" : "/sb/image/921203",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/971536"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/573"
+}, {
+  "id" : 574,
+  "displayName" : "Nicktoons",
+  "title" : "Nicktoons",
+  "titles" : {
+    "EN" : "Nicktoons"
+  },
+  "logoUrl" : "/sb/image/921201",
+  "epgUrl" : "/sb/public/epg/channel/574",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1115051"
+  },
+  "imageUrl" : "/sb/image/921201",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1115051"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/574"
+}, {
+  "id" : 73,
+  "displayName" : "Animal Planet",
+  "title" : "Animal Planet",
+  "titles" : {
+    "HU" : "Animal Planet"
+  },
+  "logoUrl" : "/sb/image/921187",
+  "epgUrl" : "/sb/public/epg/channel/73",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1122134"
+  },
+  "imageUrl" : "/sb/image/921187",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1122134"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/73"
+}, {
+  "id" : 75,
+  "displayName" : "Discovery Science",
+  "title" : "Discovery Science",
+  "titles" : {
+    "HU" : "Discovery Science"
+  },
+  "logoUrl" : "/sb/image/921188",
+  "epgUrl" : "/sb/public/epg/channel/75",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1122136"
+  },
+  "imageUrl" : "/sb/image/921188",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1122136"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/75"
+}, {
+  "id" : 5,
+  "displayName" : "National Geographic Wild",
+  "title" : "National Geographic Wild",
+  "titles" : {
+    "EN" : "National Geographic Wild"
+  },
+  "logoUrl" : "/sb/image/921156",
+  "epgUrl" : "/sb/public/epg/channel/5",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : true,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : true,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1099628"
+  },
+  "imageUrl" : "/sb/image/921156",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1099628"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/5"
+}, {
+  "id" : 67,
+  "displayName" : "Viasat History",
+  "title" : "Viasat History",
+  "titles" : {
+    "EN" : "Viasat History"
+  },
+  "logoUrl" : "/sb/image/1476783",
+  "epgUrl" : "/sb/public/epg/channel/67",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : true,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : true,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1077102"
+  },
+  "imageUrl" : "/sb/image/1476783",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1077102"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/67"
+}, {
+  "id" : 20,
+  "displayName" : "Fishing & Hunting",
+  "title" : "Fishing & Hunting",
+  "titles" : {
+    "HU" : "Fishing & Hunting"
+  },
+  "logoUrl" : "/sb/image/5114",
+  "epgUrl" : "/sb/public/epg/channel/20",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971334",
+    "Horizontal 1" : "/sb/image/632205"
+  },
+  "imageUrl" : "/sb/image/5114",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971334",
+    "Horizontal 1" : "/sb/image/632205"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/20"
+}, {
+  "id" : 21,
+  "displayName" : "Filmbox Premium",
+  "title" : "Filmbox Premium",
+  "titles" : {
+    "HU" : "Filmbox Premium"
+  },
+  "logoUrl" : "/sb/image/921146",
+  "epgUrl" : "/sb/public/epg/channel/21",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : false,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971338",
+    "Horizontal 1" : "/sb/image/632180"
+  },
+  "imageUrl" : "/sb/image/921146",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971338",
+    "Horizontal 1" : "/sb/image/632180"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/21"
+}, {
+  "id" : 81,
+  "displayName" : "Spíler1",
+  "title" : "Spíler1",
+  "titles" : {
+    "HU" : "Spíler1"
+  },
+  "logoUrl" : "/sb/image/921147",
+  "epgUrl" : "/sb/public/epg/channel/81",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0,
+    "npvrAllowed" : false
+  },
+  "posterIds" : {
+    "channel_logo" : "/sb/image/971339",
+    "Horizontal 1" : "/sb/image/1077092"
+  },
+  "imageUrl" : "/sb/image/921147",
+  "imageUrls" : {
+    "channel_logo" : "/sb/image/971339",
+    "Horizontal 1" : "/sb/image/1077092"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/81"
+}, {
+  "id" : 582,
+  "displayName" : "Spíler2",
+  "title" : "Spíler2",
+  "titles" : {
+    "EN" : "Spíler2"
+  },
+  "logoUrl" : "/sb/image/921179",
+  "epgUrl" : "/sb/public/epg/channel/582",
+  "hlsUrl" : null,
+  "tvContentDescriptors" : [ ],
+  "tvServices" : {
+    "encrypted" : true,
+    "catchupTv" : true,
+    "catchupTvTrickplay" : false,
+    "catchupTvUrl" : "",
+    "catchupTvExpire" : 604800,
+    "restartTv" : false,
+    "restartTvTrickplay" : false,
+    "pauseTv" : false,
+    "pauseTvTrickplay" : false,
+    "ndvrAllowed" : false,
+    "ndvrExpire" : 0
+  },
+  "posterIds" : {
+    "Horizontal 1" : "/sb/image/1077093"
+  },
+  "imageUrl" : "/sb/image/921179",
+  "imageUrls" : {
+    "Horizontal 1" : "/sb/image/1077093"
+  },
+  "ottlive" : true,
+  "visibilityRights" : "PREVIEW",
+  "visibilityDetails" : "NOT_AUTHENTICATED",
+  "playStatus" : "NOT_AUTHENTICATED",
+  "detailsUrl" : "/sb/public/channel/582"
+} ]
