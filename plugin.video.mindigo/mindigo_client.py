@@ -18,7 +18,6 @@
     along with this program. If not, see <http://www.gnu.org/licenses/>
 """
 
-import sys
 from base64 import b64decode
 from datetime import datetime, timedelta, timezone
 from random import choice
@@ -168,7 +167,7 @@ class MindigoClient:
 
     def get_live_epg(self, channels="8,25,66,41,42,10,39,15,16,49"):
         # consider only LIVE elements (or include also "FUTURE")
-        return [e for e in self.get_epg(channels) if e.get("state") == "LIVE" ]
+        return [e for e in self.get_epg(channels) if e.get("state") == "LIVE"]
 
     def get_video_details(self, vod_asset_id):
         url = "%sasset/%s?vf=dash&&deviceType=WEB" % (self.api_url, vod_asset_id)
@@ -178,9 +177,9 @@ class MindigoClient:
             cookies=dict(JSESSIONID=self.session),
             additional_headers={"Referer": "%s/epg/channels" % self.web_url},
         )
-        if (response.headers.get("drmToken")):
-            return (response.headers['drmToken'], response.json())
-        return ('', response.json())
+        if response.headers.get("drmToken"):
+            return (response.headers["drmToken"], response.json())
+        return ("", response.json())
 
     def get_channel_details(self, channel_id):
         url = "%schannel/%s?vf=dash&visibilityRights=PLAY" % (self.api_url, channel_id)
@@ -190,9 +189,9 @@ class MindigoClient:
             cookies=dict(JSESSIONID=self.session),
             additional_headers={"Referer": "%s/epg/channels" % self.web_url},
         )
-        if (response.headers.get("drmToken")):
-            return (response.headers['drmToken'], response.json())
-        return ('', response.json())
+        if response.headers.get("drmToken"):
+            return (response.headers["drmToken"], response.json())
+        return ("", response.json())
 
     def get_video_play_data(self, vod_asset_id):
         (drm_token, body) = self.get_video_details(vod_asset_id)
@@ -211,32 +210,32 @@ class MindigoClient:
             return MindigoVideo(
                 epg_event.get("channel").get("id"),
                 resp_body.get("movie").get("contentUrl"),
-                drm_token, 
+                drm_token,
                 resp_body.get("title").get("title"),
                 "%s%s" % (self.web_url, resp_body.get("imageUrl")),
-                resp_body.get("title").get("summaryShort")
-                )
+                resp_body.get("title").get("summaryShort"),
+            )
         # for epg_event["state"] == "LIVE" and the rest
         return MindigoVideo(
-                epg_event.get("channel").get("id"),
-                epg_event.get("channel").get("contentUrl"),
-                drm_token, 
-                resp_body.get("title").get("title"),
-                "%s%s" % (self.web_url, resp_body.get("imageUrl")),
-                resp_body.get("title").get("summaryShort")
-                )
-
+            epg_event.get("channel").get("id"),
+            epg_event.get("channel").get("contentUrl"),
+            drm_token,
+            resp_body.get("title").get("title"),
+            "%s%s" % (self.web_url, resp_body.get("imageUrl")),
+            resp_body.get("title").get("summaryShort"),
+        )
 
     def mapChannelToMindigoVideo(self, drm_token, resp_body):
         return MindigoVideo(
             resp_body.get("id"),
             resp_body.get("contentUrl"),
-            drm_token, 
+            drm_token,
             resp_body.get("title"),
             "%s%s" % (self.web_url, resp_body.get("imageUrl")),
-            resp_body.get("displayName")
-            )
- 
+            resp_body.get("displayName"),
+        )
+
+
 class MindigoVideo:
     def __init__(self, channel_id, url, drm_token, name, icon, desc):
         self.channel_id = channel_id
@@ -245,6 +244,7 @@ class MindigoVideo:
         self.name = name
         self.icon = icon
         self.desc = desc
+
 
 class ContentVisibilityError(Exception):
     def __init__(self, message):

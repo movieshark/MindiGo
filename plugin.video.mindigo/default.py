@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
     MindiGO Kodi addon
-    Copyright (C) 2019-2021 Mr Dini
+    Copyright (C) 2019-2024 Mr Dini
     Copyright (C) 2020 ratcashdev
 
     This program is free software: you can redistribute it and/or modify
@@ -20,13 +20,14 @@
 import sys
 from time import time
 
+import epg_transform
 import xbmcaddon
 import xbmcgui
-from mindigo_client import MindigoClient,ContentVisibilityError
+import xbmcplugin
+import xbmcvfs
+from mindigo_client import ContentVisibilityError, MindigoClient
 from mrdini.routines import routines
 from xbmcplugin import endOfDirectory, setContent
-import xbmcvfs
-import epg_transform
 
 if sys.version_info[0] == 3:
     from urllib.parse import parse_qsl, quote
@@ -36,8 +37,8 @@ else:
 
 utils = routines.Utils(xbmcaddon.Addon())
 client = MindigoClient()
-__addon__ = xbmcaddon.Addon(id='plugin.video.mindigo')
-__addondir__ = xbmcvfs.translatePath(__addon__.getAddonInfo('profile'))
+__addon__ = xbmcaddon.Addon(id="plugin.video.mindigo")
+__addondir__ = xbmcvfs.translatePath(__addon__.getAddonInfo("profile"))
 
 
 def setupSession():
@@ -90,7 +91,7 @@ def main_window():
         action="channels",
         is_directory=True,
         fanart=utils.fanart,
-        icon="https://i.imgur.com/n0AbCQn.png"
+        icon="https://i.imgur.com/n0AbCQn.png",
     )
     routines.add_item(
         *sys.argv[:2],
@@ -100,7 +101,7 @@ def main_window():
         action="clear_login",
         is_directory=False,
         fanart=utils.fanart,
-        icon="https://i.imgur.com/RoT6O6r.png"
+        icon="https://i.imgur.com/RoT6O6r.png",
     )
     routines.add_item(
         *sys.argv[:2],
@@ -109,7 +110,7 @@ def main_window():
         action="settings",
         is_directory=False,
         fanart=utils.fanart,
-        icon="https://i.imgur.com/MI42pRz.png"
+        icon="https://i.imgur.com/MI42pRz.png",
     )
     routines.add_item(
         *sys.argv[:2],
@@ -118,14 +119,20 @@ def main_window():
         action="about",
         is_directory=False,
         fanart=utils.fanart,
-        icon="https://i.imgur.com/bKJK0nc.png"
+        icon="https://i.imgur.com/bKJK0nc.png",
     )
 
+
 def create_epg_guide(channels, epg):
-    epg_transform.write_str(__addondir__, 'mindigo_xmltv.xml', epg_transform.make_xml_guide(channels, epg))
+    epg_transform.write_str(
+        __addondir__, "mindigo_xmltv.xml", epg_transform.make_xml_guide(channels, epg)
+    )
+
 
 def create_channel_list(channels):
-    epg_transform.write_str(__addondir__, 'channels.m3u8', epg_transform.make_m3u(channels))    
+    epg_transform.write_str(
+        __addondir__, "channels.m3u8", epg_transform.make_m3u(channels)
+    )
 
 
 def live_window():
@@ -166,27 +173,37 @@ def live_window():
             type="video",
             refresh=True,
             is_directory=False,
-            is_livestream=True
+            is_livestream=True,
+            playable=True,
         )
     setContent(int(sys.argv[1]), "tvshows")
 
+
 def play_protected_dash(handle, video, _type, **kwargs):
-    icon = kwargs.get("icon")
     user_agent = kwargs.get("user_agent", routines.random_uagent())
 
     listitem = xbmcgui.ListItem(label=video.name)
-    listitem.setProperty('inputstream', 'inputstream.adaptive')
-    listitem.setProperty('inputstream.adaptive.manifest_type', 'mpd')
-    listitem.setMimeType('application/dash+xml')
-    listitem.setProperty('inputstream.adaptive.stream_headers', "User-Agent=%s" % user_agent)
-   
-    license_url = 'https://drm-prod.mindigo.hu/widevine/license?drmToken=%s' % quote(video.drm_token) 
-    listitem.setProperty('inputstream.adaptive.license_type','com.widevine.alpha')
-    listitem.setProperty('inputstream.adaptive.license_key', license_url + '|Content-Type=application/octet-stream|R{SSM}|')
-    
+    listitem.setProperty("inputstream", "inputstream.adaptive")
+    listitem.setProperty("inputstream.adaptive.manifest_type", "mpd")
+    listitem.setMimeType("application/dash+xml")
+    listitem.setProperty(
+        "inputstream.adaptive.stream_headers", "User-Agent=%s" % user_agent
+    )
+
+    license_url = "https://drm-prod.mindigo.hu/widevine/license?drmToken=%s" % quote(
+        video.drm_token
+    )
+    listitem.setProperty("inputstream.adaptive.license_type", "com.widevine.alpha")
+    listitem.setProperty(
+        "inputstream.adaptive.license_key",
+        license_url + "|Content-Type=application/octet-stream|R{SSM}|",
+    )
+
     listitem.setContentLookup(False)
     listitem.setInfo(type=_type, infoLabels={"Title": video.name, "Plot": video.desc})
-    xbmc.Player().play(video.url, listitem)
+    listitem.setPath(video.url)
+    xbmcplugin.setResolvedUrl(handle, True, listitem)
+
 
 def translate_link(channel_id, vod_asset_id):
     video = {}
@@ -204,10 +221,7 @@ def translate_link(channel_id, vod_asset_id):
         exit()
 
     play_protected_dash(
-        int(sys.argv[1]),
-        video,
-        "video",
-        user_agent=utils.get_setting("user_agent")
+        int(sys.argv[1]), video, "video", user_agent=utils.get_setting("user_agent")
     )
 
 
@@ -240,7 +254,4 @@ if __name__ == "__main__":
 
         utils.create_textbox(text % (utils.addon_name, utils.version))
     if action == "translate_link":
-        translate_link(
-            params.get("id"),
-            params.get("extra")
-        )
+        translate_link(params.get("id"), params.get("extra"))
