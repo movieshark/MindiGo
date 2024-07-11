@@ -253,8 +253,8 @@ if __name__ == "__main__":
         live_window()
         endOfDirectory(int(sys.argv[1]))
     if action == "clear_login":
-        utils.set_setting("refresh_token", "")
-        utils.set_setting("token_updated_at", "0")
+        utils.set_setting("session", "")
+        utils.set_setting("last_ts", "0")
         utils.create_notification("Gyorsítótár sikeresen törölve.")
     if action == "settings":
         utils.open_settings()
