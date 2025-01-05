@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mindigo" name="MindigoTV" version="2.1.2" provider-name='Mr Dini, ratcashdev'>
+<addon id="plugin.video.mindigo" name="MindigoTV" version="2.1.3" provider-name='Mr Dini, ratcashdev'>
   <requires>
     <!-- <import addon="xbmc.python" version="2.24.0"/> -->
     <import addon="script.module.mrdini.routines"/>
@@ -20,7 +20,7 @@
     <license>GNU AFFERO GENERAL PUBLIC LICENSE. Version 3, 19 November 2007</license>
     <website>mvshrk.xyz</website>
     <source>https://github.com/movieshark/MindiGo</source>
-    <news>2.1.2[CR]- setResolvedUrl switch and formatting</news>
+    <news>2.1.3[CR]- Update API url</news>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.png</fanart>
