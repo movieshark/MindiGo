@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mindigo" name="MindigoTV" version="2.1.3" provider-name='Mr Dini, ratcashdev'>
+<addon id="plugin.video.mindigo" name="MindigoTV" version="2.1.4" provider-name='Mr Dini, ratcashdev'>
   <requires>
     <!-- <import addon="xbmc.python" version="2.24.0"/> -->
     <import addon="script.module.mrdini.routines"/>
