@@ -172,7 +172,12 @@ def live_window():
             name=name,
             description=(routines.py2_encode(program.get("description") or "")),
             action="translate_link",
-            icon="%s%s" % (client.web_url, program["imageUrls"]["channel_logo"]),
+            icon=(
+                "%s%s"
+                % (client.web_url, program.get("imageUrls", {}).get("channel_logo"))
+                if program.get("imageUrls", {}).get("channel_logo")
+                else fan_art
+            ),
             id=program["channelId"],
             fanart=fan_art,
             type="video",
